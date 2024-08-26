@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 //import { useLocalStorage } from './../../utils/useLocalStorage'
 //import detectDarkMode from '../../utils/detectDarkMode'
 import sun from "./sun.svg"
