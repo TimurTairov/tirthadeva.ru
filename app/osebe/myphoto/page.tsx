@@ -4,11 +4,11 @@ import { imagesYoga, imagesIndia } from '@/helpers/foto'
 
 const page = () => {
   return (
-    <div className='max-w-screen-xl min-h-screen mx-auto flex flex-col items-start justify-between text-xl'>
-      <h1 className="text-4xl font-semibold text-center w-full">Мои фото</h1>
-      <h5 className='mt-10 mb-1 font-semibold text-2xl text-center w-full'>Йога</h5>
+    <div className='main-container'>
+      <h1 className="main-title">Мои фото</h1>
+      <h5 className='mt-10 mb-1 font-semibold text-2xl text-center w-full'>Фотографии с йоги</h5>
       <ImageGallery items={imagesYoga} />
-      <h5 className='mt-10 mb-1 font-semibold text-2xl text-center w-full'>Индия и Непал</h5>
+      <h5 className='mt-10 mb-1 font-semibold text-2xl text-center w-full'>Фотографии из Индии и Непала</h5>
       <ImageGallery items={imagesIndia} />
 
     </div>

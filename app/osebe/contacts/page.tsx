@@ -10,8 +10,8 @@ import { FaSkype } from "react-icons/fa";
 
 const page = () => {
   return (
-    <div className='max-w-screen-xl min-h-screen mx-auto flex flex-col items-center'>
-      <h1 className="text-4xl font-semibold text-center w-full">Контакты</h1>
+    <div className='main-container'>
+      <h1 className="main-title">Контакты</h1>
 
       <ul className='mt-10 flex flex-row flex-wrap items-center gap-5'>
 

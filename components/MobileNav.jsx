@@ -4,6 +4,8 @@ import Image from 'next/image'
 import { menuItemsData } from '@/helpers/menuItemsData'
 import MobileMenuItems from './MobileMenuItems'
 import menuSvg from '@/public/SVG/icons8-menu.svg'
+import menu from '@/public/menu-100.png'
+import tilaka from '@/public/Tilaka/shiva-tilak-3100736.png'
 
 const MobileNav = () => {
   const depthLevel = 0
@@ -32,7 +34,13 @@ const MobileNav = () => {
         type="button"
         onClick={() => setShowMenu((prev) => !prev)}
       >
-        <Image src={menuSvg} alt="menu" width={36} height={36} />
+        <Image
+          src={tilaka}
+          width={36}
+          height={36}
+          alt="menu"
+          className="rounded-lg"
+        />
       </button>
 
       {showMenu && (

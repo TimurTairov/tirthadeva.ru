@@ -7,6 +7,49 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* transition: all 0.5s ease-in-out; */
+}
+
+body {
+  --navbar-background-color: #fcfcfc;
+  --navbar-text-color: #777;
+  --main-background-color: #ffffff;
+  --main-text-color: #000536;
+  --box-shadow: 0 0 54px rgba(0, 0, 0, 0.4);
+  --link-color: blueviolet;
+  --link-hover-color: blue;
+  --title-icon-color: darkcyan;
+  --btn-color: #ccc;
+}
+
+body.dark {
+  --navbar-background-color: #343434;
+  --navbar-text-color: #ccc;
+  --main-background-color: #343434;
+  --main-text-color: #ccc;
+  --box-shadow: 0 0 54px rgba(239, 240, 228, 0.932);
+  --link-color: cyan;
+  --link-hover-color: cyan;
+  --title-icon-color: #00ffff;
+  --btn-color: #343434;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+.main-container {
+  @apply max-w-screen-xl min-h-screen mx-auto flex flex-col items-start text-xs md:text-lg lg:text-xl px-2;
+}
+
+.main-title {
+  @apply text-4xl font-semibold text-center w-full mb-10;
 }
 
 header {
@@ -59,7 +102,7 @@ header {
 
 .desktop-nav .menu-items a {
   display: block;
-  font-size: inherit;
+  font-size: 18px;
   color: inherit;
   text-decoration: none;
 }
@@ -88,6 +131,7 @@ header {
 .desktop-nav .menu-items a:hover,
 .desktop-nav .menu-items button:hover {
   background-color: #f2f2f2;
+  color: #343434;
 }
 
 .desktop-nav .arrow::after {
@@ -102,8 +146,8 @@ header {
 
 .desktop-nav .dropdown {
   position: absolute;
-  right: 0;
-  left: auto;
+  right: auto;
+  left: 0;
   box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
     0 4px 6px -2px rgba(71, 63, 79, 0.16);
   font-size: 0.875rem;
@@ -111,7 +155,7 @@ header {
   min-width: 15rem;
   padding: 0.5rem 0;
   list-style: none;
-  background-color: #fff;
+  background-color: var(--navbar-background-color);
   border-radius: 0.5rem;
   display: none;
   border: 1px solid gray;
@@ -171,7 +215,7 @@ header {
     /* min-width: 12rem; */
     width: 90%;
     padding: 0.5rem 0;
-    background-color: #fff;
+    background-color: var(--navbar-background-color);
     border-radius: 0.5rem;
     border: 1px solid rgba(128, 128, 128, 0.4);
   }
@@ -202,7 +246,7 @@ header {
 
   .mobile-nav .menu-items a:hover,
   .mobile-nav .menu-items button:hover {
-    background-color: #f2f2f2;
+    background-color: var(--navbar-background-color);
   }
 
   .mobile-nav .arrow::after {
@@ -258,6 +302,58 @@ header {
   gap: 20px;
 }
 
+/* IMAGE GALLARY */
+
+@media (hover: hover) and (pointer: fine) {
+  .image-gallery-icon:hover {
+    color: #ccc;
+  }
+  .image-gallery-bullets .image-gallery-bullet.active:hover {
+    background: #ccc;
+  }
+  .image-gallery-bullets .image-gallery-bullet:hover {
+    background: #ccc;
+    border: 1px solid #ccc;
+  }
+  .image-gallery-thumbnail:hover {
+    border: 2px solid cyan;
+  }
+}
+
+.image-gallery-bullet:hover {
+  background: cyan;
+  border: 1px solid cyan;
+}
+
+.image-gallery-thumbnail.active,
+.image-gallery-thumbnail:focus {
+  border: 3px solid #ccc;
+}
+
+.image-gallery-thumbnail-image {
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.image-gallery {
+  width: 100%;
+}
+
+body {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+}
+header {
+  color: var(--navbar-text-color);
+  background-color: var(--navbar-background-color);
+}
+
+.my-foto {
+  box-shadow: var(--box-shadow);
+}
+
 /* FOOTER */
 
 footer h5 {
@@ -272,43 +368,4 @@ footer h5 {
 footer a:hover {
   color: #fff;
   text-decoration: underline;
-}
-
-/* IMAGE GALLARY */
-
-@media (hover: hover) and (pointer: fine) {
-  .image-gallery-icon:hover {
-    color: red;
-  }
-  .image-gallery-bullets .image-gallery-bullet.active:hover {
-    background: red;
-  }
-  .image-gallery-bullets .image-gallery-bullet:hover {
-    background: red;
-    border: 1px solid red;
-  }
-  .image-gallery-thumbnail:hover {
-    border: 2px solid red;
-  }
-}
-
-.image-gallery-bullet:hover {
-  background: red;
-  border: 1px solid red;
-}
-
-.image-gallery-thumbnail.active,
-.image-gallery-thumbnail:focus {
-  border: 3px solid red;
-}
-
-.image-gallery-thumbnail-image {
-  height: 100px;
-  width: 100%;
-  overflow: hidden;
-  object-fit: cover;
-}
-
-.image-gallery {
-  width: 100%;
 }
