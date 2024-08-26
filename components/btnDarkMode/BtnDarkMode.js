@@ -1,16 +1,16 @@
 'use client'
 import Image from 'next/image'
 import { useEffect } from 'react'
-import { useLocalStorage } from './../../utils/useLocalStorage'
+//import { useLocalStorage } from './../../utils/useLocalStorage'
 //import detectDarkMode from '../../utils/detectDarkMode'
 import sun from "./sun.svg"
 import moon from "./moon.svg"
 
 
 const BtnDarkMode = () => {
-  // const [darkMode, setDarkMode] = useState('Light')
+  const [darkMode, setDarkMode] = useState('Light')
 
-  const [darkMode, setDarkMode] = useLocalStorage('darkMode', 'light')
+  //const [darkMode, setDarkMode] = useLocalStorage('darkMode', 'light')
 
   useEffect(() => {
     if (darkMode === 'dark') {
