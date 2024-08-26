@@ -62,7 +62,7 @@ const page = () => {
       </p>
       <div className="flex gap-5 m-5">
         <Link href="/osebe/certificates" className="my-1">Сертификаты</Link>
-        <Link href="/osebe/myfoto" className="my-1">Фотографии</Link>
+        <Link href="/osebe/myphoto" className="my-1">Фотографии</Link>
         <Link href="/yoga/schedule" className="my-1">Расписание</Link>
         <Link href="/yoga/feedbacks" className="my-1">Отзывы</Link>
       </div>
