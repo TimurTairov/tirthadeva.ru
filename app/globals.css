@@ -45,7 +45,7 @@ a:hover {
 }
 
 .main-container {
-  @apply max-w-screen-xl min-h-screen mx-auto my-2 flex flex-col items-start text-xs md:text-lg lg:text-xl px-2;
+  @apply max-w-screen-xl min-h-screen mx-auto my-2 flex flex-col items-start text-base md:text-lg lg:text-xl px-2;
 }
 
 .main-title {

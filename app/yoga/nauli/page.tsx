@@ -35,8 +35,12 @@ const page = () => {
         Учиться практике желательно под присмотром квалифицированного инструктора йоги, либо на свой страх и риск.
       </p>
 
-      <h5 className='text-2xl mt-4'> Алгоритм освоения наули </h5>
-      <p className=''>
+      https://rutube.ru/video/06aa5b5a30cddf98cfbffbd08ce32d06/
+
+      <iframe src="https://rutube.ru/play/embed/06aa5b5a30cddf98cfbffbd08ce32d06?skinColor=e53935" frameBorder="0" allow="clipboard-write; autoplay" allowFullScreen className="my-5 w-full h-[600px]"></iframe>
+
+      <h5 className='text-2xl mt-10'> Алгоритм освоения наули </h5>
+      <p className='mt-4'>
         <b>Этап 1.</b> Уддияна Бандха (пупочный замок) живот втягивается в себя и удерживается на внешней задержке дыхания. Для начала, 2-3 подхода по 10-15 секунд будет достаточно.
       </p>
 
@@ -61,6 +65,8 @@ const page = () => {
         Наули практикуется только! на пустой желудок (4-5 часов после еды), а еще лучше натощак.
         Помните про противопоказания к практике: болезни сердца, гипертонии, грыжи, язвы желудка и двенадцатиперстной кишки. Также не рекомендуется беременным, девушкам в период месячных, после операций на брюшную полость.
       </p>
+
+      <iframe src="https://rutube.ru/play/embed/c6620a3378087acae1354ce282acdadd?skinColor=e53935" frameBorder="0" allow="clipboard-write; autoplay" allowFullScreen className="my-5 w-full h-[600px]"></iframe>
     </div>
   )
 }
