@@ -16,7 +16,7 @@ export const menuItemsData = [
         url: '/osebe/certificates',
       },
       {
-        title: 'фото',
+        title: 'Фото',
         url: '/osebe/myphoto',
       },
       {

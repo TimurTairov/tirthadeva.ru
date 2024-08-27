@@ -13,7 +13,7 @@ const page = () => {
     <div className='main-container font-light'>
       <h1 className="main-title">Полезные ссылки</h1>
 
-      <div className="flex items-center text-2xl">
+      <div className="flex items-center">
         <TbWorldWww className='me-2 mb-1' color='orange' />
         <a href='https://www.advayta.org/' target='_blank' rel='noreferrer' className='links'>advayta.org</a>
       </div>
@@ -22,7 +22,7 @@ const page = () => {
         а также книги, лекции, статьи и многое другое.
       </p>
 
-      <div className="flex items-center mt-4 text-2xl">
+      <div className="flex items-center mt-4">
         <TbWorldWww className='me-2 mb-1' color='orange' />
         <a href='https://institute-vasishtha.com/' target='_blank' rel='noreferrer' className='links'>Интститут Риши Васиштхи </a>
       </div>
@@ -33,7 +33,7 @@ const page = () => {
         в области Санатана Дхармы, а также научиться применять их на практике.
       </p>
 
-      <div className="flex items-center mt-4 text-2xl">
+      <div className="flex items-center mt-4">
         <TbWorldWww className='me-2 mb-1' color='orange' />
         <a href='http://ramanatha.advayta.org/' target='_blank' rel='noreferrer' className='links'>Рупор Дхармы </a>
       </div>
@@ -41,7 +41,7 @@ const page = () => {
         Сайт монаха Раманатха Гири.
       </p>
 
-      <div className="flex items-center mt-4 text-2xl">
+      <div className="flex items-center mt-4">
         <TbWorldWww className='me-2 mb-1' color='orange' />
         <a href='http://shaktima.ru/' target='_blank' rel='noreferrer' className='links'>МДЦ ШактиМа </a>
       </div>
@@ -49,7 +49,7 @@ const page = () => {
         Сайт Московсокого Дхарма центра &quot;ШактиМа&quot;.
       </p>
 
-      <div className="flex items-center mt-4 text-2xl">
+      <div className="flex items-center mt-4">
         <TbWorldWww className='me-2 mb-1' color='orange' />
         <a href='https://sharanam.advayta.org/' target='_blank' rel='noreferrer' className='links'>ПРИБЕЖИЩЕ в линии передачи Свами Вишнудевананда Гири </a>
       </div>
@@ -59,7 +59,7 @@ const page = () => {
       </p>
 
 
-      <div className="flex items-center mt-4 text-2xl">
+      <div className="flex items-center mt-4">
         <TbWorldWww className='me-2 mb-1' color='orange' />
         <a href='https://vosdlife.org/' target='_blank' rel='noreferrer' className='links'>Свет Дхармы </a>   <br />
       </div>
@@ -67,7 +67,7 @@ const page = () => {
         Сайт инструкторов ВОСД. Здесь Вы можете выбрать себе вводящего инструктора, который поможет Вам освоиться в традиции.
       </p>
 
-      <div className="flex items-center mt-4 text-2xl">
+      <div className="flex items-center mt-4">
         <TbWorldWww className='me-2 mb-1' color='orange' />
         <a href='https://www.siddhashop.com/' target='_blank' rel='noreferrer' className='links'>Сиддха шоп </a>   <br />
       </div>
@@ -75,7 +75,7 @@ const page = () => {
         Интернет магазин. Здесь Вы можете заказать книги, мурти и предметы Дхармы с доставкой.
       </p>
 
-      <div className="flex items-center mt-4 text-2xl">
+      <div className="flex items-center mt-4">
         <Image src={rutube} width={23} height={23} alt="rutube logo" className='me-2 mb-1' color='red' />
         <a href='https://rutube.ru/channel/35812675/' target='_blank' rel='noreferrer' className='links'>Свами Вишнудевананда Гири. Канал в Rutube</a>   <br />
       </div>
@@ -84,7 +84,7 @@ const page = () => {
       </p>
 
 
-      <div className="flex items-center mt-4 text-2xl">
+      <div className="flex items-center mt-4">
         <FaYoutube className='me-2 mb-1' color='red' />
         <a href='www.youtube.com/@vedicworld1' target='_blank' rel='noreferrer' className='links'>Vedic World  </a>   <br />
       </div>
@@ -92,7 +92,7 @@ const page = () => {
         Сатсанги и лекции Гуру по йоге и медитации.
       </p>
 
-      <div className="flex items-center mt-4 text-2xl">
+      <div className="flex items-center mt-4">
         <FaYoutube className='me-2 mb-1' color='red' />
         <a href='https://www.youtube.com/@DharmaLight' target='_blank' rel='noreferrer' className='links'>Свет Дхармы  </a>   <br />
       </div>

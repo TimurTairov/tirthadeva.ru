@@ -8,7 +8,7 @@ import logo from '@/public/SVG/logo.svg'
 const Header = () => {
   return (
     <header>
-      <div className="nav-area w-full lg:px-20">
+      <div className="nav-area w-full lg:px-20 shadow-md shadow-slate-300">
         <Link href="/" className="logo">
           <Image
             src={logo}

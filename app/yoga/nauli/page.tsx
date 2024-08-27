@@ -21,6 +21,8 @@ const page = () => {
         Наули в прямом смысле сжигает жир, делая живот плоским.
       </p>
 
+      <iframe src="https://rutube.ru/play/embed/40353aee7ddba3b8bcef1baeb2473fbd?skinColor=e53935" frameBorder="0" allow="clipboard-write; autoplay" allowFullScreen className="my-5 w-full h-[600px]"></iframe>
+
       <p className='mt-4'>
         Эта практика особенно полезна при избавлении от запоров, поносов, несварения желудка, повышенной кислотности, гормональных и мочеполовых расстройств, депрессий, состоянии лености и скуки, отсутствия энергии и эмоциональных расстройств.
       </p>

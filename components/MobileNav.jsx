@@ -39,7 +39,7 @@ const MobileNav = () => {
           width={36}
           height={36}
           alt="menu"
-          className="rounded-lg"
+          className="h-12 w-12 rounded-lg"
         />
       </button>
 
