@@ -5,7 +5,7 @@ import { menuItemsData } from '@/helpers/menuItemsData'
 import MobileMenuItems from './MobileMenuItems'
 import menuSvg from '@/public/SVG/icons8-menu.svg'
 import menu from '@/public/menu-100.png'
-import tilaka from '@/public/Tilaka/shiva-tilak-3100736.png'
+import tilaka from '@/public/Tilaka/shiva-tilaka.png'
 
 const MobileNav = () => {
   const depthLevel = 0

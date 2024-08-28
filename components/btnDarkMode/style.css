@@ -1,0 +1,4 @@
+/* Dark mode btn */
+.darkModeBtn {
+  background-color: var(--darkModeBtnBg);
+}

@@ -1,16 +1,19 @@
 'use client'
 import Image from 'next/image'
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { useLocalStorage } from './../../utils/useLocalStorage'
-//import detectDarkMode from '../../utils/detectDarkMode'
+import detectDarkMode from '../../utils/detectDarkMode'
+import dynamic from 'next/dynamic';
+//import { useTheme } from '../../store/store'
+import "./style.css"
 import sun from "./sun.svg"
 import moon from "./moon.svg"
 
 
 const BtnDarkMode = () => {
-  const [darkMode, setDarkMode] = useState('Light')
+  // const [darkMode, setDarkMode] = useState('Light')
 
-  //const [darkMode, setDarkMode] = useLocalStorage('darkMode', 'light')
+  const [darkMode, setDarkMode] = useLocalStorage('darkMode', detectDarkMode())
 
   useEffect(() => {
     if (darkMode === 'dark') {
@@ -38,12 +41,9 @@ const BtnDarkMode = () => {
     })
   }
 
-  // const btnNormal = "dark-mode-btn"
-  // const btnActive = "dark-mode-btn dark-mode-btn--active"
-
   return (
-    <button onClick={toggleDarkMode} className='dark-mode-btn rounded-full bg-slate-200'>
-      <Image src={darkMode === 'light' ? moon : sun} width={17} height={17} alt="dark mode" className='h-10 w-10 border p-1 rounded-full' />
+    <button onClick={toggleDarkMode}>
+      <Image width={23} height={23} src={darkMode === 'dark' ? moon : sun} alt="darkModeBtn" className="darkModeBtn h-10 w-10 border p-1 border-gray-400 rounded-full" />
     </button>
   )
 }

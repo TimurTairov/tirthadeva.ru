@@ -32,15 +32,15 @@ export default function Home() {
       <div className="mt-5 flex flex-col items-center w-full">
         <div className='flex flex-col items-start justify-center'>
           <h5 className="flex items-center gap-1">
-            <GiCheckMark className="text-green-600 ml-2" />
+            <GiCheckMark className="text-teal-400 ml-2" />
             Ученик просветленного мастера
           </h5>
           <h5 className="flex items-center gap-1">
-            <GiCheckMark className="text-green-600 ml-2" />
+            <GiCheckMark className="text-teal-400 ml-2" />
             Преподаватель Йоги и Медитации
           </h5>
           <h5 className="flex items-center gap-1">
-            <GiCheckMark className="text-green-600 ml-2" />
+            <GiCheckMark className="text-teal-400 ml-2" />
             Ваш наставник на пути Йоги и Дхармы
           </h5>
         </div>
@@ -48,15 +48,15 @@ export default function Home() {
         <h4 className="mt-5 flex justify-center"><b>Моя миссия:</b></h4>
         <div className='flex flex-col items-start justify-center'>
           <h5 className="flex items-center gap-1">
-            <GiCheckMark className="text-green-600 ml-2" />
+            <GiCheckMark className="text-teal-400 ml-2" />
             Cлужение Высшим идеалам йоги (Гуру, Дхарме и Cангхе)
           </h5>
           <h5 className="flex items-center gap-1">
-            <GiCheckMark className="text-green-600 ml-2" />
+            <GiCheckMark className="text-teal-400 ml-2" />
             Помощь всем живым существам в преодолении неведения
           </h5>
           <h5 className="flex items-center gap-1">
-            <GiCheckMark className="text-green-600 ml-2" />
+            <GiCheckMark className="text-teal-400 ml-2" />
             Распространение истинных знаний йоги <br />
           </h5>
         </div>

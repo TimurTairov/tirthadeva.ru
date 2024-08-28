@@ -20,6 +20,9 @@ body {
   --link-hover-color: blue;
   --title-icon-color: darkcyan;
   --btn-color: #ccc;
+  --darkModeBtnBg: #fcfcfc;
+  --mobile-nav-bg: #fcfcfc;
+  --mobile-nav-dropdawn-bg: #f2f2f2;
 }
 
 body.dark {
@@ -29,9 +32,12 @@ body.dark {
   --main-text-color: #ccc;
   --box-shadow: 0 0 54px rgba(239, 240, 228, 0.932);
   --link-color: cyan;
-  --link-hover-color: cyan;
-  --title-icon-color: #00ffff;
+  --link-hover-color: darkcyan;
+  --title-icon-color: cyan;
   --btn-color: #343434;
+  --darkModeBtnBg: #444;
+  --mobile-nav-bg: #444;
+  --mobile-nav-dropdawn-bg: #555;
 }
 
 a {
@@ -50,6 +56,10 @@ a:hover {
 
 .main-title {
   @apply text-4xl font-normal text-center w-full mb-10;
+}
+
+.video {
+  @apply w-full h-52 md:h-96 lg:h-[40rem];
 }
 
 header {
@@ -213,9 +223,9 @@ header {
       0 4px 6px -2px rgba(71, 63, 79, 0.16);
     z-index: 9999;
     /* min-width: 12rem; */
-    width: 90%;
+    width: 95%;
     padding: 0.5rem 0;
-    background-color: var(--navbar-background-color);
+    background-color: var(--mobile-nav-bg);
     border-radius: 0.5rem;
     border: 1px solid rgba(128, 128, 128, 0.4);
   }
@@ -274,6 +284,7 @@ header {
     padding: 0.5rem 0;
     list-style: none;
     display: none;
+    background-color: var(--mobile-nav-dropdawn-bg);
   }
 
   .mobile-nav .dropdown.show {
