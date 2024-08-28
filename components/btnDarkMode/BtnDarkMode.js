@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { useEffect } from 'react'
 //import { useLocalStorage } from './../../utils/useLocalStorage'
 import useLocalStorage from '@/utils/useLocalStorage'
+import { useLocalStorage2 } from '@/utils/useLocalStorage2'
 import detectDarkMode from '../../utils/detectDarkMode'
 //import { useTheme } from '../../store/store'
 import "./style.css"
@@ -13,12 +14,11 @@ import moon from "./moon.svg"
 const BtnDarkMode = () => {
   // const [darkMode, setDarkMode] = useState('Light')
 
-  const [darkMode, setDarkMode] = useLocalStorage('darkMode', detectDarkMode())
+  const [darkMode, setDarkMode] = useLocalStorage2('darkMode', detectDarkMode())
 
   useEffect(() => {
     if (darkMode === 'dark') {
       document.body.classList.add('dark')
-
     }
     else {
       document.body.classList.remove('dark')
@@ -32,7 +32,6 @@ const BtnDarkMode = () => {
         const newColorScheme = event.matches ? 'dark' : 'light'
         setDarkMode(newColorScheme)
       })
-
   })
 
   const toggleDarkMode = () => {
