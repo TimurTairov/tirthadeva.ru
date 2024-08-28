@@ -1,8 +1,6 @@
 'use client'
 import Link from "next/link";
-import { FaSun } from "react-icons/fa"
 import { FcApproval } from "react-icons/fc";
-import { BsDot } from "react-icons/bs";
 import ImageGallery from "react-image-gallery";
 import { imagesUcheba } from '@/helpers/foto'
 
