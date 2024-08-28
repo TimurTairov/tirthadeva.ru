@@ -30,7 +30,7 @@ const Header = () => {
         <Navbar />
         {/* for small screens */}
         <MobileNav />
-        <DynamicDarkModeBtn />
+        <BtnDarkMode />
       </div>
     </header>
   )
