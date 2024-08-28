@@ -2,7 +2,7 @@ import React from 'react'
 
 const Loadind = () => {
   return (
-    <div>loadind...</div>
+    <div>Loadind...</div>
   )
 }
 
