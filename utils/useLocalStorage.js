@@ -1,22 +1,28 @@
-'use client'
 import { useState, useEffect } from 'react';
 
-function getStorageValue(key, defaultValue) {
-  // getting stored value
-  const saved = localStorage.getItem(key);
-  const initial = JSON.parse(saved);
-  return initial || defaultValue;
-}
-
-export const useLocalStorage = (key, defaultValue) => {
-  const [value, setValue] = useState(() => {
-    return getStorageValue(key, defaultValue);
+function useLocalStorage(key, initialValue) {
+  // Initiate state with given value or retrieve from localStorage
+  const [storedValue, setStoredValue] = useState(() => {
+    if (typeof window === 'undefined') {
+      return initialValue;
+    }
+    try {
+      const item = window.localStorage.getItem(key);
+      return item ? JSON.parse(item) : initialValue;
+    } catch (error) {
+      console.error(error);
+      return initialValue;
+    }
   });
 
+  // Update localStorage when state changes
   useEffect(() => {
-    // storing input name
-    localStorage.setItem(key, JSON.stringify(value));
-  }, [key, value]);
+    if (typeof window !== 'undefined') {
+      window.localStorage.setItem(key, JSON.stringify(storedValue));
+    }
+  }, [key, storedValue]);
 
-  return [value, setValue];
-};
+  return [storedValue, setStoredValue];
+}
+
+export default useLocalStorage;

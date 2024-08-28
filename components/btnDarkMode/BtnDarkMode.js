@@ -1,7 +1,8 @@
 'use client'
 import Image from 'next/image'
 import { useEffect } from 'react'
-import { useLocalStorage } from './../../utils/useLocalStorage'
+//import { useLocalStorage } from './../../utils/useLocalStorage'
+import useLocalStorage from '@/utils/useLocalStorage'
 import detectDarkMode from '../../utils/detectDarkMode'
 //import { useTheme } from '../../store/store'
 import "./style.css"
