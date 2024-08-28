@@ -1,4 +1,4 @@
-import React from 'react'
+'use client'
 
 const page = () => {
   return (
@@ -6,9 +6,6 @@ const page = () => {
       <h1 className="main-title">Хатха йога</h1>
 
       <p>Здесь видео роликов пока нет. </p>
-
-
-
 
     </div>
   )
