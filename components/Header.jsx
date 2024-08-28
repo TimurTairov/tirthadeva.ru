@@ -4,6 +4,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 import BtnDarkMode from '@/components/btnDarkMode/BtnDarkMode'
 import logo from '@/public/SVG/logo.svg'
+import dynamic from 'next/dynamic'
+
+const BtnDarkModeWithoutSSR = dynamic(() => import(BtnDarkMode), {
+  ssr: false,
+})
 
 const Header = () => {
   return (
@@ -22,7 +27,7 @@ const Header = () => {
         <Navbar />
         {/* for small screens */}
         <MobileNav />
-        <BtnDarkMode />
+        <BtnDarkModeWithoutSSR />
       </div>
     </header>
   )

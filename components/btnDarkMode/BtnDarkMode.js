@@ -3,7 +3,6 @@ import Image from 'next/image'
 import { useEffect } from 'react'
 import { useLocalStorage } from './../../utils/useLocalStorage'
 import detectDarkMode from '../../utils/detectDarkMode'
-import dynamic from 'next/dynamic';
 //import { useTheme } from '../../store/store'
 import "./style.css"
 import sun from "./sun.svg"
