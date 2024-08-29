@@ -2,7 +2,7 @@ import MobileNav from './MobileNav'
 import Navbar from './Navbar'
 import Link from 'next/link'
 import Image from 'next/image'
-//import BtnDarkMode from '@/components/btnDarkMode/BtnDarkMode'
+import BtnDarkMode from '@/components/btnDarkMode/BtnDarkMode'
 import logo from '@/public/SVG/logo.svg'
 import dynamic from 'next/dynamic'
 
@@ -23,7 +23,7 @@ const Header = () => {
         <Navbar />
         {/* for small screens */}
         <MobileNav />
-        {/* <BtnDarkMode /> */}
+        <BtnDarkMode />
       </div>
     </header>
   )
