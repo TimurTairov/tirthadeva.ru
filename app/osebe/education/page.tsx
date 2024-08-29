@@ -5,7 +5,14 @@ import ImageGallery from "react-image-gallery";
 import { imagesUcheba } from '@/helpers/foto'
 
 const page = () => {
-
+  const settings = {
+    showBullets: false,
+    showIndex: true,
+    slideDuration: 1000,
+    slideInterval: 3000,
+    showFullscreenButton: true,
+    lazyLoad: true,
+  }
 
   return (
     <div className='main-container font-light'>
@@ -65,7 +72,7 @@ const page = () => {
         <Link href="/yoga/feedbacks" className="my-1">Отзывы</Link>
       </div>
 
-      <ImageGallery items={imagesUcheba} />
+      <ImageGallery items={imagesUcheba} {...settings} />
 
     </div >
   )

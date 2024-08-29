@@ -7,18 +7,19 @@ import { FaInstagram } from "react-icons/fa";
 import { FaSquareWhatsapp } from "react-icons/fa6";
 import { TfiEmail } from "react-icons/tfi";
 import { FaSkype } from "react-icons/fa";
+import rutube from '@/public/SVG/rutube__.svg'
 
 const page = () => {
   return (
     <div className='main-container'>
       <h1 className="main-title">Контакты</h1>
 
-      <ul className='mt-10 flex flex-row flex-wrap items-center gap-5'>
+      <ul className='mt-10 flex flex-row flex-wrap items-center gap-10'>
 
         <li className='flex flex-col border p-2 rounded-lg'>
           <div className='flex items-center gap-2'>
             <IoLocationSharp className="h-7 w-7" />
-            <h3 className='font-semibold text-2xl'> Локация</h3>
+            <h3 className='font-semibold text-2xl mt-2'> Локация</h3>
           </div>
           <p>РФ, Москва. М. Новокосино.</p>
         </li>
@@ -66,21 +67,7 @@ const page = () => {
           </p>
         </li>
 
-        <li className='flex flex-col border p-2 rounded-lg'>
-          <div className='flex items-center gap-2'>
-            <FaInstagram className="h-7 w-7" />
-            <h3 className='font-semibold text-2xl'> Instagram</h3>
-          </div>
-          <p>
-            <a href='https://www.instagram.com/timur_brahmachari/'
-              target='_blank'
-              rel='noreferrer'
-              className='contactsLink'
-            >
-              @timur_brahmachari
-            </a>
-          </p>
-        </li>
+
 
         <li className='flex flex-col border p-2 rounded-lg'>
           <div className='flex items-center gap-2'>
@@ -98,16 +85,47 @@ const page = () => {
 
         <li className='flex flex-col border p-2 rounded-lg'>
           <div className='flex items-center gap-2'>
-            <FaYoutube className="h-7 w-7" />
-            <h3 className='font-semibold text-2xl'> YouTube</h3>
+            <Image src={rutube} width={20} height={20} alt="rutube" className="h-7 w-7" />
+            <h3 className='font-semibold text-2xl'> Rutube</h3>
           </div>
-          <p className='text-muted'>
+          <p>
             <a href='https://www.youtube.com/@tirthadeva_yoga'
               target="_blank"
               rel="noreferrer"
               className='contactsLink'
             >
               @tirthadeva_yoga
+            </a>
+          </p>
+        </li>
+
+        <li className='flex flex-col border p-2 rounded-lg'>
+          <div className='flex items-center gap-2'>
+            <FaYoutube className="h-7 w-7" />
+            <h3 className='font-semibold text-2xl'> YouTube</h3>
+          </div>
+          <p>
+            <a href='https://www.youtube.com/@tirthadeva_yoga'
+              target="_blank"
+              rel="noreferrer"
+              className='contactsLink'
+            >
+              @tirthadeva_yoga
+            </a>
+          </p>
+        </li>
+
+        <li className='flex flex-col border p-2 rounded-lg'>
+          <div className='flex items-center gap-2'>
+            <FaInstagram className="h-7 w-7" />
+            <h3 className='font-semibold text-2xl'> Instagram</h3>
+          </div>
+          <p>
+            <a href='https://www.instagram.com/timur_brahmachari/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              @timur_brahmachari
             </a>
           </p>
         </li>

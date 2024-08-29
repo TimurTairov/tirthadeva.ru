@@ -3,6 +3,14 @@ import ImageGallery from "react-image-gallery";
 import { svd } from '@/helpers/foto'
 
 const page = () => {
+  const settings = {
+    showBullets: false,
+    showIndex: true,
+    slideDuration: 1000,
+    slideInterval: 3000,
+    showFullscreenButton: true,
+    lazyLoad: true,
+  }
   return (
     <div className='main-container font-light'>
       <h1 className="main-title">Шри Гуру Свами Вишнудевананда Гири</h1>
@@ -36,7 +44,7 @@ const page = () => {
       <p className='mt-4 mb-5 '>
         Более подробная биография мастера  <a href='https://www.advayta.org/master/biografiya-mastera/' target='_blank' rel='noreferrer'>здесь</a>
       </p>
-      <ImageGallery items={svd} />
+      <ImageGallery items={svd} {...settings} />
     </div>
 
   )
