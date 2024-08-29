@@ -55,11 +55,11 @@ a:hover {
 }
 
 .main-title {
-  @apply text-4xl font-normal text-center w-full mb-10;
+  @apply text-xl md:text-3xl lg:text-4xl font-normal text-center w-full mb-10;
 }
 
 .video {
-  @apply w-full h-52 md:h-96 lg:h-[40rem];
+  @apply w-full h-52 md:h-96 lg:h-[40rem] mt-10;
 }
 
 header {

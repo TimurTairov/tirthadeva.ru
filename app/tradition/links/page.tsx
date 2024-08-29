@@ -76,7 +76,7 @@ const page = () => {
       </p>
 
       <div className="flex items-center mt-4">
-        <Image src={rutube} width={23} height={23} alt="rutube logo" className='me-2 mb-1' color='red' />
+        <Image src={rutube} width={20} height={20} alt="rutube logo" className='me-2 mb-1' color='red' />
         <a href='https://rutube.ru/channel/35812675/' target='_blank' rel='noreferrer' className='links'>Свами Вишнудевананда Гири. Канал в Rutube</a>   <br />
       </div>
       <p>
@@ -158,7 +158,7 @@ const page = () => {
         Официальная страница ОК Адвайта сиддхов.
       </p>
 
-      <Image src='https://media.giphy.com/media/dzJ0WT8bOGPFU0lTwz/giphy.gif' width={500} height={500} alt="gif Ganesha" className='mt-5 w-full' />
+      <Image src='https://media.giphy.com/media/dzJ0WT8bOGPFU0lTwz/giphy.gif' unoptimized width={500} height={500} alt="gif Ganesha" className='mt-5 w-full' />
     </div>
   )
 }

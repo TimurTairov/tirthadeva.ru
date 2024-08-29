@@ -58,7 +58,7 @@ const page = () => {
         До этого было имя Тимур Брахмачари.
         <br /> <br />
       </p>
-      <div className="flex gap-5 m-5">
+      <div className="flex flex-wrap justify-between gap-5 m-5">
         <Link href="/osebe/certificates" className="my-1">Сертификаты</Link>
         <Link href="/osebe/myphoto" className="my-1">Фотографии</Link>
         <Link href="/yoga/schedule" className="my-1">Расписание</Link>

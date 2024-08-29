@@ -21,37 +21,39 @@ const Footer = () => {
         <div className="flex flex-col items-start justify-center my-4">
           <h5>О себе</h5>
           <div className="flex flex-col items-start justify-center">
-            <Link href='/education' className="text-gray-300 hover:text-gray-50">Образование</Link>
-            <Link href='/certificates' className="text-gray-300 hover:text-gray-50">Сертификаты</Link>
-            <Link href='/myphoto' className="text-gray-300 hover:text-gray-50">Мои фото</Link>
-            <Link href='/contacts' className="text-gray-300 hover:text-gray-50">Контакты</Link>
+            <Link href='/osebe/education' className="text-gray-300 hover:text-gray-50">Образование</Link>
+            <Link href='/osebe/certificates' className="text-gray-300 hover:text-gray-50">Сертификаты</Link>
+            <Link href='/osebe/myphoto' className="text-gray-300 hover:text-gray-50">Мои фото</Link>
+            <Link href='/osebe/contacts' className="text-gray-300 hover:text-gray-50">Контакты</Link>
           </div>
         </div>
 
         <div className="flex flex-col items-start justify-center my-4">
           <h5>Йога</h5>
           <div className="flex flex-col items-start justify-center">
-            <Link href='/schedule' className="text-gray-300 hover:text-gray-50">Расписание</Link>
-            <Link href='/feedbacks' className="text-gray-300 hover:text-gray-50">Отзывы</Link>
-            <Link href='/basicrules' className="text-gray-300 hover:text-gray-50">Положения йоги</Link>
-            <Link href='/nauli' className="text-gray-300 hover:text-gray-50">Наули</Link>
+            <Link href='/yoga/schedule' className="text-gray-300 hover:text-gray-50">Расписание</Link>
+            <Link href='/yoga/feedbacks' className="text-gray-300 hover:text-gray-50">Отзывы</Link>
+            <Link href='/yoga/basicrules' className="text-gray-300 hover:text-gray-50">Положения йоги</Link>
+            <Link href='/yoga/nauli' className="text-gray-300 hover:text-gray-50">Наули</Link>
           </div>
         </div>
 
         <div className="flex flex-col items-start justify-center my-4">
           <h5>Традиция</h5>
           <div className="flex flex-col items-start justify-center">
-            <Link href='/master' className="text-gray-300 hover:text-gray-50">Мастер</Link>
-            <Link href='/pribezhishche' className="text-gray-300 hover:text-gray-50">Древо прибежища</Link>
-            <Link href='/metody' className="text-gray-300 hover:text-gray-50">Методы Учения</Link>
-            <Link href='/links' className="text-gray-300 hover:text-gray-50">полезные ссылки</Link>
+            <Link href='/tradition/master' className="text-gray-300 hover:text-gray-50">Мастер</Link>
+            <Link href='/tradition/pribezhishche' className="text-gray-300 hover:text-gray-50">Древо прибежища</Link>
+            <Link href='/tradition/metody' className="text-gray-300 hover:text-gray-50">Методы Учения</Link>
+            <Link href='/tradition/links' className="text-gray-300 hover:text-gray-50">Полезные ссылки</Link>
           </div>
         </div>
 
         <div className="flex flex-col items-start justify-center my-4">
           <h5>Видео</h5>
           <div className="flex flex-col items-start justify-center">
-            <Link href='/myvideo' className="text-gray-300 hover:text-gray-50">Мои видео</Link>
+            <Link href='/video/hatha' className="text-gray-300 hover:text-gray-50">Хатха йога</Link>
+            <Link href='/video/kundalini' className="text-gray-300 hover:text-gray-50">Кундалини</Link>
+            <Link href='/video/nidra' className="text-gray-300 hover:text-gray-50">Йога нидра</Link>
             <Link href='/videosguru' className="text-gray-300 hover:text-gray-50">Видео с Гуру</Link>
             <Link href='/videosmonahami' className="text-gray-300 hover:text-gray-50">Видео с монахами</Link>
 
@@ -59,7 +61,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col items-start justify-center my-4">
-          <h5>Социальные сети</h5>
+          <h5>Соц. сети</h5>
           <div className="flex flex-col items-start justify-center">
             <a href='https://vk.com/tirthadeva' target='_blank' rel='noreferrer' className="flex items-center text-gray-300 hover:text-gray-50">
               <SlSocialVkontakte className='me-2' />Vkontakte

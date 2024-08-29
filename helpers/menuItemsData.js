@@ -87,11 +87,11 @@ export const menuItemsData = [
       },
       {
         title: 'Видео с Гуру',
-        url: '/video/videosguru',
+        url: '/video/guru',
       },
       {
         title: 'Видео с монахами',
-        url: '/video/videosmonahami',
+        url: '/video/sanyasi',
       },
 
     ],
