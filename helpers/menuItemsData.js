@@ -74,7 +74,7 @@ export const menuItemsData = [
     // url: '',
     submenu: [
       {
-        title: 'Кундалини и пранаяма',
+        title: 'Кундалини',
         url: '/video/kundalini',
       },
       {
