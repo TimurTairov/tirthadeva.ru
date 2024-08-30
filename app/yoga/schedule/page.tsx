@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { FaSun } from "react-icons/fa"
 import { FaWhatsapp } from "react-icons/fa"
-import yogaClass from '@/public/yogaclass.jpg'
+import yogaClass from '@/public/yogaclass1.jpg'
 
 const page = () => {
   return (

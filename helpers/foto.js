@@ -802,5 +802,31 @@ export const svd = [
     original: 'https://sun9-15.userapi.com/impg/W3cQqE3xLLrQh31rvpXZaTyS23PuxC2L-_1Png/b4ypL_yGufk.jpg?size=1080x608&quality=95&sign=ace7e53d0d2f4f7a2cc27238b5252182&type=album',
     thumbnail: 'https://sun9-15.userapi.com/impg/W3cQqE3xLLrQh31rvpXZaTyS23PuxC2L-_1Png/b4ypL_yGufk.jpg?size=1080x608&quality=95&sign=ace7e53d0d2f4f7a2cc27238b5252182&type=album',
   },
+]
 
+export const pribezhishe = [
+  {
+    original: 'https://sun9-4.userapi.com/impg/aazafy-MGUHOUBevwxYFolyKaLDqt40BTgP3JA/Q8vbngNokmc.jpg?size=722x1024&quality=96&sign=6a38f7433b38c20c97545075c11c487a&type=album',
+    thumbnail: 'https://sun9-4.userapi.com/impg/aazafy-MGUHOUBevwxYFolyKaLDqt40BTgP3JA/Q8vbngNokmc.jpg?size=722x1024&quality=96&sign=6a38f7433b38c20c97545075c11c487a&type=album',
+  },
+  {
+    original: 'https://sun9-44.userapi.com/impg/Sw2KVKxpUgQavyEpaIm5VzWDb5cSxZH287vSmw/Io2oyXjoDqI.jpg?size=587x861&quality=95&sign=1435dcf3a6a8b16bd0477b0680b04370&type=album',
+    thumbnail: 'https://sun9-44.userapi.com/impg/Sw2KVKxpUgQavyEpaIm5VzWDb5cSxZH287vSmw/Io2oyXjoDqI.jpg?size=587x861&quality=95&sign=1435dcf3a6a8b16bd0477b0680b04370&type=album',
+  },
+  {
+    original: 'https://sun9-19.userapi.com/impg/zKHX2wu67LYHHEea6q0Y5rTHDxepgutu4_MExA/IQwHDcgnvfY.jpg?size=768x1024&quality=95&sign=947161208ffd7a5b199e83278f6cadaf&type=album',
+    thumbnail: 'https://sun9-19.userapi.com/impg/zKHX2wu67LYHHEea6q0Y5rTHDxepgutu4_MExA/IQwHDcgnvfY.jpg?size=768x1024&quality=95&sign=947161208ffd7a5b199e83278f6cadaf&type=album',
+  },
+  {
+    original: 'https://sun9-73.userapi.com/impg/rR9FW8rxiY--mU0j0Sty8D_Lrbipd-d_47uWtg/SXOu2DYJ5Eg.jpg?size=679x960&quality=96&sign=91cd9a395cc64e21da39b7d37172f409&type=album',
+    thumbnail: 'https://sun9-73.userapi.com/impg/rR9FW8rxiY--mU0j0Sty8D_Lrbipd-d_47uWtg/SXOu2DYJ5Eg.jpg?size=679x960&quality=96&sign=91cd9a395cc64e21da39b7d37172f409&type=album',
+  },
+  {
+    original: 'https://institute-vasishtha.com/local/include/template/png/screen-1-img.png',
+    thumbnail: 'https://institute-vasishtha.com/local/include/template/png/screen-1-img.png',
+  },
+  {
+    original: 'https://sun9-46.userapi.com/impg/AGelK74IV1TlIWgvQbk4cE50IaTPpzBH3Gcrmg/u0gCk4b_Y2w.jpg?size=744x1052&quality=95&sign=87d74273e8b9aaaf96e91265565ea16a&type=album',
+    thumbnail: 'https://sun9-46.userapi.com/impg/AGelK74IV1TlIWgvQbk4cE50IaTPpzBH3Gcrmg/u0gCk4b_Y2w.jpg?size=744x1052&quality=95&sign=87d74273e8b9aaaf96e91265565ea16a&type=album',
+  },
 ]

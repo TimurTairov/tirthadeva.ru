@@ -35,8 +35,6 @@ const page = () => {
         Учиться практике желательно под присмотром квалифицированного инструктора йоги, либо на свой страх и риск.
       </p>
 
-      https://rutube.ru/video/06aa5b5a30cddf98cfbffbd08ce32d06/
-
       <iframe src="https://rutube.ru/play/embed/06aa5b5a30cddf98cfbffbd08ce32d06?skinColor=e53935" frameBorder="0" allow="clipboard-write; autoplay" allowFullScreen className="my-5 w-full h-[600px]"></iframe>
 
       <h5 className='text-2xl mt-10'> Алгоритм освоения наули </h5>

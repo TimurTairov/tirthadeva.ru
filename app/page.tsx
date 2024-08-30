@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import myPhoto from '@/public/1.jpg'
+import myPhoto from '@/public/04.jpg'
 import om from '@/public/om-96.png'
 import namaste from '@/public/namaste.png'
 import { GiCheckMark } from "react-icons/gi"
@@ -15,9 +15,10 @@ import yog6 from '@/public/yog6.png'
 export default function Home() {
   return (
     <main className="max-w-screen-xl min-h-screen mx-auto flex flex-col items-center text-base md:text-lg lg:text-2xl font-light">
+      <div className='gradient absolute top-20 bottom-0 h-full w-1/2 left-1/4'>  </div>
       <div className="flex flex-col mt-5">
         <div className="mt-5 mb-5">
-          <Image src={myPhoto} width={500} height={500} alt="my foto" className=" h-72 w-auto md:h-[40rem] md:w-[40rem] p-1 rounded-full my-foto" />
+          <Image src={myPhoto} width={500} height={500} priority alt="my foto" className=" h-72 w-auto md:h-[40rem] md:w-[40rem] p-1 rounded-full my-foto" />
         </div>
         <div className="flex flex-col items-center justify-center mt-10">
           <div className="flex items-center justify-center gap-2 mb-5">
@@ -33,34 +34,39 @@ export default function Home() {
       </div>
       <div className="mt-5 flex flex-col items-center w-full">
         <div className='flex flex-col items-start justify-center'>
-          <h5 className="flex items-center gap-1">
-            <GiCheckMark className="text-teal-400 ml-2" />
-            Ученик просветленного мастера
-          </h5>
-          <h5 className="flex items-center gap-1">
-            <GiCheckMark className="text-teal-400 ml-2" />
-            Преподаватель Йоги и Медитации
-          </h5>
-          <h5 className="flex items-center gap-1">
-            <GiCheckMark className="text-teal-400 ml-2" />
-            Ваш наставник на пути Йоги и Дхармы
-          </h5>
+          <div className="flex items-center gap-1">
+            <GiCheckMark className="text-teal-400 ml-2 h-6 w-6 flex-shrink-0" />
+            <p>Ученик просветленного мастера</p>
+          </div>
+          <div className="flex items-center gap-1">
+            <GiCheckMark className="text-teal-400 ml-2 h-6 w-6 flex-shrink-0" />
+            <p>Преподаватель Йоги и Медитации</p>
+          </div>
+          <div className="flex items-center gap-1">
+            <GiCheckMark className="text-teal-400 ml-2 h-6 w-6 flex-shrink-0" />
+            <p> Ваш наставник на пути Йоги и Дхармы</p>
+          </div>
         </div>
 
         <h4 className="mt-5 flex justify-center"><b>Моя миссия:</b></h4>
         <div className='flex flex-col items-start justify-center'>
-          <h5 className="flex items-center gap-1">
-            <GiCheckMark className="text-teal-400 ml-2" />
-            Cлужение Высшим идеалам йоги (Гуру, Дхарме и Cангхе)
-          </h5>
-          <h5 className="flex items-center gap-1">
-            <GiCheckMark className="text-teal-400 ml-2" />
-            Помощь всем живым существам в преодолении неведения
-          </h5>
-          <h5 className="flex items-center gap-1">
-            <GiCheckMark className="text-teal-400 ml-2" />
-            Распространение истинных знаний йоги <br />
-          </h5>
+          <div className="flex items-center gap-1">
+            <GiCheckMark className="text-teal-400 ml-2 h-6 w-6 flex-shrink-0" />
+            <p>
+              Cлужение Высшим идеалам йоги (Гуру, Дхарме и Cангхе)
+            </p>
+          </div>
+          <div className="flex items-center gap-1">
+            <GiCheckMark className="text-teal-400 ml-2 h-6 w-6 flex-shrink-0" />
+            <p>
+              Помощь всем живым существам в преодолении неведения
+            </p>
+          </div>
+          <div className="flex items-center gap-1">
+            <GiCheckMark className="text-teal-400 ml-2 h-6 w-6 flex-shrink-0" />
+            <p>Распространение истинных знаний йоги</p>
+
+          </div>
         </div>
 
         <div className='flex gap-2 flex-wrap justify-around my-10 mb-5 p-2 w-full'>

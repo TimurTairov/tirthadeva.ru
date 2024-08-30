@@ -9,7 +9,15 @@ const nextConfig = {
       },
       {
         protocol: 'https',
+        hostname: "*sun9-49.userapi.com",
+      },
+      {
+        protocol: 'https',
         hostname: "media.giphy.com",
+      },
+      {
+        protocol: 'https',
+        hostname: "www.advayta.org/binaries/am/",
       },
     ]
   },
