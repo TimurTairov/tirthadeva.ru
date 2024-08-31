@@ -3,6 +3,9 @@ const page = () => {
     <div className='main-container'>
       <h1 className='main-title'>Хатха йога</h1>
 
+      <iframe src="https://vk.com/video_ext.php?oid=5850909&id=456239995&hd=1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" allowFullScreen className="video"></iframe>
+      <p>Хатха йога. Йога марафон. 90 минут.</p>
+
       <iframe src="https://vk.com/video_ext.php?oid=5850909&id=456239994&hd=1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" allowFullScreen className="video"></iframe>
       <p>Хатха йога. Йога марафон. 90 минут.</p>
 

@@ -3,8 +3,7 @@ import Navbar from './Navbar'
 import Link from 'next/link'
 import Image from 'next/image'
 import BtnDarkMode from '@/components/btnDarkMode/BtnDarkMode'
-import logo from '@/public/SVG/logo.svg'
-import dynamic from 'next/dynamic'
+import logo from '@/public/logo.jpg'
 
 const Header = () => {
   return (
@@ -16,7 +15,7 @@ const Header = () => {
             width={50}
             height={50}
             alt="logo"
-            className="h-10 w-10"
+            className="h-10 w-10 rounded-3xl"
           />
         </Link>
         {/* for large screens */}
