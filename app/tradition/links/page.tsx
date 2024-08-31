@@ -134,7 +134,7 @@ const page = () => {
       </p>
 
       <div className="flex items-center mt-4">
-        <SlSocialVkontakte className='me-2 mb-1 fill-blue-800' />
+        <SlSocialVkontakte className='me-2 mb-1 fill-blue-400' />
         <a href='https://vk.com/svami_visnudevananda_giri' target='_blank' rel='noreferrer' className='links'>
           Шри Гуру Свами Вишнудевананда Гири Махарадж</a>   <br />
       </div>
@@ -143,7 +143,7 @@ const page = () => {
       </p>
 
       <div className="flex items-center mt-4">
-        <SlSocialVkontakte className='me-2 mb-1 fill-blue-800' />
+        <SlSocialVkontakte className='me-2 mb-1 fill-blue-400' />
         <a href='https://vk.com/advayta.siddhov' target='_blank' rel='noreferrer' className='links'>ВК Адвайта сиддхов </a>   <br />
       </div>
       <p>
@@ -158,7 +158,7 @@ const page = () => {
         Официальная страница ОК Адвайта сиддхов.
       </p>
 
-      <Image src='https://media.giphy.com/media/dzJ0WT8bOGPFU0lTwz/giphy.gif' unoptimized width={500} height={500} alt="gif Ganesha" className='mt-5 w-full' />
+      <Image src='https://media.giphy.com/media/dzJ0WT8bOGPFU0lTwz/giphy.gif' unoptimized width={500} height={500} alt="gif Ganesha" className='mt-10 w-full' />
     </div>
   )
 }

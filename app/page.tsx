@@ -76,7 +76,8 @@ export default function Home() {
           <Link href="/osebe/contacts" className="my-1">Контакты</Link>
           <Link href="/tradition/master" className="my-1">Мастер</Link>
           <Link href="/tradition/links" className="my-1">Полезные ссылки</Link>
-          <Link href="/video/myvideo" className="my-1">Мои видео</Link>
+          <Link href="/yoga/basicrules" className="my-1">Хатха йога</Link>
+          <Link href="/yoga/nauli" className="my-1">Наули</Link>
         </div>
 
         <div className='flex items-end justify-between w-full mt-5'>

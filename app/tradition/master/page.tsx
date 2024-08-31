@@ -1,4 +1,5 @@
 'use client'
+import Link from "next/link";
 import ImageGallery from "react-image-gallery";
 import { svd } from '@/helpers/foto'
 
@@ -41,9 +42,10 @@ const page = () => {
       <p className='mt-4'>
         • С 1995 года Свами проповедует Санатана Дхарму, учения Адвайта-веданты и Ануттара-тантры.<br />
       </p>
-      <p className='mt-4 mb-5 '>
+      <p className='mt-4'>
         Более подробная биография мастера  <a href='https://www.advayta.org/master/biografiya-mastera/' target='_blank' rel='noreferrer'>здесь</a>
       </p>
+      <Link href="/video/guru" className="my-10">Видео с Гуру</Link>
       <ImageGallery items={svd} {...settings} />
     </div>
 
