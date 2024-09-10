@@ -33,7 +33,7 @@ const Footer = () => {
           <div className="flex flex-col items-start justify-center">
             <Link href='/yoga/schedule' className="text-gray-300 hover:text-gray-50">Расписание</Link>
             <Link href='/yoga/feedbacks' className="text-gray-300 hover:text-gray-50">Отзывы</Link>
-            <Link href='/yoga/basicrules' className="text-gray-300 hover:text-gray-50">Положения йоги</Link>
+            <Link href='/yoga/basicrules' className="text-gray-300 hover:text-gray-50">Хатха йога</Link>
             <Link href='/yoga/nauli' className="text-gray-300 hover:text-gray-50">Наули</Link>
           </div>
         </div>

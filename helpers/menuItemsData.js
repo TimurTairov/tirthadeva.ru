@@ -38,13 +38,18 @@ export const menuItemsData = [
         url: '/yoga/feedbacks',
       },
       {
-        title: 'Положения хатха йоги',
+        title: 'Хатха йоги',
         url: '/yoga/basicrules',
+      },
+      {
+        title: 'Пранаяма',
+        url: '/yoga/pranayama',
       },
       {
         title: 'Наули крийя',
         url: '/yoga/nauli',
       },
+
     ],
   },
   {

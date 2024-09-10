@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import yoga1 from '@/public/yoga-1.png'
 import yoga2 from '@/public/yogaclass2.jpg'
 import yoga3 from '@/public/yogaclass3.jpg'
@@ -145,7 +146,10 @@ const page = () => {
 
       <p className='mt-4'>© Тиртхадэва</p>
 
+      <Link href="/video/hatha" className="my-10">Видео по Хатха йоге</Link>
+
       <Image src={yoga3} width={600} height={500} alt='yoga' className='w-full h-auto mt-4' />
+
     </div>
   )
 }
