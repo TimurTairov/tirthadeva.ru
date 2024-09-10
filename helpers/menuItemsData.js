@@ -74,12 +74,16 @@ export const menuItemsData = [
     // url: '',
     submenu: [
       {
-        title: 'Кундалини',
-        url: '/video/kundalini',
-      },
-      {
         title: 'Хатха йога',
         url: '/video/hatha',
+      },
+      {
+        title: 'Пранаяма',
+        url: '/video/pranayama',
+      },
+      {
+        title: 'Кундалини',
+        url: '/video/kundalini',
       },
       {
         title: 'Нидра йога',

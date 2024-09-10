@@ -15,7 +15,7 @@ body {
   --navbar-text-color: #777;
   --main-background-color: #ffffff;
   --main-text-color: #000536;
-  --box-shadow: 0 0 54px rgba(0, 0, 0, 0.4);
+  --box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   --link-color: blueviolet;
   --link-hover-color: blue;
   --title-icon-color: darkcyan;
@@ -30,7 +30,7 @@ body.dark {
   --navbar-text-color: #ccc;
   --main-background-color: #343434;
   --main-text-color: #ccc;
-  --box-shadow: 0 0 54px rgba(239, 240, 228, 0.932);
+  --box-shadow: 0 0 20px rgba(239, 240, 228, 0.932);
   --link-color: cyan;
   --link-hover-color: darkcyan;
   --title-icon-color: cyan;

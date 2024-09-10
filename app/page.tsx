@@ -18,7 +18,7 @@ export default function Home() {
       <div className='gradient absolute top-10 bottom-0 h-full w-1/2 left-1/4'>  </div>
       <div className="flex flex-col mt-5">
         <div className="mt-5 mb-5">
-          <Image src={myPhoto} width={500} height={500} priority alt="my foto" className=" h-72 w-auto md:h-[40rem] md:w-[40rem] p-1 rounded-full my-foto" />
+          <Image src={myPhoto} width={500} height={500} priority alt="my foto" className="h-60 w-auto md:h-[40rem] md:w-[40rem] p-1 rounded-full my-foto" />
         </div>
         <div className="flex flex-col items-center justify-center mt-8 lg:mt-20 ">
           <div className="flex items-center justify-center gap-2 mb-5">
