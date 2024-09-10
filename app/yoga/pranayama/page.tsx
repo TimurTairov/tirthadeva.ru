@@ -4,8 +4,8 @@ import { FaGripLinesVertical } from "react-icons/fa";
 const page = () => {
   return (
     <div className='main-container font-light'>
-      <h1 className="text-4xl font-semibold text-center w-full">Пранаяма — дыхательная гимнастика йогов</h1>
-      <div className="flex items-center mt-10">
+      <h1 className="main-title">Пранаяма — дыхательная гимнастика йогов</h1>
+      <div className="flex items-center">
         <div className="h-full text-6xl text-emerald-400">|</div>
         <div>
           <i >

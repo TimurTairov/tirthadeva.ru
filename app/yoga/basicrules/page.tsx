@@ -7,7 +7,7 @@ import yoga3 from '@/public/yogaclass3.jpg'
 const page = () => {
   return (
     <div className='main-container font-light'>
-      <h1 className="text-4xl font-semibold text-center w-full"> Хатха йога. Основные положения.</h1>
+      <h1 className='main-title'> Хатха йога. Основные положения.</h1>
 
       <p className='mt-10'>
         Хатха йога это неотъемлемая часть Кундалини и Раджа йоги. Это фундамент и основа более утонченных практик. Многие сиддхи и риши практиковали этот вид йоги.

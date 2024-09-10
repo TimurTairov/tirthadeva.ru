@@ -19,7 +19,7 @@ const page = () => {
 
       <h1 className="main-title">Образование</h1>
 
-      <h5 className='mt-5 mb-1 font-semibold text-2xl flex items-center'>
+      <h5 className='mt-5 mb-1 font-semibold text-lg md:text-2xl flex items-center'>
         <FcApproval className='me-2' color='orange' /> Основное образование
       </h5>
       <p>
@@ -29,7 +29,7 @@ const page = () => {
         2. МИРБИС, финансы и кредит (2008-2011 гг).
       </p>
 
-      <h5 className='mt-5 mb-1 font-semibold text-2xl flex items-center'>
+      <h5 className='mt-5 mb-1 font-semibold text-lg md:text-2xl flex items-center'>
         <FcApproval className='me-2' color='orange' /> Образование в йоге
       </h5>
 
@@ -49,7 +49,7 @@ const page = () => {
       <p>• Ритритная практика в Ашраме</p>
 
 
-      <h5 className='mt-5 mb-1 font-semibold text-2xl flex items-center'>
+      <h5 className='mt-5 mb-1 font-semibold text-lg md:text-2xl flex items-center'>
         <FcApproval className='me-2' color='orange' />
         Неформальное обучение
       </h5>
