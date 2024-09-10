@@ -432,9 +432,15 @@ footer a:hover {
     radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
     radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
     radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+  /* background-image: radial-gradient(
+    circle at center in hsl longer hue,
+    red,
+    blue
+  ); */
+
   position: absolute;
   content: '';
   filter: blur(100px) saturate(150%);
   /* top: 80px; */
-  opacity: 0.15;
+  opacity: 0.4;
 }

@@ -42,7 +42,7 @@ const BtnDarkMode = () => {
 
   return (
     <button onClick={toggleDarkMode}>
-      <Image width={23} height={23} src={darkMode === 'dark' ? moon : sun} alt="darkModeBtn" className="darkModeBtn h-10 w-10 border p-1 border-gray-400 rounded-full" />
+      <Image width={23} height={23} src={darkMode === 'dark' ? moon : sun} alt="darkModeBtn" className="darkModeBtn h-11 w-11 border p-1 border-gray-400 rounded-full" />
     </button>
   )
 }
