@@ -146,7 +146,10 @@ const page = () => {
 
       <p className='mt-4'>© Тиртхадэва</p>
 
-      <Link href="/video/hatha" className="my-10">Видео по Хатха йоге</Link>
+      <div className="flex flex-wrap justify-between gap-5 m-5">
+        <Link href="/video/hatha" className="my-1">Видео по Хатха йоге</Link>
+        <Link href="/yoga/schedule" className="my-1">Расписание</Link>
+      </div>
 
       <Image src={yoga3} width={600} height={500} alt='yoga' className='w-full h-auto mt-4' />
 

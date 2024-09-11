@@ -64,6 +64,10 @@ a:hover,
   @apply w-full h-52 md:h-96 lg:h-[40rem] mt-10;
 }
 
+.accordion-text {
+  @apply px-2 text-sm lg:text-base mt-1;
+}
+
 header {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   color: #212529;
@@ -418,9 +422,7 @@ footer a:hover {
 }
 
 .gradient {
-  /* height: fit-content; */
   z-index: -33;
-  /* max-width: 640px; */
   background-image: radial-gradient(
       at 27% 37%,
       hsla(215, 98%, 61%, 1) 0px,
@@ -432,15 +434,8 @@ footer a:hover {
     radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
     radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
     radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
-  /* background-image: radial-gradient(
-    circle at center in hsl longer hue,
-    red,
-    blue
-  ); */
 
-  position: absolute;
   content: '';
-  filter: blur(100px) saturate(150%);
+  /* filter: blur(100px) saturate(150%); */
   /* top: 80px; */
-  opacity: 0.4;
 }

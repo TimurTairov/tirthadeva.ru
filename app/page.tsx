@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import Gradient from "@/components/Gradient"
 import myPhoto from '@/public/04.jpg'
 import om from '@/public/om-96.png'
 import namaste from '@/public/namaste.png'
@@ -15,7 +16,7 @@ import yog6 from '@/public/yog6.png'
 export default function Home() {
   return (
     <main className="max-w-screen-xl min-h-screen mx-auto flex flex-col items-center text-base md:text-lg lg:text-2xl font-light">
-      <div className='gradient absolute top-10 bottom-0 h-full w-1/2 left-1/4'>  </div>
+      <Gradient />
       <div className="flex flex-col mt-5">
         <div className="mt-5 mb-5">
           <Image src={myPhoto} width={500} height={500} priority alt="my foto" className="h-60 w-auto md:h-[40rem] md:w-[40rem] p-1 rounded-full my-foto" />

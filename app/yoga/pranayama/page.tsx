@@ -68,9 +68,13 @@ const page = () => {
         В духовном плане, пранаяма может прочистить тончайшие энерго информационные центры (чакры) и каналы (нади), пробудить энергию Кундалини, вызвать сверх сознательное и блаженное состояние самадхи.
       </p>
 
-      <Link href="/video/pranayama" className="my-10">Видео по Пранаяма йоге</Link>
+      <div className="flex flex-wrap justify-between gap-5 m-5">
+        <Link href="/video/pranayama" className="my-1">Видео по Пранаяма йоге</Link>
+        <Link href="/yoga/schedule" className="my-1">Расписание</Link>
+      </div>
 
       <iframe src="https://rutube.ru/play/embed/86eba7e82a61e3865a3cdfc3b387a3f9" allow="clipboard-write; autoplay" allowFullScreen className="video"></iframe>
+      <p className='mt-1 mb-1 text-2xl'>Эффекты пранаяма йоги</p>
 
     </div>
   )

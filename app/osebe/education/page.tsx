@@ -72,6 +72,7 @@ const page = () => {
         <Link href="/yoga/feedbacks" className="my-1">Отзывы</Link>
       </div>
 
+      <h5 className='mt-10 mb-1 text-2xl text-center w-full'>Фотографии с семинаров, ритритов и курсов по йоге</h5>
       <ImageGallery items={imagesUcheba} {...settings} />
 
     </div >

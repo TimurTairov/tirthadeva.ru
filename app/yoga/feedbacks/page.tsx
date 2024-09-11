@@ -2,7 +2,7 @@
 import { feedbacks } from '@/helpers/foto'
 import ImageGallery from "react-image-gallery"
 import MyAccordion from '@/components/MyAccordion'
-
+import { FaWhatsapp } from "react-icons/fa"
 
 const page = () => {
   return (
@@ -60,8 +60,11 @@ const page = () => {
         </p>
       </MyAccordion>
 
-      <h5 className="mt-10 w-full text-center">Отзывы</h5>
+      <h5 className="mt-10 w-full text-center">Отзывы на йогу онлайн</h5>
       <ImageGallery items={feedbacks} />
+      <a href="whatsapp://send?phone=79672067710" className="flex items-center mt-10 p-1 rounded-lg border-2 border-lime-600 text-lime-600">
+        <FaWhatsapp className='me-2 ' />Записаться на йогу онлайн
+      </a>
     </div>
   )
 }
