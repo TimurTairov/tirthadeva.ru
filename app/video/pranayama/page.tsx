@@ -1,10 +1,15 @@
+import { Suspense } from 'react'
 import MyAccordion from '@/components/MyAccordion'
+import VideoPlayer from '@/components/VideoPlayer'
 
 const page = () => {
   return (
     <div className='main-container'>
       <h1 className='main-title'>Пранаяма</h1>
-      <iframe src="https://rutube.ru/play/embed/a965eefb7b4236149e88acf39fbadb94" allow="clipboard-write; autoplay" allowFullScreen className="video"></iframe>
+
+      <Suspense fallback={<p>Загрузка ...</p>}>
+        <VideoPlayer src="https://rutube.ru/play/embed/a965eefb7b4236149e88acf39fbadb94" rt />
+      </Suspense>
       <MyAccordion title='Нади-шодхана: 7 - 7 - 7' id='1'>
         <p className='accordion-text'>
           Пранаяма Нади Шодхана
@@ -48,7 +53,9 @@ const page = () => {
         </p>
       </MyAccordion>
 
-      <iframe src="https://rutube.ru/play/embed/52cd7f8c3dfe97a692f9636ddc72ef27/" allow="clipboard-write; autoplay" allowFullScreen className="video"></iframe>
+      <Suspense fallback={<p>Загрузка ...</p>}>
+        <VideoPlayer src="https://rutube.ru/play/embed/52cd7f8c3dfe97a692f9636ddc72ef27/" rt />
+      </Suspense>
       <MyAccordion title='Нади-шодхана: 7 - 14 - 7' id='1'>
         <p className='accordion-text'>
           Пранаяма Нади Шодхана
