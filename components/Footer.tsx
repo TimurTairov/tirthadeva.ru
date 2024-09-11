@@ -34,6 +34,7 @@ const Footer = () => {
             <Link href='/yoga/schedule' className="text-gray-300 hover:text-gray-50">Расписание</Link>
             <Link href='/yoga/feedbacks' className="text-gray-300 hover:text-gray-50">Отзывы</Link>
             <Link href='/yoga/basicrules' className="text-gray-300 hover:text-gray-50">Хатха йога</Link>
+            <Link href='/yoga/pranayama' className="text-gray-300 hover:text-gray-50">Пранаяма</Link>
             <Link href='/yoga/nauli' className="text-gray-300 hover:text-gray-50">Наули</Link>
           </div>
         </div>
@@ -52,6 +53,7 @@ const Footer = () => {
           <h5>Видео</h5>
           <div className="flex flex-col items-start justify-center">
             <Link href='/video/hatha' className="text-gray-300 hover:text-gray-50">Хатха йога</Link>
+            <Link href='/video/pranayama' className="text-gray-300 hover:text-gray-50">Пранаяма</Link>
             <Link href='/video/kundalini' className="text-gray-300 hover:text-gray-50">Кундалини</Link>
             <Link href='/video/nidra' className="text-gray-300 hover:text-gray-50">Йога нидра</Link>
             <Link href='/videosguru' className="text-gray-300 hover:text-gray-50">Видео с Гуру</Link>

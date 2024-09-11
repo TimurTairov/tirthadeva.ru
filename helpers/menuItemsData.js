@@ -38,7 +38,7 @@ export const menuItemsData = [
         url: '/yoga/feedbacks',
       },
       {
-        title: 'Хатха йоги',
+        title: 'Хатха йога',
         url: '/yoga/basicrules',
       },
       {
