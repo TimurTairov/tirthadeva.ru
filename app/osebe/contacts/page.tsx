@@ -88,12 +88,12 @@ const page = () => {
             <h3 className='font-semibold text-2xl'> Rutube</h3>
           </div>
           <p>
-            <a href='https://www.youtube.com/@tirthadeva_yoga'
+            <a href='https://rutube.ru/channel/37056248/'
               target="_blank"
               rel="noreferrer"
               className='contactsLink'
             >
-              @tirthadeva_yoga
+              Тиртхадэва | Йога, медитация, адвайта.
             </a>
           </p>
         </li>

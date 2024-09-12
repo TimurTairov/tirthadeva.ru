@@ -61,7 +61,7 @@ a:hover,
 }
 
 .video {
-  @apply w-full h-52 md:h-96 lg:h-[40rem] mt-10;
+  @apply w-full h-52 md:h-96 lg:h-[40rem] mt-10 rounded-lg;
 }
 
 .accordion-text {
@@ -439,3 +439,5 @@ footer a:hover {
   /* filter: blur(100px) saturate(150%); */
   /* top: 80px; */
 }
+
+/* О СЕБЕ */
