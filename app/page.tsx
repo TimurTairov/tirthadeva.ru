@@ -105,7 +105,7 @@ export default function Home() {
 
         <div className=" mt-5 md:mt-10 lg:mt-20">
           <h5 className="lg:mt-10 w-full text-center text-2xl lg:text-7xl font-semibold">Провожу занятия по следующим направлениям йоги</h5>
-          <div className="w-full flex lg:flex-row flex-col gap-2 md:gap-10 lg:gap-20 mt-5">
+          <div className="w-full flex lg:flex-row flex-col gap-2 md:gap-10 mt-5 justify-center">
             <div className="flex items-center border-2 rounded-md lg:w-96 w-full h-40">
               <Image src={hatha} alt="o sebe" className="h-full w-auto rounded-md" />
               <p className="font-bold w-full text-center">Хатха йога сиддхов</p>
@@ -161,7 +161,7 @@ export default function Home() {
             <div className="flex flex-col flex-wrap gap-2 mt-5 ml-2 justify-start text-md lg:text-3xl">
               <div className="flex items-center">
                 <BiLogoZoom className="mr-2 text-rose-400" />
-                <p className="text-gray-600">трансляции через платформу <b className="text-blue-500">Zoom</b></p>
+                <p className="text-gray-600">трансляции через <b className="text-blue-500">Zoom</b></p>
               </div>
               <div className="flex items-center">
                 <GrSchedule className="mr-2  text-rose-400" />
