@@ -2,9 +2,19 @@
 import { feedbacks } from '@/helpers/foto'
 import ImageGallery from "react-image-gallery"
 import MyAccordion from '@/components/MyAccordion'
-import { FaWhatsapp } from "react-icons/fa"
+import SignUpForYogaOnline from '@/components/SignUpForYogaOnline'
 
 const page = () => {
+  const settings = {
+    showBullets: false,
+    showIndex: false,
+    slideDuration: 1000,
+    slideInterval: 3000,
+    showFullscreenButton: true,
+    showThumbnails: false,
+    lazyLoad: true,
+  }
+
   return (
     <div className='main-container'>
       <h1 className="main-title">Отзывы</h1>
@@ -61,10 +71,9 @@ const page = () => {
       </MyAccordion>
 
       <h5 className="mt-10 w-full text-center">Отзывы на йогу онлайн</h5>
-      <ImageGallery items={feedbacks} />
-      <a href="whatsapp://send?phone=79672067710" className="flex items-center mt-10 p-1 rounded-lg border-2 border-lime-600 text-lime-600">
-        <FaWhatsapp className='me-2 ' />Записаться на йогу онлайн
-      </a>
+      <ImageGallery items={feedbacks} {...settings} />
+
+      <SignUpForYogaOnline />
     </div>
   )
 }

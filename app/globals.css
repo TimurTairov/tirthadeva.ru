@@ -31,9 +31,9 @@ body.dark {
   --main-background-color: #343434;
   --main-text-color: #ccc;
   --box-shadow: 0 0 20px rgba(239, 240, 228, 0.932);
-  --link-color: cyan;
+  --link-color: #34d399;
   --link-hover-color: darkcyan;
-  --title-icon-color: cyan;
+  --title-icon-color: #34d399;
   --btn-color: #343434;
   --darkModeBtnBg: #444;
   --mobile-nav-bg: #444;
@@ -220,6 +220,7 @@ header {
     cursor: pointer;
     position: relative;
   }
+
   .mobile-nav .menus {
     list-style: none;
     position: absolute;
@@ -274,6 +275,7 @@ header {
     border-right: 0.32em solid transparent;
     border-left: 0.32em solid transparent;
   }
+
   .mobile-nav .arrow-close::after {
     content: '';
     display: inline-block;
@@ -362,6 +364,7 @@ body {
   color: var(--main-text-color);
   background-color: var(--main-background-color);
 }
+
 header {
   color: var(--navbar-text-color);
   background-color: var(--navbar-background-color);
@@ -440,4 +443,35 @@ footer a:hover {
   /* top: 80px; */
 }
 
-/* О СЕБЕ */
+/* CALL ANIMATION */
+.call-animation {
+  animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+
+  15% {
+    transform: translateX(-5px) rotate(-6deg);
+  }
+
+  30% {
+    transform: translateX(5px) rotate(6deg);
+  }
+
+  45% {
+    transform: translateX(-4px) rotate(-3.6deg);
+  }
+
+  60% {
+    transform: translateX(4px) rotate(2.4deg);
+  }
+
+  75% {
+    transform: translateX(-3px) rotate(-1.2deg);
+  }
+}
