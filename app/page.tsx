@@ -102,15 +102,15 @@ export default function Home() {
         <div className=" mt-5 md:mt-10 lg:mt-20">
           <h5 className="lg:mt-10 w-full text-center text-2xl lg:text-7xl font-semibold">Провожу занятия по следующим направлениям</h5>
           <div className="w-full flex lg:flex-row flex-col gap-2 md:gap-10 mt-5 justify-center">
-            <div className="flex items-center border-2 rounded-md lg:w-96 w-full h-40">
+            <div className="flex items-center border rounded-md lg:w-96 w-full h-40">
               <Image src={hatha} alt="o sebe" className="h-full w-auto rounded-md" />
               <p className="w-full text-center">Хатха йога сиддхов</p>
             </div>
-            <div className="flex items-center border-2 rounded-md lg:w-96 w-full h-40">
+            <div className="flex items-center border rounded-md lg:w-96 w-full h-40">
               <Image src={kundalini} alt="o sebe" className="h-full w-auto rounded-md" />
               <p className="w-full text-center">Кундалини йога сиддхов</p>
             </div>
-            <div className="flex items-center border-2 rounded-md lg:w-96 w-full h-40">
+            <div className="flex items-center border rounded-md lg:w-96 w-full h-40">
               <Image src={meditation} alt="o sebe" className="h-full w-auto rounded-md" />
               <p className="w-full text-center">Медитация сиддхов</p>
             </div>

@@ -3,8 +3,6 @@ import React, { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import { menuItemsData } from '@/helpers/menuItemsData'
 import MobileMenuItems from './MobileMenuItems'
-import menuSvg from '@/public/SVG/icons8-menu.svg'
-import menu from '@/public/menu-100.png'
 import tilaka from '@/public/Tilaka/shiva-tilaka.png'
 
 const MobileNav = () => {
@@ -27,12 +25,16 @@ const MobileNav = () => {
     }
   }, [showMenu])
 
+  const toggleNavBar = () => {
+    setShowMenu(!showMenu)
+  }
+
   return (
     <nav className="mobile-nav ">
       <button
         className="mobile-nav__menu-button"
         type="button"
-        onClick={() => setShowMenu((prev) => !prev)}
+        onClick={toggleNavBar}
       >
         <Image
           src={tilaka}

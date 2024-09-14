@@ -15,7 +15,7 @@ const Header = () => {
             width={50}
             height={50}
             alt="logo"
-            className="h-11 w-11 rounded-full border-2 border-yellow-500 "
+            className="h-11 w-11 rounded-full border border-yellow-500"
           />
         </Link>
         {/* for large screens */}
