@@ -19,6 +19,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: "www.advayta.org/binaries/am/",
       },
+      {
+        protocol: 'https',
+        hostname: "giphy.com",
+      },
     ]
   },
   typescript: {

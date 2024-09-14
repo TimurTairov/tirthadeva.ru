@@ -28,7 +28,7 @@ const MobileNav = () => {
   }, [showMenu])
 
   return (
-    <nav className="mobile-nav">
+    <nav className="mobile-nav ">
       <button
         className="mobile-nav__menu-button"
         type="button"
@@ -44,7 +44,10 @@ const MobileNav = () => {
       </button>
 
       {showMenu && (
-        <ul className="menus" ref={ref}>
+        <ul
+          className="menus text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-800"
+          ref={ref}
+        >
           {menuItemsData.map((menu, index) => {
             return (
               <MobileMenuItems

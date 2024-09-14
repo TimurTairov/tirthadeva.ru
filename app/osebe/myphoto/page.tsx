@@ -1,17 +1,9 @@
 'use client'
 import ImageGallery from "react-image-gallery";
 import { imagesYoga, imagesIndia } from '@/helpers/foto'
+import { settings } from "@/helpers/FotoSettengs";
 
 const page = () => {
-  const settings = {
-    showBullets: false,
-    showIndex: true,
-    slideDuration: 1000,
-    slideInterval: 3000,
-    showFullscreenButton: true,
-    lazyLoad: true,
-  }
-
   return (
     <div className='main-container'>
       <h1 className="main-title">Фото</h1>

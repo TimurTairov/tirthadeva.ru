@@ -14,7 +14,7 @@ import yog4 from '@/public/yog4.png'
 import yog5 from '@/public/yog5.png'
 import yog6 from '@/public/yog6.png'
 import hatha from '@/public/hatha2.jpg'
-import kudalini from '@/public/kundalini.jpg'
+import kundalini from '@/public/kundalini.jpg'
 import meditation from '@/public/meditation.jpg'
 import guru96 from '@/public/guru-96.png'
 import tirthadeva96 from '@/public/tirthadeva-96.png'
@@ -27,17 +27,12 @@ import yogaonline2 from '@/public/yogaonline2.jpg'
 import graph from '@/public/SVG/graph.svg'
 import { feedbacks } from '@/helpers/foto'
 import ImageGallery from "react-image-gallery"
+import yog from '@/public/yoga-3.png'
+import { LiaPrayingHandsSolid } from "react-icons/lia";
+import { settings } from "@/helpers/FotoSettengs";
+import { FaOm } from "react-icons/fa6";
 
 export default function Home() {
-  const settings = {
-    showBullets: false,
-    showIndex: false,
-    slideDuration: 1000,
-    slideInterval: 3000,
-    showFullscreenButton: false,
-    showThumbnails: false,
-    lazyLoad: true,
-  }
 
   return (
     <main className="max-w-screen-xl lg:mx-auto mx-2 flex flex-col items-center justify-center text-lg lg:text-2xl">
@@ -45,16 +40,17 @@ export default function Home() {
       <Gradient />
 
       <div className="w-full flex lg:flex-row flex-col justify-between mt-10">
-        <div className="flex justify-center">
-          <Image src={myPhoto} width={500} height={500} priority alt="my foto" className="w-full h-auto lg:h-[40rem] lg:w-[40rem] p-1 rounded-lg my-foto" />
+        <div className="flex flex-col justify-center">
+          <Image src={myPhoto} width={500} height={500} priority alt="my foto" className="w-full h-auto lg:h-[40rem] lg:w-[40rem] p-1 rounded-lg my-foto shadow-2xl dark:shadow-white shadow-gray-800" />
+          <Link href="/osebe/myphoto" className=" mr-1 text-sm text-right ">Мои фото</Link>
         </div>
 
         <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col items-center justify-start">
 
           <div className="flex items-center justify-center gap-2">
-            <Image src={om} width={40} height={40} alt="om" className="lg:w-20 lg:h-20" />
-            <h1 className="text-2xl lg:text-7xl font-bold">Намастэ</h1>
-            <Image src={namaste} width={30} height={30} alt="namaste" className="lg:w-14 lg:h-14" />
+            <FaOm width={40} height={40} className="lg:w-14 lg:h-14" />
+            <h1 className="text-2xl lg:text-7xl font-bold mx-2">Намастэ</h1>
+            <LiaPrayingHandsSolid width={30} height={30} className="lg:w-14 lg:h-14" />
           </div>
 
           <div>
@@ -86,37 +82,37 @@ export default function Home() {
         <h5 className="mt-5 md:mt-10 lg:mt-20 w-full text-center text-2xl lg:text-7xl font-semibold">Моя миссия</h5>
         <div className='flex lg:flex-row flex-col items-start justify-center gap-5 lg:mt-5 mt-2'>
           <div className="w-full flex items-center  rounded-lg">
-            <Image src={omGif} width={40} height={40} alt="om" className="lg:w-20 lg:h-20 rounded-full border-2 border-yellow-500 mr-3" />
+            <Image src={omGif} width={30} height={30} alt="om" className="lg:w-20 lg:h-20 rounded-full border-2 border-yellow-500 mr-3 md:mr-5" />
             <p>
               Cлужение Высшим идеалам йоги (Гуру, Дхарме и Cангхе)
             </p>
           </div>
           <div className="w-full flex items-center rounded-lg">
-            <Image src={omGif} width={40} height={40} alt="om" className="lg:w-20 lg:h-20 rounded-full border-2 border-yellow-500 mr-3" />
+            <Image src={omGif} width={30} height={30} alt="om" className="lg:w-20 lg:h-20 rounded-full border-2 border-yellow-500 mr-3 md:mr-5" />
             <p>
               Помощь всем живым существам в преодолении неведения
             </p>
           </div>
           <div className="w-full flex items-center rounded-lg">
-            <Image src={omGif} width={40} height={40} alt="om" className="lg:w-20 lg:h-20 rounded-full border-2 border-yellow-500 mr-3" />
+            <Image src={omGif} width={30} height={30} alt="om" className="lg:w-20 lg:h-20 rounded-full border-2 border-yellow-500 mr-3 md:mr-5" />
             <p>Распространение истинных знаний йоги</p>
           </div>
         </div>
 
         <div className=" mt-5 md:mt-10 lg:mt-20">
-          <h5 className="lg:mt-10 w-full text-center text-2xl lg:text-7xl font-semibold">Провожу занятия по следующим направлениям йоги</h5>
+          <h5 className="lg:mt-10 w-full text-center text-2xl lg:text-7xl font-semibold">Провожу занятия по следующим направлениям</h5>
           <div className="w-full flex lg:flex-row flex-col gap-2 md:gap-10 mt-5 justify-center">
             <div className="flex items-center border-2 rounded-md lg:w-96 w-full h-40">
               <Image src={hatha} alt="o sebe" className="h-full w-auto rounded-md" />
-              <p className="font-bold w-full text-center">Хатха йога сиддхов</p>
+              <p className="w-full text-center">Хатха йога сиддхов</p>
             </div>
             <div className="flex items-center border-2 rounded-md lg:w-96 w-full h-40">
-              <Image src={kudalini} alt="o sebe" className="h-full w-auto rounded-md" />
-              <p className="font-bold w-full text-center">Кундалини йога сиддхов</p>
+              <Image src={kundalini} alt="o sebe" className="h-full w-auto rounded-md" />
+              <p className="w-full text-center">Кундалини йога сиддхов</p>
             </div>
             <div className="flex items-center border-2 rounded-md lg:w-96 w-full h-40">
               <Image src={meditation} alt="o sebe" className="h-full w-auto rounded-md" />
-              <p className="font-bold w-full text-center">Медитация сиддхов</p>
+              <p className="w-full text-center">Медитация сиддхов</p>
             </div>
           </div>
         </div>
@@ -154,10 +150,36 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full mt-5 md:mt-10 lg:mt-20 border-2 p-1 rounded-md bg-red-50">
+        <div className="w-full mt-5 md:mt-10 lg:mt-20 p-5 rounded-md bg-emerald-200">
+          <h5 className="text-center text-3xl lg:text-7xl font-semibold text-slate-600">Как я преподаю йогу</h5>
+          <Image src={yog} alt="yog" className="w-full" />
+          <div className="flex flex-col text-lg lg:text-2xl gap-3 lg:gap-5 mt-5">
+            <div className="flex items-center w-ful">
+              <p className="text-slate-600">Делаю акцент на гармонию, созерцание и осознанность</p>
+            </div>
+            <div className="flex items-center">
+              <p className="text-slate-600">Асаны даю в статике, в легком медитативном состоянии</p>
+            </div>
+            <div className="flex items-center">
+              <p className="text-slate-600">Даю разные вариации асан, в зависимости от уровня подготовки </p>
+            </div>
+            <div className="flex items-center">
+              <p className="text-slate-600">Исключаю крайности: позы йоги не должны быть слишком сложными или слишком лёгкими</p>
+            </div>
+            <div className="flex items-center">
+              <p className="text-slate-600">Чередую напряжение и расслабление: даю небольшой отдых между асанами</p>
+            </div>
+            <div className="flex items-center">
+              <p className="text-slate-600">Разрешаю выходить из асан самостоятельно, если есть в этом необходимость</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full mt-5 md:mt-10 lg:mt-20 border-2 p-1 rounded-md bg-yellow-100">
           <h5 className="text-center text-3xl lg:text-7xl font-semibold text-gray-600 mt-3">Йога онлайн</h5>
+          <p className="text-center text-xl lg:text-2xl text-gray-600 mt-3">Йога онлайн это возможность практиковать йогу из дома, либо из любой точки планеты. Совсем необязательно, чтобы практикующие физически находились в одном зале с учителем. </p>
           <div className="w-full mt-5 flex flex-col lg:flex-row justify-between">
-            <Image src={yogaonline1} alt="yoga online" className="w-full lg:w-1/4 lg:h-auto" />
+            <Image src={yogaonline1} alt="yoga online" className="w-full lg:w-1/4 lg:h-auto rounded-sm" />
             <div className="flex flex-col flex-wrap gap-2 mt-5 ml-2 justify-start text-md lg:text-3xl">
               <div className="flex items-center">
                 <BiLogoZoom className="mr-2 text-rose-400" />
@@ -176,7 +198,7 @@ export default function Home() {
                 <p className="text-gray-600">БЕСПЛАТНО*</p>
               </div>
             </div>
-            <Image src={yogaonline2} alt="yoga online" className="mt-5 w-full lg:w-1/4 lg:h-auto" />
+            <Image src={yogaonline2} alt="yoga online" className="mt-5 w-full lg:w-1/4 lg:h-auto rounded-sm" />
           </div>
           <h5 className="mt-10 w-full text-center text-gray-600">Отзывы на йогу онлайн</h5>
           <ImageGallery items={feedbacks} {...settings} />

@@ -3,17 +3,9 @@ import Link from "next/link";
 import { FcApproval } from "react-icons/fc";
 import ImageGallery from "react-image-gallery";
 import { imagesUcheba } from '@/helpers/foto'
+import { settings } from "@/helpers/FotoSettengs";
 
 const page = () => {
-  const settings = {
-    showBullets: false,
-    showIndex: true,
-    slideDuration: 1000,
-    slideInterval: 3000,
-    showFullscreenButton: true,
-    lazyLoad: true,
-  }
-
   return (
     <div className='main-container font-light'>
 

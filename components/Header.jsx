@@ -2,13 +2,13 @@ import MobileNav from './MobileNav'
 import Navbar from './Navbar'
 import Link from 'next/link'
 import Image from 'next/image'
-import BtnDarkMode from '@/components/btnDarkMode/BtnDarkMode'
+import ButtonDarkMode from './btnDarkMode/ButtonDarkMode'
 import logo from '@/public/logo.jpg'
 
 const Header = () => {
   return (
     <header>
-      <div className="nav-area w-full lg:px-20 shadow-md shadow-slate-300">
+      <div className="nav-area w-full lg:px-20 shadow-sm shadow-slate-300 bg-white dark:bg-gray-800 text-gray-200 dark:text-gray-800">
         <Link href="/" className="logo">
           <Image
             src={logo}
@@ -22,7 +22,7 @@ const Header = () => {
         <Navbar />
         {/* for small screens */}
         <MobileNav />
-        <BtnDarkMode />
+        <ButtonDarkMode />
       </div>
     </header>
   )
