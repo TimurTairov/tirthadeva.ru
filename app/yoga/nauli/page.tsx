@@ -1,4 +1,10 @@
-import React from 'react'
+import type { Metadata } from "next";
+import VideoPlayer from '@/components/VideoPlayer'
+
+export const metadata: Metadata = {
+  title: "Наули",
+  description: "Наули, шаткарма, крийя, детокс, похудение",
+};
 
 const page = () => {
   return (
@@ -21,7 +27,7 @@ const page = () => {
         Наули в прямом смысле сжигает жир, делая живот плоским.
       </p>
 
-      <iframe src="https://rutube.ru/play/embed/40353aee7ddba3b8bcef1baeb2473fbd?skinColor=e53935" frameBorder="0" allow="clipboard-write; autoplay" allowFullScreen className="my-5 w-full h-[600px]"></iframe>
+      <VideoPlayer src="https://rutube.ru/play/embed/40353aee7ddba3b8bcef1baeb2473fbd?skinColor=e53935" rt />
 
       <p className='mt-4'>
         Эта практика особенно полезна при избавлении от запоров, поносов, несварения желудка, повышенной кислотности, гормональных и мочеполовых расстройств, депрессий, состоянии лености и скуки, отсутствия энергии и эмоциональных расстройств.
@@ -35,7 +41,7 @@ const page = () => {
         Учиться практике желательно под присмотром квалифицированного инструктора йоги, либо на свой страх и риск.
       </p>
 
-      <iframe src="https://rutube.ru/play/embed/06aa5b5a30cddf98cfbffbd08ce32d06?skinColor=e53935" frameBorder="0" allow="clipboard-write; autoplay" allowFullScreen className="my-5 w-full h-[600px]"></iframe>
+      <VideoPlayer src="https://rutube.ru/play/embed/06aa5b5a30cddf98cfbffbd08ce32d06?skinColor=e53935" rt />
 
       <h5 className='text-2xl mt-10'> Алгоритм освоения наули </h5>
       <p className='mt-4'>
@@ -64,7 +70,7 @@ const page = () => {
         Помните про противопоказания к практике: болезни сердца, гипертонии, грыжи, язвы желудка и двенадцатиперстной кишки. Также не рекомендуется беременным, девушкам в период месячных, после операций на брюшную полость.
       </p>
 
-      <iframe src="https://rutube.ru/play/embed/c6620a3378087acae1354ce282acdadd?skinColor=e53935" frameBorder="0" allow="clipboard-write; autoplay" allowFullScreen className="my-5 w-full h-[600px]"></iframe>
+      <VideoPlayer src="https://rutube.ru/play/embed/c6620a3378087acae1354ce282acdadd?skinColor=e53935" rt />
     </div>
   )
 }

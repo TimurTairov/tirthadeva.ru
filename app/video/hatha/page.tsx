@@ -1,5 +1,11 @@
+import type { Metadata } from "next";
 import { Suspense } from 'react'
 import VideoPlayer from '@/components/VideoPlayer'
+
+export const metadata: Metadata = {
+  title: "Видео по хатха йоге",
+  description: "Хатха йога. Видео Тиртдэва.",
+};
 
 const page = () => {
   return (

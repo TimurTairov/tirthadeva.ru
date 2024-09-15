@@ -1,8 +1,15 @@
+import type { Metadata } from "next";
 import Image from 'next/image'
 import Link from 'next/link'
+import VideoPlayer from '@/components/VideoPlayer'
 import yoga1 from '@/public/yoga-1.png'
 import yoga2 from '@/public/yogaclass2.jpg'
 import yoga3 from '@/public/yogaclass3.jpg'
+
+export const metadata: Metadata = {
+  title: "Хатха йога. Основные положения.",
+  description: "Хатха йога. Как правильно практиковать хатха йогу.",
+};
 
 const page = () => {
   return (
@@ -38,7 +45,7 @@ const page = () => {
         - регулярность занятий.
       </p>
 
-      <Image src={yoga1} width={600} height={500} alt='yoga' className='w-full h-auto mt-4' />
+      <Image src={yoga1} width={600} height={500} alt='yoga' className='w-full h-auto mt-4 rounded-md' />
 
       <p className='mt-4'>
         Метод Энергии предполагает мягкость и расслабление в асанах.
@@ -93,7 +100,7 @@ const page = () => {
         Более 15-20 минут практикуют мастера йоги.
       </p>
 
-      <Image src={yoga2} width={600} height={500} alt='yoga' className='w-full h-auto mt-4' />
+      <Image src={yoga2} width={600} height={500} alt='yoga' className='w-full h-auto mt-4 rounded-md' />
 
       <p className='mt-4'>
         Необходимо целенаправленно и постепенно увеличивать время нахождения в асанах.
@@ -146,12 +153,13 @@ const page = () => {
 
       <p className='mt-4'>© Тиртхадэва</p>
 
-      <div className="flex flex-wrap justify-between gap-5 m-5">
+      <div className="flex flex-wrap justify-between gap-5 mt-5">
         <Link href="/video/hatha" className="my-1">Видео по Хатха йоге</Link>
         <Link href="/yoga/schedule" className="my-1">Расписание</Link>
       </div>
 
-      <Image src={yoga3} width={600} height={500} alt='yoga' className='w-full h-auto mt-4' />
+      <VideoPlayer src="https://giphy.com/embed/pqhICBmbiltrdWPjjr" />
+      {/* <Image src={yoga3} width={600} height={500} alt='yoga' className='w-full h-auto mt-4' /> */}
 
     </div>
   )

@@ -9,6 +9,7 @@ import { TfiEmail } from "react-icons/tfi";
 import { FaSkype } from "react-icons/fa";
 import rutube from '@/public/SVG/rutube__.svg'
 import trishula from '@/public/trishula.gif'
+import BottomImg from "@/components/BottomImg";
 
 const page = () => {
   return (
@@ -137,8 +138,9 @@ const page = () => {
           <p className="a">t1m1985</p>
         </li> */}
       </ul>
-
-      <Image src={trishula} width={400} height={300} alt="trishula" className="mt-10 w-full" />
+      <div className="lg:mt-40"></div>
+      <BottomImg />
+      {/* <Image src={trishula} width={400} height={300} alt="trishula" className="mt-10 w-full rounded-md" /> */}
     </div >
   )
 }

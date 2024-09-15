@@ -1,5 +1,12 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { FaGripLinesVertical } from "react-icons/fa";
+import VideoPlayer from '@/components/VideoPlayer'
+
+export const metadata: Metadata = {
+  title: "Пранаяма",
+  description: "Пранаяма йога — дыхательная гимнастика йогв.",
+};
 
 const page = () => {
   return (
@@ -73,7 +80,7 @@ const page = () => {
         <Link href="/yoga/schedule" className="my-1">Расписание</Link>
       </div>
 
-      <iframe src="https://rutube.ru/play/embed/86eba7e82a61e3865a3cdfc3b387a3f9" allow="clipboard-write; autoplay" allowFullScreen className="video"></iframe>
+      <VideoPlayer src="https://rutube.ru/play/embed/86eba7e82a61e3865a3cdfc3b387a3f9" rt />
       <p className='mt-1 mb-1 text-2xl'>Эффекты пранаяма йоги</p>
 
     </div>

@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
 import Image from "next/image"
 import SignUpForYogaOnline from '@/components/SignUpForYogaOnline'
 import { FaSun } from "react-icons/fa"
 import { FaWhatsapp } from "react-icons/fa"
 import yogaClass from '@/public/yogaclass1.jpg'
+
+export const metadata: Metadata = {
+  title: "Расписание занятий",
+  description: "Йога онлайн",
+};
 
 const page = () => {
   return (
@@ -100,7 +106,7 @@ const page = () => {
       </p>
       <SignUpForYogaOnline />
 
-      <Image src={yogaClass} alt='yoga class' className="mt-10" />
+      <Image src={yogaClass} alt='yoga class' className="mt-10 rounded-md" />
     </div>
   )
 }

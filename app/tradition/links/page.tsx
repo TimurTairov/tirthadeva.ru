@@ -7,6 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 import { SlSocialVkontakte } from "react-icons/sl";
 import rutube from '@/public/SVG/rutube__.svg'
 import { FaOdnoklassnikiSquare } from "react-icons/fa";
+import BottomImg from "@/components/BottomImg";
 
 const page = () => {
   return (
@@ -158,7 +159,8 @@ const page = () => {
         Официальная страница ОК Адвайта сиддхов.
       </p>
 
-      <Image src='https://media.giphy.com/media/dzJ0WT8bOGPFU0lTwz/giphy.gif' unoptimized width={500} height={500} alt="gif Ganesha" className='mt-10 w-full' />
+      <BottomImg />
+
     </div>
   )
 }

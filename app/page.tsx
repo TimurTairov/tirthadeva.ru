@@ -4,12 +4,8 @@ import Link from "next/link"
 import Gradient from "@/components/Gradient"
 import SignUpForYogaOnline from '@/components/SignUpForYogaOnline'
 import myPhoto from '@/public/04.jpg'
-import om from '@/public/om-96.png'
-import namaste from '@/public/namaste.png'
 import nataraja from '@/public/nataraja.png'
 import yog1 from '@/public/yog1.png'
-import yog2 from '@/public/yog2.png'
-import yog3 from '@/public/yog3.png'
 import yog4 from '@/public/yog4.png'
 import yog5 from '@/public/yog5.png'
 import yog6 from '@/public/yog6.png'
@@ -28,9 +24,9 @@ import graph from '@/public/SVG/graph.svg'
 import { feedbacks } from '@/helpers/foto'
 import ImageGallery from "react-image-gallery"
 import yog from '@/public/yoga-3.png'
-import { LiaPrayingHandsSolid } from "react-icons/lia";
-import { settings } from "@/helpers/FotoSettengs";
-import { FaOm } from "react-icons/fa6";
+import { LiaPrayingHandsSolid } from "react-icons/lia"
+import { settings } from "@/helpers/FotoSettengs"
+import { FaOm } from "react-icons/fa6"
 
 export default function Home() {
 
@@ -42,7 +38,7 @@ export default function Home() {
       <div className="w-full flex lg:flex-row flex-col justify-between mt-10">
         <div className="flex flex-col justify-center">
           <Image src={myPhoto} width={500} height={500} priority alt="my foto" className="w-full h-auto lg:h-[40rem] lg:w-[40rem] p-1 rounded-lg my-foto shadow-2xl dark:shadow-white shadow-gray-800" />
-          <Link href="/osebe/myphoto" className=" mr-1 text-sm text-right ">Мои фото</Link>
+          <Link href="/osebe/myphoto" className=" mr-1 text-sm text-right">Мои фото</Link>
         </div>
 
         <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col items-center justify-start">
@@ -152,30 +148,20 @@ export default function Home() {
 
         <div className="w-full mt-5 md:mt-10 lg:mt-20 p-5 rounded-md bg-emerald-200">
           <h5 className="text-center text-3xl lg:text-7xl font-semibold text-slate-600">Как я преподаю йогу</h5>
-          <Image src={yog} alt="yog" className="w-full" />
+          <div className="flex justify-center">
+            <Image src={yog} alt="yog" className="w-full md:w-2/3" />
+          </div>
           <div className="flex flex-col text-lg lg:text-2xl gap-3 lg:gap-5 mt-5">
-            <div className="flex items-center w-ful">
-              <p className="text-slate-600">Делаю акцент на гармонию, созерцание и осознанность</p>
-            </div>
-            <div className="flex items-center">
-              <p className="text-slate-600">Асаны даю в статике, в легком медитативном состоянии</p>
-            </div>
-            <div className="flex items-center">
-              <p className="text-slate-600">Даю разные вариации асан, в зависимости от уровня подготовки </p>
-            </div>
-            <div className="flex items-center">
-              <p className="text-slate-600">Исключаю крайности: позы йоги не должны быть слишком сложными или слишком лёгкими</p>
-            </div>
-            <div className="flex items-center">
-              <p className="text-slate-600">Чередую напряжение и расслабление: даю небольшой отдых между асанами</p>
-            </div>
-            <div className="flex items-center">
-              <p className="text-slate-600">Разрешаю выходить из асан самостоятельно, если есть в этом необходимость</p>
-            </div>
+            <p className="text-slate-600 lg:ml-10">Делаю акцент на гармонию, созерцание и осознанность</p>
+            <p className="text-slate-600 lg:ml-10">Асаны даю в статике, в легком медитативном состоянии</p>
+            <p className="text-slate-600 lg:ml-10">Обьясняю разные вариации асан, в зависимости от уровня подготовки практикующих </p>
+            <p className="text-slate-600 lg:ml-10">Исключаю крайности: позы йоги не должны быть слишком сложными или слишком лёгкими</p>
+            <p className="text-slate-600 lg:ml-10">Чередую напряжение и расслабление: даю небольшой отдых между асанами</p>
+            <p className="text-slate-600 lg:ml-10">Рекомендую выходить из асан самостоятельно, если есть в этом необходимость</p>
           </div>
         </div>
 
-        <div className="w-full mt-5 md:mt-10 lg:mt-20 border-2 p-1 rounded-md bg-yellow-100">
+        <div className="w-full mt-5 md:mt-10 lg:mt-20 border-2 p-1 lg:p-5 rounded-md bg-yellow-100">
           <h5 className="text-center text-3xl lg:text-7xl font-semibold text-gray-600 mt-3">Йога онлайн</h5>
           <p className="text-center text-xl lg:text-2xl text-gray-600 mt-3">Йога онлайн это возможность практиковать йогу из дома, либо из любой точки планеты. Совсем необязательно, чтобы практикующие физически находились в одном зале с учителем. </p>
           <div className="w-full mt-5 flex flex-col lg:flex-row justify-between">
