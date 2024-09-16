@@ -189,7 +189,7 @@ export default function Home() {
         </div>
 
 
-        <div className='mt-5 md:mt-10 lg:mt-20 p-2 w-full grid grid-cols-4 grid-rows-2'>
+        <div className='mt-5 md:mt-10 lg:mt-20 p-2 w-full grid grid-cols-2 grid-row-4 md:grid-cols-4 md:grid-rows-2'>
           <Link href="/osebe/education" className="my-1">Образование</Link>
           <Link href="/osebe/certificates" className="my-1">Сертификаты</Link>
           <Link href="/yoga/feedbacks" className="my-1">Отзывы</Link>
