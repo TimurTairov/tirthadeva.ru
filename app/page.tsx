@@ -114,32 +114,30 @@ export default function Home() {
           <div className="flex justify-center">
             <Image src={graph} alt="graph" className="w-20 lg:w-32 xl:w-48 mt-5" />
           </div>
-          <div className="">
-            <div className="grid grid-cols-2 grid-rows-3 lg:mt-5 mt-2">
-              <div className="flex flex-col bg-slate-700 p-2 rounded-md m-1">
-                <p className="text-emerald-400 titleMainPage">14 лет</p>
-                <p className="text-gray-100 textMP">личной практики йоги</p>
-              </div>
-              <div className="flex flex-col bg-slate-700 p-2 rounded-md m-1">
-                <p className="text-emerald-400 titleMainPage">9 лет</p>
-                <p className="text-gray-100 textMP">ежедневных медитаций</p>
-              </div>
-              <div className="flex flex-col bg-slate-700 p-2 rounded-md m-1">
-                <p className="text-emerald-400 titleMainPage">8 лет</p>
-                <p className="text-gray-100 textMP">преподавания йоги</p>
-              </div>
-              <div className="flex flex-col bg-slate-700 p-2 rounded-md m-1">
-                <p className="text-emerald-400 titleMainPage">2000+</p>
-                <p className="text-gray-100 textMP">проведённых занятий по йоге</p>
-              </div>
-              <div className="flex flex-col bg-slate-700 p-2 rounded-md m-1">
-                <p className="text-emerald-400 titleMainPage">50+</p>
-                <p className="text-gray-100 textMP">пройденных семинаров</p>
-              </div>
-              <div className="flex flex-col bg-slate-700 p-2 rounded-md m-1">
-                <p className="text-emerald-400 titleMainPage">20+</p>
-                <p className="text-gray-100 textMP">пройденных ретритов</p>
-              </div>
+          <div className="grid grid-cols-2 grid-rows-3 lg:mt-5 mt-2">
+            <div className="flex flex-col bg-slate-700 p-2 rounded-md m-1">
+              <p className="text-emerald-400 titleMainPage">14 лет</p>
+              <p className="text-gray-100 textMP">личной практики йоги</p>
+            </div>
+            <div className="flex flex-col bg-slate-700 p-2 rounded-md m-1">
+              <p className="text-emerald-400 titleMainPage">9 лет</p>
+              <p className="text-gray-100 textMP">ежедневных медитаций</p>
+            </div>
+            <div className="flex flex-col bg-slate-700 p-2 rounded-md m-1">
+              <p className="text-emerald-400 titleMainPage">8 лет</p>
+              <p className="text-gray-100 textMP">преподавания йоги</p>
+            </div>
+            <div className="flex flex-col bg-slate-700 p-2 rounded-md m-1">
+              <p className="text-emerald-400 titleMainPage">2000+</p>
+              <p className="text-gray-100 textMP">проведённых занятий по йоге</p>
+            </div>
+            <div className="flex flex-col bg-slate-700 p-2 rounded-md m-1">
+              <p className="text-emerald-400 titleMainPage">50+</p>
+              <p className="text-gray-100 textMP">пройденных семинаров</p>
+            </div>
+            <div className="flex flex-col bg-slate-700 p-2 rounded-md m-1">
+              <p className="text-emerald-400 titleMainPage">20+</p>
+              <p className="text-gray-100 textMP">пройденных ретритов</p>
             </div>
           </div>
         </div>
@@ -164,7 +162,7 @@ export default function Home() {
           <p className="text-center subTitleMP text-gray-600 mt-3">Йога онлайн это возможность практиковать йогу из дома, либо из любой точки планеты. Совсем необязательно, чтобы практикующие физически находились в одном зале с учителем. </p>
           <div className="w-full mt-5 flex flex-col lg:flex-row justify-between">
             <Image src={yogaonline1} alt="yoga online" className="w-full lg:w-1/4 lg:h-auto rounded-sm" />
-            <div className="flex flex-col flex-wrap gap-2 mt-5 ml-2 justify-start subTitleMP">
+            <div className="flex flex-col flex-wrap gap-2 mt-5 ml-2 justify-start textMP">
               <div className="flex items-center">
                 <BiLogoZoom className="mr-2 text-rose-400" />
                 <p className="text-gray-600">трансляции через <b className="text-blue-500">Zoom</b></p>
@@ -191,7 +189,7 @@ export default function Home() {
         </div>
 
 
-        <div className='mt-5 md:mt-10 lg:mt-20 flex gap-2 flex-wrap justify-around p-2 w-full'>
+        <div className='mt-5 md:mt-10 lg:mt-20 p-2 w-full grid grid-cols-4 grid-rows-2'>
           <Link href="/osebe/education" className="my-1">Образование</Link>
           <Link href="/osebe/certificates" className="my-1">Сертификаты</Link>
           <Link href="/yoga/feedbacks" className="my-1">Отзывы</Link>
