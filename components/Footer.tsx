@@ -9,7 +9,7 @@ import trishula from '@/public/trishula.png'
 const Footer = () => {
   return (
     <footer className="bg-[#343434] mt-auto px-2 border-t-2 border-slate-300">
-      <div className="flex flex-wrap items-start justify-between md:mx-1 text-xs lg:text-lg lg:mx-40 text-gray-300">
+      <div className="flex flex-wrap items-start justify-between md:mx-1 text-xs xl:text-lg xl:mx-40 text-gray-300">
 
         <div className="flex flex-col items-start justify-center my-4">
           <h5 className=""><Link href='/' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">На главную</Link></h5>

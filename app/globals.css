@@ -10,21 +10,6 @@
   /* transition: all 0.5s ease-in-out; */
 }
 
-body {
-  --navbar-background-color: #fcfcfc;
-  --navbar-text-color: #777;
-  --main-background-color: #ffffff;
-  --main-text-color: #000536;
-  --box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-  --link-color: blueviolet;
-  --link-hover-color: blue;
-  --title-icon-color: darkcyan;
-  --btn-color: #ccc;
-  --darkModeBtnBg: #fcfcfc;
-  --mobile-nav-bg: #fcfcfc;
-  --mobile-nav-dropdawn-bg: #f2f2f2;
-}
-
 @layer base {
   body {
     @apply dark:bg-gray-800 bg-white dark:text-gray-200 text-gray-800;
@@ -41,6 +26,18 @@ body {
 
 .main-title {
   @apply text-2xl md:text-3xl lg:text-4xl font-normal text-center w-full mb-10;
+}
+
+.titleMainPage {
+  @apply text-3xl sm:text-5xl md:text-6xl xl:text-7xl font-bold;
+}
+
+.subTitleMP {
+  @apply text-xl sm:text-xl md:text-2xl lg:text-3xl;
+}
+
+.textMP {
+  @apply text-base sm:text-lg md:text-xl lg:text-2xl;
 }
 
 .video {
@@ -265,27 +262,6 @@ body {
   .mobile-nav .dropdown.show {
     display: block;
   }
-}
-
-/* page content */
-.content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 3rem 20px;
-}
-
-.content h1 {
-  font-size: 2rem;
-}
-
-#error-page {
-  /* center content on the page */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  gap: 20px;
 }
 
 /* IMAGE GALLARY */

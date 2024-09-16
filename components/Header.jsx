@@ -8,14 +8,14 @@ import logo from '@/public/logo.jpg'
 const Header = () => {
   return (
     <header>
-      <div className="nav-area flex items-center justify-between mx-0 my-auto px-2 py-3 w-full lg:px-20 shadow-sm shadow-slate-300 bg-white dark:bg-gray-800 text-gray-200 dark:text-gray-800">
+      <div className="nav-area flex items-center justify-between mx-0 my-auto px-2 py-3 w-full md:px-5 xl:px-20 shadow-sm shadow-slate-300 bg-white dark:bg-gray-800 text-gray-200 dark:text-gray-800">
         <Link href="/" className="logo">
           <Image
             src={logo}
             width={50}
             height={50}
             alt="logo"
-            className="h-11 w-11 rounded-full border border-yellow-500"
+            className="h-10 w-10 rounded-full border border-yellow-500"
           />
         </Link>
         {/* for large screens */}
