@@ -13,6 +13,11 @@ const page = () => {
       <h1 className='main-title'>Хатха йога</h1>
 
       <Suspense fallback={<p>Загрузка ...</p>}>
+        <VideoPlayer src="https://rutube.ru/play/embed/84de8538da2d07e455069eafea1af31a/" rt />
+        <p>Комплекс асан на раскрытие тазобедренных суставов. 60 минут.</p>
+      </Suspense>
+
+      <Suspense fallback={<p>Загрузка ...</p>}>
         <VideoPlayer src="https://vk.com/video_ext.php?oid=5850909&id=456239995&hd=1" vk />
         <p>Хатха йога. Йога марафон. 90 минут.</p>
       </Suspense>

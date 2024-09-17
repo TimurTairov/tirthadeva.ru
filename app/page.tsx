@@ -27,6 +27,7 @@ import yog from '@/public/yoga-3.png'
 import { LiaPrayingHandsSolid } from "react-icons/lia"
 import { settings } from "@/helpers/FotoSettengs"
 import { FaOm } from "react-icons/fa6"
+import VideoPlayer from '@/components/VideoPlayer'
 
 export default function Home() {
 
@@ -57,15 +58,15 @@ export default function Home() {
 
             <div className='mt-10 flex flex-col items-start justify-center gap-5 lg:gap-5 rounded-lg'>
               <div className="textMP w-full flex items-center rounded-lg">
-                <Image src={guru96} alt="guru" className="h-full w-auto rounded-lg mr-2 border" />
+                <Image src={guru96} alt="guru" className="h-full w-auto rounded-lg mr-2 border-2" />
                 <p>Ученик просветленного мастера</p>
               </div>
               <div className="textMP w-full flex items-center   rounded-lg">
-                <Image src={tirthadeva96} alt="guru" className="h-full w-auto rounded-lg mr-2 border" />
+                <Image src={tirthadeva96} alt="guru" className="h-full w-auto rounded-lg mr-2 border-2" />
                 <p>Преподаватель йоги и медитации</p>
               </div>
               <div className="textMP w-full flex items-center  rounded-lg">
-                <Image src={om96} alt="guru" className="h-full w-auto rounded-lg  mr-2 border" />
+                <Image src={om96} alt="guru" className="h-full w-auto rounded-lg  mr-2 border-2" />
                 <p>Ваш наставник на пути йоги и дхармы</p>
               </div>
             </div>
@@ -91,28 +92,37 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-6 md:mt-12 lg:mt-20">
+        <div className="w-full mt-6 md:mt-12 lg:mt-20">
           <h5 className="titleMainPage lg:mt-10 w-full text-center">Направления йоги</h5>
           <div className="w-full flex xl:flex-row flex-col gap-2 md:gap-5 mt-5 justify-center">
-            <div className="flex items-center border rounded-md xl:w-96 w-full h-40">
-              <Image src={hatha} alt="o sebe" className="h-full w-auto rounded-md" />
+            <div className="flex items-center border rounded-md w-full h-40 xl:w-96 ">
+              <Image src={hatha} alt="Хатха йога" className="h-full w-auto rounded-md" />
               <p className="w-full text-center subTitleMP">Хатха йога сиддхов</p>
             </div>
-            <div className="flex items-center border rounded-md xl:w-96 w-full h-40">
-              <Image src={kundalini} alt="o sebe" className="h-full w-auto rounded-md" />
+            <div className="flex items-center border rounded-md md:w-96 lg:w-[35rem] xl:w-[29rem] w-full h-40">
+              <Image src={kundalini} alt="Кундалини йога" className="h-full w-auto rounded-md" />
               <p className="w-full text-center subTitleMP">Кундалини йога сиддхов</p>
             </div>
             <div className="flex items-center border rounded-md xl:w-96 w-full h-40">
-              <Image src={meditation} alt="o sebe" className="h-full w-auto rounded-md" />
+              <Image src={meditation} alt="Медитация" className="h-full w-auto rounded-md" />
               <p className="w-full text-center subTitleMP">Медитация сиддхов</p>
             </div>
           </div>
         </div>
 
-        <div className="w-full mt-5 md:mt-10 lg:mt-20 p-5 rounded-md bg-slate-600">
-          <h5 className="titleMainPage text-center text-gray-100 ">Опыт</h5>
-          <div className="flex justify-center">
-            <Image src={graph} alt="graph" className="w-20 lg:w-32 xl:w-48 mt-5" />
+        {/* <div className="w-full mt-6 md:mt-12 lg:mt-20">
+          <h5 className="titleMainPage lg:mt-10 w-full text-center">Почему йога?</h5>
+          <VideoPlayer src="https://rutube.ru/play/embed/84de8538da2d07e455069eafea1af31a/" rt />
+        </div> */}
+
+        <div className="w-full mt-5 md:mt-10 lg:mt-20 p-2 lg:p-5 rounded-md bg-slate-600">
+          <div className="w-full flex justify-center">
+            <div className="flex justify-center">
+              <Image src={graph} alt="graph" className="w-20 lg:w-32 xl:w-48 mt-5" />
+            </div>
+            <div className="flex w-full justify-center items-center">
+              <h5 className="titleMainPage text-center text-gray-100 ">Опыт</h5>
+            </div>
           </div>
           <div className="grid grid-cols-2 grid-rows-3 lg:mt-5 mt-2">
             <div className="flex flex-col bg-slate-700 p-2 rounded-md m-1">
@@ -188,16 +198,18 @@ export default function Home() {
           <p className="text-gray-600 mt-5 text-sm">* - только для новых учеников </p>
         </div>
 
+        <div className="w-full flex justify-center">
+          <div className='mt-5 md:mt-10 lg:mt-20 p-2 w-full grid grid-cols-2 grid-row-4 md:grid-cols-4 md:grid-rows-2'>
+            <Link href="/osebe/education" className="m-1">Образование</Link>
+            <Link href="/osebe/certificates" className="m-1">Сертификаты</Link>
+            <Link href="/yoga/feedbacks" className="m-1">Отзывы</Link>
+            <Link href="/osebe/contacts" className="m-1">Контакты</Link>
+            <Link href="/tradition/master" className="m-1">Мастер</Link>
+            <Link href="/tradition/links" className="m-1">Полезные ссылки</Link>
+            <Link href="/yoga/basicrules" className="m-1">Хатха йога</Link>
+            <Link href="/yoga/nauli" className="m-1">Наули</Link>
+          </div>
 
-        <div className='mt-5 md:mt-10 lg:mt-20 p-2 w-full grid grid-cols-2 grid-row-4 md:grid-cols-4 md:grid-rows-2'>
-          <Link href="/osebe/education" className="my-1">Образование</Link>
-          <Link href="/osebe/certificates" className="my-1">Сертификаты</Link>
-          <Link href="/yoga/feedbacks" className="my-1">Отзывы</Link>
-          <Link href="/osebe/contacts" className="my-1">Контакты</Link>
-          <Link href="/tradition/master" className="my-1">Мастер</Link>
-          <Link href="/tradition/links" className="my-1">Полезные ссылки</Link>
-          <Link href="/yoga/basicrules" className="my-1">Хатха йога</Link>
-          <Link href="/yoga/nauli" className="my-1">Наули</Link>
         </div>
 
         <div className='mt-5 md:mt-10 lg:mt-20 flex items-end justify-around w-full'>

@@ -25,15 +25,15 @@
 }
 
 .main-title {
-  @apply text-2xl md:text-3xl lg:text-4xl font-normal text-center w-full mb-10;
+  @apply text-2xl md:text-3xl lg:text-3xl font-normal text-center w-full mb-10;
 }
 
 .titleMainPage {
-  @apply text-3xl sm:text-5xl md:text-6xl xl:text-7xl font-bold;
+  @apply text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-semibold;
 }
 
 .subTitleMP {
-  @apply text-xl sm:text-xl md:text-2xl lg:text-3xl;
+  @apply text-xl sm:text-xl md:text-xl lg:text-2xl;
 }
 
 .textMP {
