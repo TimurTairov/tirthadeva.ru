@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { menuItemsData } from '@/helpers/menuItemsData'
 import MobileMenuItems from './MobileMenuItems'
 import tilaka from '@/public/Tilaka/shiva-tilaka.png'
+import { LiaTimesSolid } from 'react-icons/lia'
 
 const MobileNav = () => {
   const depthLevel = 0
@@ -30,19 +31,23 @@ const MobileNav = () => {
   }
 
   return (
-    <nav className="mobile-nav z-50">
+    <nav className="mobile-nav z-50 ">
       <button
-        className="mobile-nav__menu-button relative bg-transparent text-inherit cursor-pointer border-none"
+        className="mobile-nav__menu-button relative bg-white dark:bg-gray-800 cursor-pointer border-none"
         type="button"
         onClick={toggleNavBar}
       >
-        <Image
-          src={tilaka}
-          width={36}
-          height={36}
-          alt="menu"
-          className="h-10 w-10 rounded-lg"
-        />
+        {showMenu ? (
+          <LiaTimesSolid className="h-10 w-10 text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-800" />
+        ) : (
+          <Image
+            src={tilaka}
+            width={40}
+            height={40}
+            alt="menu"
+            className="h-10 w-10 bg-white dark:bg-gray-800"
+          />
+        )}
       </button>
 
       {showMenu && (

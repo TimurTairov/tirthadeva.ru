@@ -137,7 +137,7 @@
     color: inherit;
     font-size: inherit;
     border: none;
-    background-color: transparent;
+    /* background-color: transparent; */
     cursor: pointer;
     width: 100%;
   }
@@ -176,7 +176,7 @@
   .mobile-nav .dropdown {
     margin-left: 1.2em;
     font-size: 1rem;
-    padding: 0.5rem 0;
+    /* padding: 0.5rem 0; */
     list-style: none;
     display: none;
     /* background-color: var(--mobile-nav-dropdawn-bg); */
