@@ -4,7 +4,10 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
   depthLevel = depthLevel + 1
   const dropdownClass = depthLevel > 1 ? 'dropdown-submenu' : ''
   return (
-    <ul className={`dropdown ${dropdownClass} ${dropdown ? 'show' : ''}`}>
+    <ul
+      className={`dropdown ${dropdownClass} ${dropdown ? 'show' : ''} 
+      bg-white dark:bg-gray-800`}
+    >
       {submenus.map((submenu, index) => (
         <MenuItems items={submenu} key={index} depthLevel={depthLevel} />
       ))}

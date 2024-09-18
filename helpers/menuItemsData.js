@@ -23,6 +23,23 @@ export const menuItemsData = [
         title: 'Контакты',
         url: '/osebe/contacts',
       },
+      // {
+      //   title: 'Menu',
+      //   submenu: [
+      //     {
+      //       title: 'Submenu-1',
+      //       url: '/osebe/submenu-1',
+      //     },
+      //     {
+      //       title: 'Submenu-2',
+      //       url: '/osebe/submenu-2',
+      //     },
+      //     {
+      //       title: 'Submenu-3',
+      //       url: '/osebe/submenu-3',
+      //     },
+      //   ],
+      // },
     ],
   },
   {

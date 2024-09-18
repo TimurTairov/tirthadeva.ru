@@ -2,6 +2,8 @@
 import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import Dropdown from './Dropdown'
+import { FaCaretDown } from 'react-icons/fa'
+import { FaCaretUp } from 'react-icons/fa'
 
 const MenuItems = ({ items, depthLevel }) => {
   const [dropdown, setDropdown] = useState(false)
@@ -36,27 +38,26 @@ const MenuItems = ({ items, depthLevel }) => {
 
   return (
     <li
-      className="menu-items bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-600"
+      className="relative p-2 rounded-md  bg-white dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-600 transition-all duration-500 ease-in-out"
       ref={ref}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       onClick={closeDropdown}
     >
-      {items.url && items.submenu ? (
+      {items.url && !items.submenu ? (
         <>
           <button
             type="button"
             aria-haspopup="menu"
             aria-expanded={dropdown ? 'true' : 'false'}
           >
-            <Link href={items.url}>{items.title}</Link>
-            {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
+            <Link
+              className="px-3 py-4 text-gray-800 dark:text-gray-200"
+              href={items.url}
+            >
+              {items.title}{' '}
+            </Link>
           </button>
-          <Dropdown
-            depthLevel={depthLevel}
-            submenus={items.submenu}
-            dropdown={dropdown}
-          />
         </>
       ) : !items.url && items.submenu ? (
         <>
@@ -65,9 +66,10 @@ const MenuItems = ({ items, depthLevel }) => {
             aria-haspopup="menu"
             aria-expanded={dropdown ? 'true' : 'false'}
             onClick={() => setDropdown((prev) => !prev)}
+            className="flex items-center gap-1 "
           >
             {items.title}
-            {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
+            {dropdown ? <FaCaretUp /> : <FaCaretDown />}
           </button>
           <Dropdown
             depthLevel={depthLevel}
@@ -77,7 +79,14 @@ const MenuItems = ({ items, depthLevel }) => {
         </>
       ) : (
         <>
-          <Link href={items.url}>{items.title}</Link>
+          <div>
+            <Link
+              href={items.url}
+              className="px-3 py-4 hover:text-inherit text-base"
+            >
+              {items.title}
+            </Link>
+          </div>
         </>
       )}
     </li>

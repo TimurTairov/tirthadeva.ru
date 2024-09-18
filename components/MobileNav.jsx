@@ -30,9 +30,9 @@ const MobileNav = () => {
   }
 
   return (
-    <nav className="mobile-nav ">
+    <nav className="mobile-nav z-50">
       <button
-        className="mobile-nav__menu-button"
+        className="mobile-nav__menu-button relative bg-transparent text-inherit cursor-pointer border-none"
         type="button"
         onClick={toggleNavBar}
       >
@@ -47,8 +47,8 @@ const MobileNav = () => {
 
       {showMenu && (
         <ul
-          className="menus text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-800"
-          ref={ref}
+          className="menus absolute top-20 left-1 rounded-lg w-[98%] md:w-[99%] border text-gray-800 dark:text-gray-200 bg-gray-50 dark:bg-gray-800"
+          // ref={ref}
         >
           {menuItemsData.map((menu, index) => {
             return (

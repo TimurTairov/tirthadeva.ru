@@ -36,7 +36,7 @@ export default function Home() {
 
       <Gradient />
 
-      <div className="w-full flex xl:flex-row flex-col justify-between mt-5">
+      <div className="w-full flex xl:flex-row flex-col justify-around mt-5">
         <div className="flex flex-col justify-center">
           <Image src={myPhoto} width={500} height={500} priority alt="my foto" className="w-full h-auto xl:h-[40rem] xl:w-[40rem] p-1 rounded-lg my-foto shadow-2xl dark:shadow-white shadow-gray-800" />
           <Link href="/osebe/myphoto" className=" mr-1 text-sm text-right">Мои фото</Link>
@@ -45,9 +45,9 @@ export default function Home() {
         <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col items-center justify-start">
 
           <div className="flex items-center justify-center gap-2">
-            <FaOm width={40} height={40} className="w-7 h-7 md:w-12 md:h-12" />
+            <FaOm width={40} height={40} className="w-5 h-5 md:w-9 md:h-9 lg:w-10 lg:h-10" />
             <h1 className="titleMainPage  mx-2">Намастэ</h1>
-            <LiaPrayingHandsSolid width={30} height={30} className="w-7 h-7 md:w-12 md:h-12" />
+            <LiaPrayingHandsSolid width={30} height={30} className="w-6 h-6 md:w-9 md:h-9 lg:w-10 lg:h-10" />
           </div>
 
           <div>
@@ -77,7 +77,7 @@ export default function Home() {
 
       <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col items-center w-full">
         <h5 className="titleMainPage mt-5 md:mt-10 lg:mt-12 xl:mt-20 w-full text-center">Моя миссия</h5>
-        <div className='flex xl:flex-row flex-col items-start justify-center gap-5 lg:mt-5 mt-2'>
+        <div className='flex xl:flex-row flex-col items-start justify-center gap-5 lg:mt-5 mt-2 xl:ml-5'>
           <div className="textMP w-full flex items-center  rounded-lg">
             <Image src={omGif} width={30} height={30} alt="om" className="xl:w-20 xl:h-20 rounded-full border-2 border-yellow-500 mr-3 md:mr-5" />
             <p>Cлужение Высшим идеалам йоги (Гуру, Дхарме и Cангхе)</p>
@@ -99,7 +99,7 @@ export default function Home() {
               <Image src={hatha} alt="Хатха йога" className="h-full w-auto rounded-md" />
               <p className="w-full text-center subTitleMP">Хатха йога сиддхов</p>
             </div>
-            <div className="flex items-center border rounded-md md:w-96 lg:w-[35rem] xl:w-[29rem] w-full h-40">
+            <div className="flex items-center border rounded-md w-full h-40 xl:w-96 ">
               <Image src={kundalini} alt="Кундалини йога" className="h-full w-auto rounded-md" />
               <p className="w-full text-center subTitleMP">Кундалини йога сиддхов</p>
             </div>
