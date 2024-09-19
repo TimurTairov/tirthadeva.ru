@@ -38,7 +38,7 @@ const MenuItems = ({ items, depthLevel }) => {
 
   return (
     <li
-      className="relative p-2 rounded-md  bg-white dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-600 transition-all duration-500 ease-in-out"
+      className="relative p-2 rounded-md  bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-600 transition-all duration-700 ease-in-out"
       ref={ref}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
@@ -66,7 +66,7 @@ const MenuItems = ({ items, depthLevel }) => {
             aria-haspopup="menu"
             aria-expanded={dropdown ? 'true' : 'false'}
             onClick={() => setDropdown((prev) => !prev)}
-            className="flex items-center gap-1 "
+            className="flex items-center gap-1 transition-all duration-1000 ease-in-out"
           >
             {items.title}
             {dropdown ? <FaCaretUp /> : <FaCaretDown />}

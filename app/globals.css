@@ -16,7 +16,7 @@
   }
   a,
   .a {
-    @apply dark:text-emerald-400 text-emerald-900 hover:text-blue-500;
+    @apply dark:text-emerald-400 text-indigo-600 hover:text-blue-500;
   }
 }
 
@@ -28,16 +28,16 @@
   @apply text-2xl md:text-3xl lg:text-3xl font-normal text-center w-full mb-10;
 }
 
-.titleMainPage {
-  @apply text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-semibold;
+.titleMP {
+  @apply text-xl sm:text-2xl md:text-2xl xl:text-3xl font-semibold;
 }
 
 .subTitleMP {
-  @apply text-xl sm:text-xl md:text-xl lg:text-2xl;
+  @apply text-lg sm:text-xl md:text-xl lg:text-xl font-medium;
 }
 
 .textMP {
-  @apply text-base sm:text-lg md:text-xl lg:text-2xl;
+  @apply text-sm sm:text-base md:text-base lg:text-lg font-light;
 }
 
 .video {
