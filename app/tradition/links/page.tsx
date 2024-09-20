@@ -88,7 +88,7 @@ const page = () => {
 
       <div className="flex items-center mt-4">
         <FaYoutube className='mr-2 shrink-0' color='red' />
-        <a href='www.youtube.com/@vedicworld1' target='_blank' rel='noreferrer' className="subTitleMP">Vedic World  </a>   <br />
+        <a href='https://www.youtube.com/@vedicworld1' target='_blank' rel='noreferrer' className="subTitleMP">Vedic World  </a>   <br />
       </div>
       <p>
         Сатсанги и лекции Гуру по йоге и медитации.
@@ -112,7 +112,7 @@ const page = () => {
 
       <div className="flex items-center mt-4">
         <FaTelegram className='mr-2 shrink-0' color="deepskyblue" />
-        <a href='t.me/advayta_siddhov' target='_blank' rel='noreferrer' className="subTitleMP">Телеграм Адвайта сиддхов </a>   <br />
+        <a href='https://t.me/advayta_siddhov' target='_blank' rel='noreferrer' className="subTitleMP">Телеграм Адвайта сиддхов </a>   <br />
       </div>
       <p>
         Официальный телеграм Адвайта сиддхов.
@@ -129,7 +129,7 @@ const page = () => {
 
       <div className="flex items-center mt-4">
         <FaInstagram className='mr-2 shrink-0' color='violet' />
-        <a href='instagram.com/advayta.siddhov.official' target='_blank' rel='noreferrer' className="subTitleMP">Инстаграм Адвайта сиддхов  </a>   <br />
+        <a href='https://instagram.com/advayta.siddhov.official' target='_blank' rel='noreferrer' className="subTitleMP">Инстаграм Адвайта сиддхов  </a>   <br />
       </div>
       <p>
         Официальный инстаграм Адвайта сиддхов.
@@ -150,14 +150,6 @@ const page = () => {
       </div>
       <p>
         Официальная страница ВК Адвайта сиддхов.
-      </p>
-
-      <div className="flex items-center mt-4">
-        <FaOdnoklassnikiSquare className='mr-2 shrink-0' color='orange' />
-        <a href='ok.ru/advayta.siddhov' target='_blank' rel='noreferrer' className="subTitleMP">ОК Адвайта сиддхов </a>   <br />
-      </div>
-      <p>
-        Официальная страница Адвайта сиддхов в одноклассниках.
       </p>
 
       <BottomImg />
