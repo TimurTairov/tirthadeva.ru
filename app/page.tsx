@@ -69,7 +69,7 @@ export default function Home() {
                 <p className="textMP">Ваш наставник на пути йоги и дхармы</p>
               </div>
             </div>
-            <SignUpForYogaOnline />
+            <SignUpForYogaOnline title={'Начать практику йоги'} />
           </div>
         </div>
 

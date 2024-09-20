@@ -14,10 +14,11 @@
   body {
     @apply dark:bg-gray-800 bg-white dark:text-gray-200 text-gray-800;
   }
-  a,
-  .a {
-    @apply dark:text-emerald-400 text-indigo-600 hover:text-indigo-500;
-  }
+}
+
+a,
+.a {
+  @apply dark:text-emerald-400 text-indigo-600 hover:text-indigo-500 dark:hover:text-emerald-400;
 }
 
 .main-container {

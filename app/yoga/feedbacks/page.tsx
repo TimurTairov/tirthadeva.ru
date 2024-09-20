@@ -74,7 +74,7 @@ const page = () => {
       <ImageGallery items={feedbacks} {...settings} />
 
       <div className="mt-10 w-full text-center">
-        <SignUpForYogaOnline />
+        <SignUpForYogaOnline title={'Начать практику йоги'} />
       </div>
     </div>
   )

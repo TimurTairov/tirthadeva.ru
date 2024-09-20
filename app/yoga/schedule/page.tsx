@@ -105,7 +105,7 @@ const page = () => {
         Воскресение 10:00 Кундалини йога (90 минут)
       </p>
 
-      <SignUpForYogaOnline />
+      <SignUpForYogaOnline title={'Начать практику йоги'} />
 
       <Image src={yogaClass} alt='yoga class' className="mt-10 rounded-md" />
     </div>

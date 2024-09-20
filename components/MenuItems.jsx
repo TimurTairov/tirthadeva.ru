@@ -38,7 +38,7 @@ const MenuItems = ({ items, depthLevel }) => {
 
   return (
     <li
-      className="relative p-2 rounded-md text-gray-50 bg-indigo-500 dark:bg-gray-800 hover:bg-indigo-50 hover:text-indigo-800 dark:hover:bg-gray-600"
+      className="relative p-2 rounded-md text-gray-50 bg-indigo-500 dark:bg-gray-800 hover:bg-indigo-400 hover:text-gray-100 dark:hover:text-gray-200 dark:hover:bg-gray-600"
       ref={ref}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
@@ -52,7 +52,7 @@ const MenuItems = ({ items, depthLevel }) => {
             aria-expanded={dropdown ? 'true' : 'false'}
           >
             <Link
-              className="px-3 py-4 text-gray-50 dark:text-gray-200 transition-all duration-500 ease-in-out"
+              className="px-3 py-4 text-gray-50 dark:text-gray-200 hover:text-gray-100 dark:hover:text-gray-200 transition-all duration-500 ease-in-out"
               href={items.url}
             >
               {items.title}{' '}
@@ -66,7 +66,7 @@ const MenuItems = ({ items, depthLevel }) => {
             aria-haspopup="menu"
             aria-expanded={dropdown ? 'true' : 'false'}
             onClick={() => setDropdown((prev) => !prev)}
-            className="flex items-center gap-1 transition-all duration-500 ease-in-out"
+            className="flex items-center gap-1"
           >
             {items.title}
             {dropdown ? <FaCaretUp /> : <FaCaretDown />}
@@ -82,7 +82,7 @@ const MenuItems = ({ items, depthLevel }) => {
           <div>
             <Link
               href={items.url}
-              className="w-full px-3 py-4 hover:text-inherit transition-all duration-500 ease-in-out"
+              className="w-full px-3 py-4  transition-all duration-500 ease-in-out"
             >
               {items.title}
             </Link>
