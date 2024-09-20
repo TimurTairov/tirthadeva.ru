@@ -2,7 +2,7 @@ import { AiOutlineCheck } from 'react-icons/ai'
 
 const Price = () => {
   return (
-    <div className="max-w-screen-xl py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+    <div className="max-w-screen-xl py-8 mt-5 md:mt-10 lg:mt-20">
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch lg:grid-cols-3 lg:gap-8 ">
         <div className="divide-y dark:divide-gray-200 divide-gray-400 mx-4 sm:mx-4 md:mx-2 lg:mx-0 rounded-2xl bg-gray-50 dark:bg-transparent border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600">
           <div className="p-5 md:p-3 lg:p-6 lg:px-8">
@@ -12,7 +12,7 @@ const Price = () => {
             </h2>
 
             <p className="mt-2 text-gray-700 dark:text-gray-200 text-sm">
-              Для тех, кто хочет только медитировать
+              Только медитация
             </p>
 
             <p className="mt-2 sm:mt-4">
@@ -71,7 +71,7 @@ const Price = () => {
             </h2>
 
             <p className="mt-2 text-gray-700 dark:text-gray-200 text-sm">
-              Для тех, кто хочет практиковать йогу
+              Хатха, кундалини, медитация
             </p>
 
             <p className="mt-2 sm:mt-4">
@@ -142,7 +142,7 @@ const Price = () => {
               <span className="sr-only">Plan</span>
             </h2>
             <p className="mt-2 text-gray-700 dark:text-gray-200 text-sm">
-              Для тех, кто ценит свое время
+              Индивидуально!
             </p>
 
             <p className="mt-2 sm:mt-4">

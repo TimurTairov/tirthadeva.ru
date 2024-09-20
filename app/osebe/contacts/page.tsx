@@ -138,7 +138,7 @@ const page = () => {
           <p className="a">t1m1985</p>
         </li> */}
       </ul>
-      <div className="lg:mt-40"></div>
+      <div className="lg:mt-40 xl:mt-52"></div>
       <BottomImg />
       {/* <Image src={trishula} width={400} height={300} alt="trishula" className="mt-10 w-full rounded-md" /> */}
     </div >

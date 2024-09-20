@@ -16,7 +16,7 @@
   }
   a,
   .a {
-    @apply dark:text-emerald-400 text-indigo-600 hover:text-blue-500;
+    @apply dark:text-emerald-400 text-indigo-600 hover:text-indigo-500;
   }
 }
 

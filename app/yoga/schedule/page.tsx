@@ -17,7 +17,7 @@ const page = () => {
 
       <h5 className='mt-5 mb-1'>
         1.
-        <a href='https://fitness-cccp.ru/clubs/mihajlovskij/' target='_blank' rel='noreferrer' > Фитнес клуб СССР Волгоградский проспект </a>
+        <a href='https://fitness-cccp.ru/clubs/mihajlovskij/' target='_blank' rel='noreferrer' className="subTitleMP"> Фитнес клуб СССР Волгоградский проспект </a>
       </h5>
       <p className="flex items-center">
         <FaSun className='me-2' color='orange' />
@@ -38,7 +38,7 @@ const page = () => {
 
       <h5 className='mt-5 mb-1'>
         2.
-        <a href='https://ivanovskoe.mangofitness.ru/' target='_blank' rel='noreferrer'> Фитнес клуб Манго</a>
+        <a href='https://ivanovskoe.mangofitness.ru/' target='_blank' rel='noreferrer' className="subTitleMP"> Фитнес клуб Манго</a>
       </h5>
       <p className="flex items-center">
         <FaSun className='me-2' color='orange' />
@@ -47,7 +47,7 @@ const page = () => {
 
       <h5 className='mt-5 mb-1'>
         3.
-        <a href='https://fitnessavenue.ru/' target='_blank' rel='noreferrer'> Фитнес Авеню</a>
+        <a href='https://fitnessavenue.ru/' target='_blank' rel='noreferrer' className="subTitleMP"> Фитнес Авеню</a>
       </h5>
       <p className="flex items-center">
         <FaSun className='me-2' color='orange' />
@@ -60,7 +60,7 @@ const page = () => {
 
       <h5 className='mt-5 mb-1'>
         4.
-        <a href='http://prostozvezda.ru/' target='_blank' rel='noreferrer'> Детский центр &quot;Звезда&quot;</a>
+        <a href='http://prostozvezda.ru/' target='_blank' rel='noreferrer' className="subTitleMP"> Детский центр &quot;Звезда&quot;</a>
       </h5>
       <p className="flex items-center">
         <FaSun className='me-2' color='orange' />
@@ -81,7 +81,7 @@ const page = () => {
 
       <h5 className='mt-5 mb-1'>
         5.
-        <a href='https://ddsport.fitness/' target='_blank' rel='noreferrer'> Фитнес клуб DD Sport</a>
+        <a href='https://ddsport.fitness/' target='_blank' rel='noreferrer' className="subTitleMP"> Фитнес клуб DD Sport</a>
       </h5>
       <p className="flex items-center">
         <FaSun className='me-2' color='orange' />
@@ -90,7 +90,7 @@ const page = () => {
 
       <h5 className='flex items-center mt-5 mb-1'>
         6.
-        <a href="whatsapp://send?phone=79672067710" className="ml-1"> Йога онлайн </a>
+        <a href="whatsapp://send?phone=79672067710" className="ml-1 subTitleMP"> Йога онлайн </a>
       </h5>
       <p className="flex items-center">
         <FaSun className='me-2' color='orange' />
@@ -104,6 +104,7 @@ const page = () => {
         <FaSun className='me-2' color='orange' />
         Воскресение 10:00 Кундалини йога (90 минут)
       </p>
+
       <SignUpForYogaOnline />
 
       <Image src={yogaClass} alt='yoga class' className="mt-10 rounded-md" />

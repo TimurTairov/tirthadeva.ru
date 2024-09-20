@@ -18,15 +18,19 @@ import omGif from '@/public/om.gif'
 import { BiLogoZoom } from "react-icons/bi"
 import { GrSchedule } from "react-icons/gr"
 import { LiaPrayingHandsSolid } from "react-icons/lia"
-import { settings } from "@/helpers/FotoSettengs"
 import { FaOm } from "react-icons/fa6"
+import { Suspense } from 'react'
 import VideoPlayer from '@/components/VideoPlayer'
 import Price from '@/components/Price'
 import meditationSVG from '@/public/SVG/meditation.svg'
 import lotusSVG from '@/public/SVG/lotus.svg'
+import lotusPositionSVG from '@/public/SVG/buddhist.svg'
 import yogaasanaSVG from '@/public/SVG/yoga-asana.svg'
 import yogaasana2SVG from '@/public/SVG/yoga-asana2.svg'
 import video2SVG from "@/public/SVG/video-streaming.svg"
+import SignUpForYogaOnline from '@/components/SignUpForYogaOnline'
+import Steps from "@/components/Steps"
+import NavigationButton from "@/components/NavigationButton"
 
 
 export default function Home() {
@@ -35,70 +39,70 @@ export default function Home() {
     <main className="max-w-screen-xl xl:mx-auto mx-2 flex flex-col items-center justify-center">
       <Gradient />
 
-      <div className="w-full flex lg:flex-row flex-col justify-between mt-5">
+      <div className="w-full flex lg:flex-row flex-col justify-around mt-5">
 
-        <div className="rounded-lg shadow-sm flex flex-col items-center justify-end ">
+        <div className="rounded-lg flex flex-col items-center justify-end ">
           <div className="mt-5 md:mt-10 lg:mt-0">
 
             <div className="flex items-center justify-center gap-2">
-              <FaOm width={40} height={40} className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7" />
+              <FaOm width={40} height={40} className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 text-indigo-500 dark:text-gray-200" />
               <h1 className="titleMP  mx-2">Намастэ</h1>
-              <LiaPrayingHandsSolid width={30} height={30} className="w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8" />
+              <LiaPrayingHandsSolid width={30} height={30} className="w-6 h-6 md:w-7 md:h-7 lg:w-8 lg:h-8 text-indigo-500 dark:text-gray-200" />
             </div>
 
             <div className="subTitleMP mt-5 w-full text-center">
-              <p>Вас приветствует <b>Тиртхадэва</b></p>
+              <p>Вас приветствует <b className="text-indigo-500 dark:text-gray-200">Тиртхадэва</b></p>
               <p>В миру <b>Тимур Таиров</b></p>
             </div>
 
-            <div className='mt-10 lg:mt-5 xl:mt-10 flex flex-col items-start justify-center gap-5 p-6 lg:p-4 xl:p-6 lg:gap-5 rounded-lg '>
-              <div className="w-full flex items-center rounded-lg p-3 dark:bg-slate-700">
+            <div className='mt-10 lg:mt-5 xl:mt-10 flex flex-col items-start justify-center gap-5 lg:gap-2 p-6 lg:p-3 xl:p-6 xl:gap-5 rounded-lg '>
+              <div className="w-full flex items-center rounded-lg p-1 dark:bg-slate-700">
                 <Image src={guru96} alt="guru" className="h-full w-auto rounded-lg mr-2 border-2" />
                 <p className="textMP">Ученик просветленного мастера</p>
               </div>
-              <div className="textMP w-full flex items-center rounded-lg p-3 dark:bg-slate-700">
+              <div className="textMP w-full flex items-center rounded-lg p-1 dark:bg-slate-700">
                 <Image src={tirthadeva96} alt="guru" className="h-full w-auto rounded-lg mr-2 border-2" />
                 <p className="textMP">Преподаватель йоги и медитации</p>
               </div>
-              <div className="textMP w-full flex items-center  rounded-lg p-3 dark:bg-slate-700">
+              <div className="textMP w-full flex items-center  rounded-lg p-1 dark:bg-slate-700">
                 <Image src={om96} alt="guru" className="h-full w-auto rounded-lg  mr-2 border-2" />
                 <p className="textMP">Ваш наставник на пути йоги и дхармы</p>
               </div>
             </div>
-
+            <SignUpForYogaOnline />
           </div>
         </div>
 
         <div className="flex flex-col justify-center mt-5 lg:mt-0">
-          <Image src={myPhoto} width={500} height={500} priority alt="my foto" className="w-full h-auto xl:h-[40rem] xl:w-[40rem] p-1 rounded-lg my-foto shadow-md dark:shadow-white shadow-gray-800" />
+          <Image src={myPhoto} width={500} height={500} priority alt="my foto" className="w-full h-auto xl:h-[42rem] xl:w-[42rem] rounded-lg" />
         </div>
 
       </div>
 
-      <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col items-center w-full rounded-lg p-3 lg:p-6 shadow-sm">
+      <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col items-center w-full rounded-lg p-3 lg:p-6">
 
         <div className="w-full flex items-center justify-center mt-5">
           <Image src={lotusSVG} alt="Йог медитация" className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600  dark:invert" />
           <h5 className="titleMP text-center">Моя миссия</h5>
         </div>
 
-        <div className='w-full flex xl:flex-row flex-col items-start justify-center gap-4 md:gap-6 mt-3 xl:mt-0'>
-          <div className="textMP w-full flex items-center  rounded-lg p-3 lg:p-6 dark:bg-slate-700">
+        <div className='w-full flex xl:flex-row flex-col items-start justify-center gap-4 md:gap-6 mt-3'>
+          <div className="textMP w-full flex items-center  rounded-lg p-3 xl:p-6 dark:bg-slate-700">
             <Image src={omGif} width={30} height={30} alt="om" className="xl:w-20 xl:h-20 rounded-full border-2 border-yellow-500 mr-3 md:mr-5" />
             <p>Cлужение Высшим идеалам йоги (Гуру, Дхарме и Cангхе)</p>
           </div>
-          <div className="textMP w-full flex items-center rounded-lg p-3 lg:p-6 dark:bg-slate-700">
+          <div className="textMP w-full flex items-center rounded-lg p-3 xl:p-6 dark:bg-slate-700">
             <Image src={omGif} width={30} height={30} alt="om" className="xl:w-20 xl:h-20 rounded-full border-2 border-yellow-500 mr-3 md:mr-5" />
             <p>Помощь всем живым существам в преодолении неведения</p>
           </div>
-          <div className="textMP w-full flex items-center rounded-lg p-3 lg:p-6 dark:bg-slate-700">
+          <div className="textMP w-full flex items-center rounded-lg p-3 xl:p-6 dark:bg-slate-700">
             <Image src={omGif} width={30} height={30} alt="om" className="xl:w-20 xl:h-20 rounded-full border-2 border-yellow-500 mr-3 md:mr-5" />
             <p>Распространение истинных знаний йоги</p>
           </div>
         </div>
       </div>
 
-      <div className="w-full mt-6 md:mt-12 lg:mt-20 p-3 lg:p-6 rounded-lg shadow-sm">
+      <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-lg">
 
         <div className="w-full flex items-center justify-center mt-5">
           <Image src={meditationSVG} alt="Йог медитация" className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600 dark:invert" />
@@ -106,43 +110,37 @@ export default function Home() {
         </div>
 
         <div className="w-full flex xl:flex-row flex-col gap-4 md:gap-6 mt-5 justify-center">
-          <div className="flex items-start rounded-md w-full h-40 xl:w-96 dark:bg-slate-700">
+          <div className="flex items-start border rounded-md w-full h-44 xl:w-96 bg-gray-100 dark:bg-slate-700">
             <Image src={hatha} alt="Хатха йога" className="h-full w-auto rounded-md" />
             <div className="w-full h-full flex flex-col items-center">
               <p className="w-full text-center subTitleMP">Хатха йога сиддхов</p>
               <div className="h-full flex flex-col justify-around">
-                <p className="ml-1 textMP">Гибкость</p>
-                <p className="ml-1 textMP">Сила</p>
-                <p className="ml-1 textMP">Долголетие</p>
+                <Steps step1={'Гибкость'} step2={'Сила'} step3={'Долголетие'} />
               </div>
             </div>
           </div>
-          <div className="flex items-start rounded-md w-full h-40 xl:w-96 dark:bg-slate-700">
+          <div className="flex items-start border rounded-md w-full h-44 xl:w-96 bg-gray-100 dark:bg-slate-700">
             <Image src={kundalini} alt="Кундалини йога" className="h-full w-auto rounded-md" />
             <div className="w-full h-full flex flex-col items-center">
               <p className="w-full text-center subTitleMP">Кундалини йога сиддхов</p>
               <div className="h-full flex flex-col justify-around">
-                <p className="ml-1 textMP">Энергия</p>
-                <p className="ml-1 textMP">Детоксикация</p>
-                <p className="ml-1 textMP">Здоровье</p>
+                <Steps step1={'Энергия'} step2={'Детоксикация'} step3={'Здоровье'} />
               </div>
             </div>
           </div>
-          <div className="flex items-center rounded-md xl:w-96 w-full h-40 dark:bg-slate-700">
+          <div className="flex items-center border rounded-md xl:w-96 w-full h-44 bg-gray-100 dark:bg-slate-700">
             <Image src={meditation} alt="Медитация" className="h-full w-auto rounded-md" />
             <div className="w-full h-full flex flex-col items-center">
               <p className="w-full text-center subTitleMP">Медитация сиддхов</p>
               <div className="h-full flex flex-col justify-around">
-                <p className="ml-1 textMP">Спокойствие</p>
-                <p className="ml-1 textMP">Осознанность</p>
-                <p className="ml-1 textMP">Просветление</p>
+                <Steps step1={'Спокойствие'} step2={'Осознанность'} step3={'Просветление'} />
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md shadow-sm ">
+      <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md">
 
         <div className="w-full flex items-center justify-center mt-5">
           <Image src={yogaasanaSVG} alt="Йог медитация" className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600 dark:invert" />
@@ -177,7 +175,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md shadow-sm ">
+      <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md">
 
         <div className="w-full flex items-center justify-center mt-5">
           <Image src={yogaasana2SVG} alt="Йог медитация" className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600 dark:invert" />
@@ -206,7 +204,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md shadow-sm ">
+      <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md">
         <div className="w-full flex items-center justify-center mt-5">
           <Image src={video2SVG} alt="Йог медитация" className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600 dark:invert" />
           <h5 className="titleMP text-center">Йога онлайн</h5>
@@ -236,16 +234,29 @@ export default function Home() {
         <p className="mt-5 text-xs ml-2">* - только для новых учеников </p>
       </div>
 
+      <NavigationButton title={'Отзывы'} link={'/yoga/feedbacks'} />
+
+      <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md">
+        <div className="w-full flex items-center justify-center mt-5">
+          <Image src={lotusPositionSVG} alt="Йог медитация" className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600 dark:invert" />
+          <h5 className="titleMP text-center">Посмотрите видео по йоге</h5>
+        </div>
+        <p className="w-full text-center textMP mt-5">Крийя комплекс сиддхов. Кундалини йога для начинающих.</p>
+        <Suspense fallback={<p>Загрузка ...</p>}>
+          <VideoPlayer src="https://rutube.ru/play/embed/4d89041f8b85d642acc13a837508df56?skinColor=e53935" rt />
+        </Suspense>
+      </div>
+
       <Price />
 
-      <div className="w-full flex justify-center ml-7 md:ml-20 xl:ml-40">
-        <div className='mt-5 md:mt-10 lg:mt-20 p-2 w-full grid grid-cols-2 grid-row-4 md:grid-cols-4 md:grid-rows-2'>
+      <div className="w-full flex justify-center">
+        <div className='mt-5 md:mt-10 lg:mt-20 p-2 w-10/12 lg:w-9/12 grid grid-cols-2 grid-row-4 md:grid-cols-4'>
           <Link href="/osebe/education" className="m-1">Образование</Link>
           <Link href="/osebe/certificates" className="m-1">Сертификаты</Link>
           <Link href="/yoga/feedbacks" className="m-1">Отзывы</Link>
           <Link href="/osebe/contacts" className="m-1">Контакты</Link>
           <Link href="/tradition/master" className="m-1">Мастер</Link>
-          <Link href="/tradition/links" className="m-1">Полезные ссылки</Link>
+          <Link href="/tradition/links" className="m-1">Ссылки</Link>
           <Link href="/yoga/basicrules" className="m-1">Хатха йога</Link>
           <Link href="/yoga/nauli" className="m-1">Наули</Link>
         </div>

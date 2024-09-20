@@ -73,7 +73,9 @@ const page = () => {
       <h5 className="mt-10 w-full text-center">Отзывы на йогу онлайн</h5>
       <ImageGallery items={feedbacks} {...settings} />
 
-      <SignUpForYogaOnline />
+      <div className="mt-10 w-full text-center">
+        <SignUpForYogaOnline />
+      </div>
     </div>
   )
 }

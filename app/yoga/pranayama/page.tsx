@@ -13,7 +13,7 @@ const page = () => {
     <div className='main-container font-light'>
       <h1 className="main-title">Пранаяма — дыхательная гимнастика йогов</h1>
       <div className="flex items-center">
-        <div className="h-full text-6xl text-emerald-400">|</div>
+        <div className="h-full text-6xl text-indigo-600 dark:text-emerald-400">|</div>
         <div>
           <i >
             &quot;Пранаяма есть прекращение движения вдыхаемого и выдыхаемого воздуха&quot;.
@@ -75,7 +75,7 @@ const page = () => {
         В духовном плане, пранаяма может прочистить тончайшие энерго информационные центры (чакры) и каналы (нади), пробудить энергию Кундалини, вызвать сверх сознательное и блаженное состояние самадхи.
       </p>
 
-      <div className="flex flex-wrap justify-between gap-5 m-5">
+      <div className="flex flex-wrap justify-between gap-5 mt-5">
         <Link href="/video/pranayama" className="my-1">Видео по Пранаяма йоге</Link>
         <Link href="/yoga/schedule" className="my-1">Расписание</Link>
       </div>
