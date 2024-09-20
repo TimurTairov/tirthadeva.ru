@@ -267,6 +267,13 @@ footer a:hover {
   /* top: 80px; */
 }
 
+.bg-image {
+  background: url('../public/SVG/Rainbow-squares.svg') bottom left;
+  height: 100%;
+  position: fixed;
+  top: 0;
+}
+
 /* CALL ANIMATION */
 .call-animation {
   animation: call 2s ease 0s infinite normal forwards;

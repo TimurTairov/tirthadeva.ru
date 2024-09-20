@@ -4,14 +4,14 @@ const Price = () => {
   return (
     <div className="max-w-screen-xl py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch lg:grid-cols-3 lg:gap-8 ">
-        <div className="divide-y divide-gray-200 rounded-2xl bg-gray-50 dark:bg-transparent border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600">
+        <div className="divide-y dark:divide-gray-200 divide-gray-400 mx-4 sm:mx-4 md:mx-2 lg:mx-0 rounded-2xl bg-gray-50 dark:bg-transparent border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600">
           <div className="p-5 md:p-3 lg:p-6 lg:px-8">
-            <h2 className="text-lg font-medium text-gray-900 dark:text-gray-100">
+            <h2 className="subTitleMP text-gray-900 dark:text-gray-100">
               Начальный план
               <span className="sr-only">Plan</span>
             </h2>
 
-            <p className="mt-2 text-gray-700 dark:text-gray-200">
+            <p className="mt-2 text-gray-700 dark:text-gray-200 text-sm">
               Для тех, кто хочет только медитировать
             </p>
 
@@ -20,7 +20,8 @@ const Price = () => {
                 Бесплатно
               </strong>
               <span className="text-sm font-medium text-gray-700 dark:text-gray-200">
-                / donation
+                {' '}
+                (либо donation)
               </span>
             </p>
 
@@ -62,14 +63,14 @@ const Price = () => {
           </div>
         </div>
 
-        <div className="divide-y divide-gray-200 rounded-2xl bg-gray-50 dark:bg-transparent border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600">
+        <div className="divide-y dark:divide-gray-200 divide-gray-400 mx-4 sm:mx-4 md:mx-2 lg:mx-0 rounded-2xl bg-gray-50 dark:bg-transparent border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600">
           <div className="p-5 md:p-3 lg:p-6 lg:px-8">
-            <h2 className="text-lg font-medium text-gray-900 dark:text-gray-100">
+            <h2 className="subTitleMP text-gray-900 dark:text-gray-100">
               Базовый план
               <span className="sr-only">Plan</span>
             </h2>
 
-            <p className="mt-2 text-gray-700 dark:text-gray-200">
+            <p className="mt-2 text-gray-700 dark:text-gray-200 text-sm">
               Для тех, кто хочет практиковать йогу
             </p>
 
@@ -134,13 +135,13 @@ const Price = () => {
           </div>
         </div>
 
-        <div className="divide-y divide-gray-200 rounded-2xl  bg-gray-50 dark:bg-transparent border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600">
+        <div className="divide-y dark:divide-gray-200 divide-gray-400 mx-4 sm:mx-4 md:mx-2 lg:mx-0 rounded-2xl  bg-gray-50 dark:bg-transparent border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600">
           <div className="p-5 md:p-3 lg:p-6 lg:px-8">
-            <h2 className="text-lg font-medium text-gray-900 dark:text-gray-100">
+            <h2 className="subTitleMP text-gray-900 dark:text-gray-100">
               Персональный план
               <span className="sr-only">Plan</span>
             </h2>
-            <p className="mt-2 text-gray-700 dark:text-gray-200">
+            <p className="mt-2 text-gray-700 dark:text-gray-200 text-sm">
               Для тех, кто ценит свое время
             </p>
 

@@ -2,12 +2,9 @@
 import Image from "next/image"
 import Link from "next/link"
 import Gradient from "@/components/Gradient"
-import SignUpForYogaOnline from '@/components/SignUpForYogaOnline'
 import myPhoto from '@/public/04.jpg'
 import nataraja from '@/public/nataraja.png'
 import yog1 from '@/public/yog1.png'
-import yog2 from '@/public/yog2.png'
-import yog3 from '@/public/yog3.png'
 import yog4 from '@/public/yog4.png'
 import yog5 from '@/public/yog5.png'
 import yog6 from '@/public/yog6.png'
@@ -20,24 +17,15 @@ import om96 from '@/public/om-96-2.png'
 import omGif from '@/public/om.gif'
 import { BiLogoZoom } from "react-icons/bi"
 import { GrSchedule } from "react-icons/gr"
-import graph from '@/public/SVG/graph.svg'
-import { feedbacks } from '@/helpers/foto'
-import ImageGallery from "react-image-gallery"
-import yog from '@/public/yoga-3.png'
 import { LiaPrayingHandsSolid } from "react-icons/lia"
 import { settings } from "@/helpers/FotoSettengs"
 import { FaOm } from "react-icons/fa6"
 import VideoPlayer from '@/components/VideoPlayer'
 import Price from '@/components/Price'
-import vrikshasana from '@/public/SVG/vrikshasana.svg'
-import vira from '@/public/SVG/vira.svg'
-import zoom from '@/public/SVG/zoom.svg'
 import meditationSVG from '@/public/SVG/meditation.svg'
 import lotusSVG from '@/public/SVG/lotus.svg'
-import buddistSVG from '@/public/SVG/buddhist.svg'
 import yogaasanaSVG from '@/public/SVG/yoga-asana.svg'
 import yogaasana2SVG from '@/public/SVG/yoga-asana2.svg'
-import video1SVG from "@/public/SVG/video-camera.svg"
 import video2SVG from "@/public/SVG/video-streaming.svg"
 
 
@@ -49,7 +37,7 @@ export default function Home() {
 
       <div className="w-full flex lg:flex-row flex-col justify-between mt-5">
 
-        <div className="rounded-lg border dark:border-slate-600 shadow-sm shadow-gray-400  dark:shadow-gray-600 flex flex-col items-center justify-end ">
+        <div className="rounded-lg shadow-sm flex flex-col items-center justify-end ">
           <div className="mt-5 md:mt-10 lg:mt-0">
 
             <div className="flex items-center justify-center gap-2">
@@ -87,54 +75,80 @@ export default function Home() {
 
       </div>
 
-      <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col items-center w-full rounded-lg p-6 border  dark:border-slate-600 shadow-sm shadow-gray-400  dark:shadow-gray-600">
+      <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col items-center w-full rounded-lg p-3 lg:p-6 shadow-sm">
+
         <div className="w-full flex items-center justify-center mt-5">
           <Image src={lotusSVG} alt="Йог медитация" className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600  dark:invert" />
           <h5 className="titleMP text-center">Моя миссия</h5>
         </div>
 
-        <div className='w-full flex xl:flex-row flex-col items-start justify-center gap-6 mt-5'>
-          <div className="textMP w-full flex items-center  rounded-lg p-6 dark:bg-slate-700">
+        <div className='w-full flex xl:flex-row flex-col items-start justify-center gap-4 md:gap-6 mt-3 xl:mt-0'>
+          <div className="textMP w-full flex items-center  rounded-lg p-3 lg:p-6 dark:bg-slate-700">
             <Image src={omGif} width={30} height={30} alt="om" className="xl:w-20 xl:h-20 rounded-full border-2 border-yellow-500 mr-3 md:mr-5" />
             <p>Cлужение Высшим идеалам йоги (Гуру, Дхарме и Cангхе)</p>
           </div>
-          <div className="textMP w-full flex items-center rounded-lg p-6 dark:bg-slate-700">
+          <div className="textMP w-full flex items-center rounded-lg p-3 lg:p-6 dark:bg-slate-700">
             <Image src={omGif} width={30} height={30} alt="om" className="xl:w-20 xl:h-20 rounded-full border-2 border-yellow-500 mr-3 md:mr-5" />
             <p>Помощь всем живым существам в преодолении неведения</p>
           </div>
-          <div className="textMP w-full flex items-center rounded-lg p-6 dark:bg-slate-700">
+          <div className="textMP w-full flex items-center rounded-lg p-3 lg:p-6 dark:bg-slate-700">
             <Image src={omGif} width={30} height={30} alt="om" className="xl:w-20 xl:h-20 rounded-full border-2 border-yellow-500 mr-3 md:mr-5" />
             <p>Распространение истинных знаний йоги</p>
           </div>
         </div>
       </div>
 
-      <div className="w-full mt-6 md:mt-12 lg:mt-20 p-6 rounded-lg border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600 ">
+      <div className="w-full mt-6 md:mt-12 lg:mt-20 p-3 lg:p-6 rounded-lg shadow-sm">
+
         <div className="w-full flex items-center justify-center mt-5">
           <Image src={meditationSVG} alt="Йог медитация" className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600 dark:invert" />
           <h5 className="titleMP text-center">Направления йоги</h5>
         </div>
-        <div className="w-full flex xl:flex-row flex-col gap-5 md:gap-6 mt-5 justify-center">
-          <div className="flex items-center rounded-md w-full h-40 xl:w-96 dark:bg-slate-700">
+
+        <div className="w-full flex xl:flex-row flex-col gap-4 md:gap-6 mt-5 justify-center">
+          <div className="flex items-start rounded-md w-full h-40 xl:w-96 dark:bg-slate-700">
             <Image src={hatha} alt="Хатха йога" className="h-full w-auto rounded-md" />
-            <p className="w-full text-center subTitleMP">Хатха йога сиддхов</p>
+            <div className="w-full h-full flex flex-col items-center">
+              <p className="w-full text-center subTitleMP">Хатха йога сиддхов</p>
+              <div className="h-full flex flex-col justify-around">
+                <p className="ml-1 textMP">Гибкость</p>
+                <p className="ml-1 textMP">Сила</p>
+                <p className="ml-1 textMP">Долголетие</p>
+              </div>
+            </div>
           </div>
-          <div className="flex items-center rounded-md w-full h-40 xl:w-96 dark:bg-slate-700">
+          <div className="flex items-start rounded-md w-full h-40 xl:w-96 dark:bg-slate-700">
             <Image src={kundalini} alt="Кундалини йога" className="h-full w-auto rounded-md" />
-            <p className="w-full text-center subTitleMP">Кундалини йога сиддхов</p>
+            <div className="w-full h-full flex flex-col items-center">
+              <p className="w-full text-center subTitleMP">Кундалини йога сиддхов</p>
+              <div className="h-full flex flex-col justify-around">
+                <p className="ml-1 textMP">Энергия</p>
+                <p className="ml-1 textMP">Детоксикация</p>
+                <p className="ml-1 textMP">Здоровье</p>
+              </div>
+            </div>
           </div>
           <div className="flex items-center rounded-md xl:w-96 w-full h-40 dark:bg-slate-700">
             <Image src={meditation} alt="Медитация" className="h-full w-auto rounded-md" />
-            <p className="w-full text-center subTitleMP">Медитация сиддхов</p>
+            <div className="w-full h-full flex flex-col items-center">
+              <p className="w-full text-center subTitleMP">Медитация сиддхов</p>
+              <div className="h-full flex flex-col justify-around">
+                <p className="ml-1 textMP">Спокойствие</p>
+                <p className="ml-1 textMP">Осознанность</p>
+                <p className="ml-1 textMP">Просветление</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600 ">
+      <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md shadow-sm ">
+
         <div className="w-full flex items-center justify-center mt-5">
           <Image src={yogaasanaSVG} alt="Йог медитация" className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600 dark:invert" />
           <p className="titleMP text-center ">Мой опыт в йоге</p>
         </div>
+
         <div className="grid grid-cols-2 grid-rows-3 mt-5">
           <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1">
             <p className="text-indigo-600 dark:text-emerald-400 titleMP">14 лет</p>
@@ -163,8 +177,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600 ">
-        <div className="w-full flex items-center justify-center mt-2 lg:mt-5">
+      <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md shadow-sm ">
+
+        <div className="w-full flex items-center justify-center mt-5">
           <Image src={yogaasana2SVG} alt="Йог медитация" className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600 dark:invert" />
           <h5 className="titleMP text-center">Как я преподаю йогу</h5>
         </div>
@@ -191,39 +206,39 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full mt-5 md:mt-10 lg:mt-20 p-2 lg:p-5 rounded-md border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600 ">
+      <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md shadow-sm ">
         <div className="w-full flex items-center justify-center mt-5">
           <Image src={video2SVG} alt="Йог медитация" className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600 dark:invert" />
           <h5 className="titleMP text-center">Йога онлайн</h5>
         </div>
 
-        <p className="textMP mt-3">Йога онлайн это возможность практиковать йогу из дома, либо из любой точки планеты. Совсем необязательно, чтобы практикующие физически находились в одном зале с учителем. </p>
+        <p className="textMP mt-5 ml-2">Йога онлайн это возможность практиковать йогу из дома, либо из любой точки планеты. Совсем необязательно, чтобы практикующие физически находились в одном зале с учителем. </p>
 
         <div className="grid grid-cols-2 grid-rows-2 mt-5 ">
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-6 rounded-md m-1 items-start justify-center">
+          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
             <BiLogoZoom className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP" />
             <p className=" textMP">трансляции через <b>Zoom</b></p>
           </div>
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-6 rounded-md m-1 items-start justify-center">
+          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6rounded-md m-1 items-start justify-center">
             <GrSchedule className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP" />
             <p className=" textMP">удобное расписание</p>
           </div>
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-6 rounded-md m-1 items-start justify-center">
+          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
             <p className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP">4 года </p>
             <p className=" textMP">преподавания йоги онлайн</p>
           </div>
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-6 rounded-md m-1 items-start justify-center">
+          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
             <p className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP">3 занятия </p>
             <p className=" textMP">БЕСПЛАТНО*</p>
           </div>
         </div>
 
-        <p className="mt-3 text-sm">* - только для новых учеников </p>
+        <p className="mt-5 text-xs ml-2">* - только для новых учеников </p>
       </div>
 
       <Price />
 
-      <div className="w-full flex justify-center">
+      <div className="w-full flex justify-center ml-7 md:ml-20 xl:ml-40">
         <div className='mt-5 md:mt-10 lg:mt-20 p-2 w-full grid grid-cols-2 grid-row-4 md:grid-cols-4 md:grid-rows-2'>
           <Link href="/osebe/education" className="m-1">Образование</Link>
           <Link href="/osebe/certificates" className="m-1">Сертификаты</Link>
