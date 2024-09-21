@@ -51,6 +51,10 @@ export const menuItemsData = [
         url: '/yoga/schedule',
       },
       {
+        title: 'Йога онлайн',
+        url: '/yoga/yogaonline',
+      },
+      {
         title: 'Отзывы',
         url: '/yoga/feedbacks',
       },
@@ -106,6 +110,10 @@ export const menuItemsData = [
       {
         title: 'Кундалини',
         url: '/video/kundalini',
+      },
+      {
+        title: 'Медитация',
+        url: '/video/meditation',
       },
       {
         title: 'Нидра йога',

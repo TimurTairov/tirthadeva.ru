@@ -11,10 +11,6 @@ const page = () => {
         <p>Крийя комплекс сиддхов. Кундалини йога для начинающих.</p>
       </Suspense>
 
-      <Suspense fallback={<p>Загрузка ...</p>}>
-        <VideoPlayer src="https://rutube.ru/play/embed/91f3ade5c932dca529ec8e20bc9fa2cc" rt />
-        <p>Медитация Чандали.</p>
-      </Suspense>
     </div>
   )
 }

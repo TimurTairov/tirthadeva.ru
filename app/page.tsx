@@ -15,23 +15,17 @@ import guru96 from '@/public/guru-96.png'
 import tirthadeva96 from '@/public/tirthadeva-96.png'
 import om96 from '@/public/om-96-2.png'
 import omGif from '@/public/om.gif'
-import { BiLogoZoom } from "react-icons/bi"
-import { GrSchedule } from "react-icons/gr"
 import { LiaPrayingHandsSolid } from "react-icons/lia"
 import { FaOm } from "react-icons/fa6"
-import { Suspense } from 'react'
-import VideoPlayer from '@/components/VideoPlayer'
 import Price from '@/components/Price'
 import meditationSVG from '@/public/SVG/meditation.svg'
 import lotusSVG from '@/public/SVG/lotus.svg'
-import lotusPositionSVG from '@/public/SVG/buddhist.svg'
 import yogaasanaSVG from '@/public/SVG/yoga-asana.svg'
 import yogaasana2SVG from '@/public/SVG/yoga-asana2.svg'
-import video2SVG from "@/public/SVG/video-streaming.svg"
-import SignUpForYogaOnline from '@/components/SignUpForYogaOnline'
 import Steps from "@/components/Steps"
 import NavigationButton from "@/components/NavigationButton"
-
+import Testimonial from '@/components/Testimonial'
+import YogaOnline from "@/components/YogaOnline"
 
 export default function Home() {
 
@@ -69,7 +63,7 @@ export default function Home() {
                 <p className="textMP">Ваш наставник на пути йоги и дхармы</p>
               </div>
             </div>
-            <SignUpForYogaOnline title={'Начать практику йоги'} />
+            <NavigationButton title={'Начать практику йоги'} link={'/yoga/yogaonline'} />
           </div>
         </div>
 
@@ -87,15 +81,15 @@ export default function Home() {
         </div>
 
         <div className='w-full flex xl:flex-row flex-col items-start justify-center gap-4 md:gap-6 mt-3'>
-          <div className="textMP w-full flex items-center  rounded-lg p-3 xl:p-6 dark:bg-slate-700">
+          <div className="subTitleMP w-full flex items-center  rounded-lg p-3 xl:p-6 dark:bg-slate-700">
             <Image src={omGif} width={30} height={30} alt="om" className="xl:w-20 xl:h-20 rounded-full border-2 border-yellow-500 mr-3 md:mr-5" />
             <p>Cлужение Высшим идеалам йоги (Гуру, Дхарме и Cангхе)</p>
           </div>
-          <div className="textMP w-full flex items-center rounded-lg p-3 xl:p-6 dark:bg-slate-700">
+          <div className="subTitleMP w-full flex items-center rounded-lg p-3 xl:p-6 dark:bg-slate-700">
             <Image src={omGif} width={30} height={30} alt="om" className="xl:w-20 xl:h-20 rounded-full border-2 border-yellow-500 mr-3 md:mr-5" />
             <p>Помощь всем живым существам в преодолении неведения</p>
           </div>
-          <div className="textMP w-full flex items-center rounded-lg p-3 xl:p-6 dark:bg-slate-700">
+          <div className="subTitleMP w-full flex items-center rounded-lg p-3 xl:p-6 dark:bg-slate-700">
             <Image src={omGif} width={30} height={30} alt="om" className="xl:w-20 xl:h-20 rounded-full border-2 border-yellow-500 mr-3 md:mr-5" />
             <p>Распространение истинных знаний йоги</p>
           </div>
@@ -204,39 +198,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md">
-        <div className="w-full flex items-center justify-center mt-5">
-          <Image src={video2SVG} alt="Йог медитация" className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600 dark:invert" />
-          <h5 className="titleMP text-center">Йога онлайн</h5>
-        </div>
 
-        <p className="textMP mt-5 ml-2">Йога онлайн это возможность практиковать йогу из дома, либо из любой точки планеты. Совсем необязательно, чтобы практикующие физически находились в одном зале с учителем. </p>
 
-        <div className="grid grid-cols-2 grid-rows-2 mt-5 ">
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
-            <BiLogoZoom className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP" />
-            <p className=" textMP">трансляции через <b>Zoom</b></p>
-          </div>
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6rounded-md m-1 items-start justify-center">
-            <GrSchedule className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP" />
-            <p className=" textMP">удобное расписание</p>
-          </div>
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
-            <p className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP">4 года </p>
-            <p className=" textMP">преподавания йоги онлайн</p>
-          </div>
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
-            <p className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP">3 занятия </p>
-            <p className=" textMP">БЕСПЛАТНО*</p>
-          </div>
-        </div>
+      <YogaOnline />
 
-        <p className="mt-5 text-xs ml-2">* - только для новых учеников </p>
-      </div>
+      <Testimonial />
 
-      <NavigationButton title={'Отзывы'} link={'/yoga/feedbacks'} />
-
-      <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md">
+      {/* <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md">
         <div className="w-full flex items-center justify-center mt-5">
           <Image src={lotusPositionSVG} alt="Йог медитация" className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600 dark:invert" />
           <h5 className="titleMP text-center">Посмотрите видео по йоге</h5>
@@ -245,7 +213,7 @@ export default function Home() {
         <Suspense fallback={<p>Загрузка ...</p>}>
           <VideoPlayer src="https://rutube.ru/play/embed/4d89041f8b85d642acc13a837508df56?skinColor=e53935" rt />
         </Suspense>
-      </div>
+      </div> */}
 
       <Price />
 

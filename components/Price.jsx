@@ -1,9 +1,20 @@
+import Image from 'next/image'
 import { AiOutlineCheck } from 'react-icons/ai'
+import rubleSVG from '@/public/SVG/ruble.svg'
 
 const Price = () => {
   return (
     <div className="max-w-screen-xl py-8 mt-5 md:mt-10 lg:mt-20">
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch lg:grid-cols-3 lg:gap-8 ">
+      <div className="w-full flex items-center justify-center mt-5">
+        <Image
+          src={rubleSVG}
+          alt="Рубль"
+          className="w-10 h-10 mr-2 rounded-full p-2 border border-gray-600  dark:invert"
+        />
+        <p className="titleMP text-center ">Цены</p>
+      </div>
+
+      <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch lg:grid-cols-3 lg:gap-8 ">
         <div className="divide-y dark:divide-gray-200 divide-gray-400 mx-4 sm:mx-4 md:mx-2 lg:mx-0 rounded-2xl bg-gray-50 dark:bg-transparent border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600">
           <div className="p-5 md:p-3 lg:p-6 lg:px-8">
             <h2 className="subTitleMP text-gray-900 dark:text-gray-100">
@@ -20,8 +31,7 @@ const Price = () => {
                 Бесплатно
               </strong>
               <span className="text-sm font-medium text-gray-700 dark:text-gray-200">
-                {' '}
-                (либо donation)
+                /donation
               </span>
             </p>
 
