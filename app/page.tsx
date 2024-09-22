@@ -19,13 +19,14 @@ import { LiaPrayingHandsSolid } from "react-icons/lia"
 import { FaOm } from "react-icons/fa6"
 import Price from '@/components/Price'
 import meditationSVG from '@/public/SVG/meditation.svg'
-import lotusSVG from '@/public/SVG/lotus.svg'
+import lotusSVG from '@/public/SVG/lotus-1.svg'
 import yogaasanaSVG from '@/public/SVG/yoga-asana.svg'
 import yogaasana2SVG from '@/public/SVG/yoga-asana2.svg'
 import Steps from "@/components/Steps"
 import NavigationButton from "@/components/NavigationButton"
 import Testimonial from '@/components/Testimonial'
 import YogaOnline from "@/components/YogaOnline"
+import MyGurus from "@/components/MyGurus"
 
 export default function Home() {
 
@@ -77,7 +78,7 @@ export default function Home() {
 
         <div className="w-full flex items-center justify-center mt-5">
           <Image src={lotusSVG} alt="Йог медитация" className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600  dark:invert" />
-          <h5 className="titleMP text-center">Моя миссия</h5>
+          <h5 className="titleMP text-center">Миссия</h5>
         </div>
 
         <div className='w-full flex xl:flex-row flex-col items-start justify-center gap-4 md:gap-6 mt-3'>
@@ -95,6 +96,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <MyGurus />
 
       <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-lg">
 
