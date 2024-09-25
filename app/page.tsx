@@ -107,7 +107,7 @@ export default function Home() {
         </div>
 
         <div className="w-full flex xl:flex-row flex-col gap-4 md:gap-6 mt-5 justify-center">
-          <div className="flex items-start border rounded-md w-full h-44 xl:w-96 bg-gray-100 dark:bg-slate-700">
+          <div className="flex items-start border rounded-md w-full h-44 xl:w-96 bg-gray-50 dark:bg-slate-700">
             <Image src={hatha} alt="Хатха йога" className="h-full w-auto rounded-md" />
             <div className="w-full h-full flex flex-col items-center">
               <p className="w-full text-center subTitleMP">Хатха йога сиддхов</p>
@@ -116,7 +116,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex items-start border rounded-md w-full h-44 xl:w-96 bg-gray-100 dark:bg-slate-700">
+          <div className="flex items-start border rounded-md w-full h-44 xl:w-96 bg-gray-50 dark:bg-slate-700">
             <Image src={kundalini} alt="Кундалини йога" className="h-full w-auto rounded-md" />
             <div className="w-full h-full flex flex-col items-center">
               <p className="w-full text-center subTitleMP">Кундалини йога сиддхов</p>
@@ -125,7 +125,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex items-center border rounded-md xl:w-96 w-full h-44 bg-gray-100 dark:bg-slate-700">
+          <div className="flex items-center border rounded-md xl:w-96 w-full h-44 bg-gray-50 dark:bg-slate-700">
             <Image src={meditation} alt="Медитация" className="h-full w-auto rounded-md" />
             <div className="w-full h-full flex flex-col items-center">
               <p className="w-full text-center subTitleMP">Медитация сиддхов</p>
@@ -145,27 +145,27 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-2 grid-rows-3 mt-5">
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1">
+          <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1">
             <p className="text-indigo-600 dark:text-emerald-400 titleMP">14 лет</p>
             <p className=" textMP">личной практики йоги</p>
           </div>
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1">
+          <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1">
             <p className="text-indigo-600 dark:text-emerald-400 titleMP">9 лет</p>
             <p className=" textMP">ежедневных медитаций</p>
           </div>
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1">
+          <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1">
             <p className="text-indigo-600 dark:text-emerald-400 titleMP">8 лет</p>
             <p className=" textMP">преподавания йоги</p>
           </div>
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1">
+          <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1">
             <p className="text-indigo-600 dark:text-emerald-400 titleMP">2000+</p>
             <p className=" textMP">проведённых занятий по йоге</p>
           </div>
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1">
+          <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1">
             <p className="text-indigo-600 dark:text-emerald-400 titleMP">50+</p>
             <p className=" textMP">пройденных семинаров</p>
           </div>
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1">
+          <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1">
             <p className="text-indigo-600 dark:text-emerald-400 titleMP">20+</p>
             <p className=" textMP">пройденных ретритов</p>
           </div>
@@ -180,41 +180,33 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-2 grid-rows-3 mt-5">
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
+          <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
             <p className=" textMP ">Делаю акцент на гармонию, созерцание и осознанность</p>
           </div>
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
+          <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
             <p className=" textMP">Даю асаны в статике, в легком медитативном состоянии</p>
           </div>
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
+          <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
             <p className=" textMP">Обьясняю разные вариации асан, в зависимости от уровня подготовки практикующих </p>
           </div>
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
+          <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
             <p className=" textMP">Исключаю крайности: позы йоги не должны быть слишком сложными или слишком лёгкими</p>
           </div>
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
+          <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
             <p className=" textMP">Чередую напряжение и расслабление: даю небольшой отдых между асанами</p>
           </div>
-          <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
+          <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
             <p className=" textMP">Рекомендую выходить из асан самостоятельно, если есть в этом необходимость</p>
           </div>
+        </div>
+        <div className="mt-5">
+          <NavigationButton title={'Подробнее ...'} link={'yoga/basicrules'} />
         </div>
       </div>
 
       <YogaOnline />
 
       <Testimonial />
-
-      {/* <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md">
-        <div className="w-full flex items-center justify-center mt-5">
-          <Image src={lotusPositionSVG} alt="Йог медитация" className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600 dark:invert" />
-          <h5 className="titleMP text-center">Посмотрите видео по йоге</h5>
-        </div>
-        <p className="w-full text-center textMP mt-5">Крийя комплекс сиддхов. Кундалини йога для начинающих.</p>
-        <Suspense fallback={<p>Загрузка ...</p>}>
-          <VideoPlayer src="https://rutube.ru/play/embed/4d89041f8b85d642acc13a837508df56?skinColor=e53935" rt />
-        </Suspense>
-      </div> */}
 
       <Price />
 

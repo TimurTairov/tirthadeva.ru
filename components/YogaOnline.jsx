@@ -23,23 +23,23 @@ const YogaOnline = () => {
       </p>
 
       <div className="grid grid-cols-2 grid-rows-2 mt-5 ">
-        <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
+        <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
           <BiLogoZoom className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP" />
           <p className=" textMP">
             трансляции через <b>Zoom</b>
           </p>
         </div>
-        <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6rounded-md m-1 items-start justify-center">
+        <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6rounded-md m-1 items-start justify-center">
           <GrSchedule className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP" />
           <p className=" textMP">удобное расписание</p>
         </div>
-        <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
+        <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
           <p className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP">
             4 года{' '}
           </p>
           <p className=" textMP">преподавания йоги онлайн</p>
         </div>
-        <div className="flex flex-col bg-gray-100 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
+        <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
           <p className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP">
             3 занятия{' '}
           </p>
