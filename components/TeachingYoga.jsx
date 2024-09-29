@@ -49,7 +49,7 @@ const TeachingYoga = () => {
           </p>
         </div>
       </div>
-      <div>
+      <div className="mt-5">
         <NavigationButton title={'Подробнее ...'} link={'yoga/basicrules'} />
       </div>
     </div>

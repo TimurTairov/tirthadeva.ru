@@ -1,7 +1,4 @@
 import Image from 'next/image'
-import woman1 from '@/public/SVG/woman-1.svg'
-import woman2 from '@/public/SVG/woman-2.svg'
-import woman3 from '@/public/SVG/woman-3.svg'
 import woman from '@/public/SVG/woman-doing-yoga-meditation.svg'
 import namaste from '@/public/SVG/namaste.svg'
 import NavigationButton from '@/components/NavigationButton'
@@ -9,7 +6,7 @@ import NavigationButton from '@/components/NavigationButton'
 const Testimonial = () => {
   return (
     <section className="bg-white dark:bg-slate-800 mt-5 md:mt-10 lg:mt-20">
-      <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+      <div className="mx-auto max-w-screen-xl px-4">
         <div className="w-full flex items-center justify-center mt-5">
           <Image
             src={namaste}
@@ -244,10 +241,12 @@ const Testimonial = () => {
           </blockquote>
         </div>
       </div>
-      <NavigationButton
-        title={'Посмотреть все отзывы'}
-        link={'/yoga/feedbacks'}
-      />
+      <div className="mt-5">
+        <NavigationButton
+          title={'Посмотреть все отзывы'}
+          link={'/yoga/feedbacks'}
+        />
+      </div>
     </section>
   )
 }

@@ -11,7 +11,7 @@ import NavigationButton from '@/components/NavigationButton'
 const MyGurus = () => {
   return (
     <section className="bg-white dark:bg-slate-800 mt-5 md:mt-10 lg:mt-20">
-      <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+      <div className="mx-auto max-w-screen-xl px-4">
         <div className="w-full flex items-center justify-center mt-5">
           <Image
             src={shiva}
@@ -156,10 +156,12 @@ const MyGurus = () => {
           </blockquote>
         </div>
       </div>
-      <NavigationButton
-        title={'Образование в йоге'}
-        link={'/osebe/education'}
-      />
+      <div className="mt-5">
+        <NavigationButton
+          title={'Образование в йоге'}
+          link={'/osebe/education'}
+        />
+      </div>
     </section>
   )
 }
