@@ -7,7 +7,7 @@ import yog6 from '@/public/yog6.png'
 
 const PngYogiMP = () => {
   return (
-    <div className="mt-5 md:mt-10 lg:mt-20 flex items-end justify-around w-full">
+    <div className="mt-7 md:mt-10 lg:mt-20 flex items-end justify-around w-full">
       <Image src={yog1} width={108} height={108} alt="yog 1" />
       <Image src={yog5} width={95} height={95} alt="yog 2" />
       <Image

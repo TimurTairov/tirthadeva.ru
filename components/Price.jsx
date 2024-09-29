@@ -4,7 +4,7 @@ import rubleSVG from '@/public/SVG/ruble.svg'
 
 const Price = () => {
   return (
-    <div className="max-w-screen-xl py-8 mt-5 md:mt-10 lg:mt-20">
+    <div className="max-w-screen-xl mt-7 md:mt-10 lg:mt-20">
       <div className="w-full flex items-center justify-center mt-5">
         <Image
           src={rubleSVG}

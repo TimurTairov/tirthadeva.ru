@@ -4,7 +4,7 @@ import omGif from '@/public/om.gif'
 
 const Mission = () => {
   return (
-    <div className="mt-5 md:mt-10 lg:mt-20 flex flex-col items-center w-full rounded-lg p-3 lg:p-6">
+    <div className="mt-7 md:mt-10 lg:mt-20 flex flex-col items-center w-full rounded-lg p-3 lg:p-6">
       <div className="w-full flex items-center justify-center mt-5">
         <Image
           src={lotusSVG}

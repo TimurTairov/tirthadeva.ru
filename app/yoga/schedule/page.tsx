@@ -7,7 +7,7 @@ import yogaClass from '@/public/yogaclass1.jpg'
 
 export const metadata: Metadata = {
   title: "Расписание занятий",
-  description: "Расписание моих занятий в клубе, а также йтга онлайн.",
+  description: "Расписание моих занятий в клубах, а также расписание йоги онлайн.",
 };
 
 const page = () => {

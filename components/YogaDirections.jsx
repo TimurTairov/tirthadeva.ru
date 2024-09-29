@@ -7,7 +7,7 @@ import meditation from '@/public/meditation.jpg'
 
 const YogaDirections = () => {
   return (
-    <div className="w-full mt-5 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-lg">
+    <div className="w-full mt-7 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-lg">
       <div className="w-full flex items-center justify-center mt-5">
         <Image
           src={meditationSVG}

@@ -2,12 +2,12 @@ import Link from 'next/link'
 
 const MenuMP = () => {
   return (
-    <div className="mt-5">
+    <div className="w-full mt-7 md:mt-10 lg:mt-20">
       <h5 className="w-full subTitleMP text-center">
         Продолжите путешествие по следующим ссылкам:
       </h5>
-      <div className="w-full flex justify-center">
-        <div className="mt-5 md:mt-10 lg:mt-20 p-2 w-10/12 lg:w-9/12 grid grid-cols-2 grid-row-4 md:grid-cols-4">
+      <div className="mt-5 w-full flex justify-center">
+        <div className="p-2 w-10/12 lg:w-9/12 grid grid-cols-2 grid-row-4 md:grid-cols-4">
           <Link href="/osebe/education" className="m-1">
             Образование
           </Link>
