@@ -37,7 +37,7 @@ const page = () => {
           </p>
         </li>
 
-        <li className='flex flex-col border p-2 m-2  rounded-lg w-full lg:w-1/3'>
+        <li className='flex flex-col border p-2 m-2 rounded-lg w-full lg:w-1/3'>
           <div className='flex items-center gap-2'>
             <FaTelegram className="h-7 w-7" />
             <h3 className='font-semibold text-2xl'> Telegram</h3>

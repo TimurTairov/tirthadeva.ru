@@ -289,6 +289,51 @@ export const imagesYoga = [
   },
 ]
 
+export const myPhoto = [
+  {
+    original: 'https://sun9-48.userapi.com/impg/UhpzEEiwfzJcCZ8x8JujaR7wBk8w8JFuakX_Fw/eKBAVjBsVSU.jpg?size=657x657&quality=95&sign=9feac9c605e28954f1a79a31f15c6b2f&type=album',
+
+  },
+  {
+    original: 'https://sun9-77.userapi.com/impg/hhDvwX1fQ79UEnm9H58Ak4E9zVseJIZTBmmvUQ/H6HrOjmEPOI.jpg?size=657x657&quality=95&sign=27e0674432a030a32922638f303a7009&type=album',
+
+  },
+  {
+    original: 'https://sun9-68.userapi.com/impg/AgxWIueIFb8LEmxc5prbrh8GvI5X337mMdhJMA/hZpTeWwyrAA.jpg?size=657x657&quality=95&sign=1a9ee5a1305c401c5878d140b3f5c6fb&type=album',
+
+  },
+  {
+    original: 'https://sun9-55.userapi.com/impg/gbOwnBAS0ibubPqBONLHIu3JK5VAtC20cXwthA/UG5GUzp8PzE.jpg?size=657x657&quality=95&sign=31c3cc3c7833c55991687ef2148f5444&type=album',
+
+  },
+  {
+    original: 'https://sun9-42.userapi.com/impg/V3Bf1YinKbjOJqqMuqQPB8MT_YJQlwBR08kuvg/CTp7PKaVNHk.jpg?size=657x657&quality=95&sign=188d330c58cf1bd3f4840b7b711c840a&type=album',
+
+  },
+  {
+    original: 'https://sun9-11.userapi.com/impg/_DeCeTSp44PLcY-zJZt_D-rqmr0Gkae1DlzACQ/j2x8qb_AEYQ.jpg?size=640x640&quality=95&sign=653cb06dea926d69a8e02af81f641f6f&type=album',
+
+  },
+  {
+    original: 'https://sun9-63.userapi.com/impg/DERFtAHUECZArqjUtrWO021-5Lg_DwwdR0kFVg/WqJqAFLqEgs.jpg?size=640x640&quality=95&sign=459484988d242600ba7047aa989a7c22&type=album',
+
+  },
+  {
+    original: 'https://sun9-27.userapi.com/impg/8uttUrJr5raw4-60mJQ4xS1D0C2BbvcIPvNooQ/G7NmeqUuQuM.jpg?size=640x640&quality=95&sign=fb20e08ba8f8a1c02b87fe4f96cd0928&type=album',
+
+  },
+  {
+    original: 'https://sun9-59.userapi.com/impg/dFATU4NIrMES9wlxHKnHTexCjqbpAZ_zIsZVWA/Mdx3hDwFfo0.jpg?size=657x657&quality=95&sign=53c0030bbaafb7dffe5d8bdfa73319a1&type=album',
+  },
+  {
+    original: 'https://sun9-12.userapi.com/impg/mNEZIHkrP4vbQsyScsbYpzZ0J8INg35EFIMDrA/49Qi_SkwfM8.jpg?size=657x657&quality=95&sign=88eaa273a7bab5b21dcac6bd55f5764c&type=album',
+  },
+  {
+    original: 'https://sun9-52.userapi.com/impg/6s4TDxpvayP63sq9H6RDk7yRPiapIDYuWIaz-g/lsLfazQYMSY.jpg?size=640x640&quality=95&sign=14c80537e8a3171233cd65e6b5bdadd9&type=album',
+  },
+]
+
+
 export const imagesIndia = [
   {
     original: 'https://sun9-37.userapi.com/impg/QhmIuXKd6oqUIX5IPhwZBlvzlx1g9oYW4IM3qw/S-Qw4UTFfic.jpg?size=2560x1920&quality=95&sign=94b79dd9c45b686738bf4a27c47ab784&type=album',

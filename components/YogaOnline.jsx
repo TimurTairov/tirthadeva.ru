@@ -48,7 +48,7 @@ const YogaOnline = () => {
       </div>
       <p className="mt-5 text-xs ml-2">* - только для новых учеников </p>
       <NavigationButton
-        title={'Начать практику йоги бесплатно'}
+        title={'Практиковать йогу онлайн бесплатно'}
         link="whatsapp://send?phone=79672067710"
       />
     </div>
