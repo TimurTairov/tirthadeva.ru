@@ -16,7 +16,7 @@ const MyPhoto = () => {
       <ImageGallery
         items={myPhoto}
         {...settings}
-        className="w-full h-auto lg:h-[20rem] xl:w-[60rem] rounded-3xl"
+        className="w-full h-auto lg:h-full lg:w-auto xl:w-[60rem] rounded-3xl"
       />
     </div>
   )

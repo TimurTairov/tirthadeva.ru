@@ -8,8 +8,8 @@ import Mission from "@/components/Mission"
 import YogaDirections from '@/components/YogaDirections'
 import Experience from '@/components/Experience'
 import TeachingYoga from "@/components/TeachingYoga"
-import MenuMP from "@/components/MenuMP"
 import PngYogiMP from "@/components/PngYogiMP"
+import { FaArrowTurnUp } from "react-icons/fa6";
 
 export default function Home() {
 
@@ -25,7 +25,7 @@ export default function Home() {
       <YogaOnline />
       <Testimonial />
       <Price />
-      <MenuMP />
+      <a href="#header" className="mt-10 flex items-center subTitleMP border-2 p-3 rounded-full font-bold bg-slate-50 hover:bg-white hover:border-indigo-700 dark:hover:border-emerald-400">Наверх <FaArrowTurnUp className="ml-2" /></a>
       <PngYogiMP />
     </main >
   )

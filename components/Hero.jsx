@@ -9,7 +9,10 @@ import om96 from '@/public/om-96-2.png'
 
 const Hero = () => {
   return (
-    <div className="w-full flex lg:flex-row flex-col justify-around mt-7">
+    <div
+      id="hero"
+      className="w-full flex lg:flex-row flex-col justify-around mt-7"
+    >
       <div className="rounded-lg flex flex-col items-center justify-between mt-5 lg:mt-0">
         <div className="flex flex-col justify-center">
           <h1 className="titleMP text-center">Йога и медитация</h1>
