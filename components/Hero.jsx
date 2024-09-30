@@ -7,15 +7,12 @@ import guru96 from '@/public/guru-96.png'
 import tirthadeva96 from '@/public/tirthadeva-96.png'
 import om96 from '@/public/om-96-2.png'
 
-const Hero = () => {
+const Hero = ({ title }) => {
   return (
-    <div
-      id="hero"
-      className="w-full flex lg:flex-row flex-col justify-around mt-7"
-    >
+    <div className="w-full flex lg:flex-row flex-col justify-around mt-7">
       <div className="rounded-lg flex flex-col items-center justify-between mt-5 lg:mt-0">
         <div className="flex flex-col justify-center">
-          <h1 className="titleMP text-center">Йога и медитация</h1>
+          <h1 className="titleMP text-center">{title}</h1>
           <h2 className="text-xs md:text-base text-center">
             с опытным преподавателем
           </h2>

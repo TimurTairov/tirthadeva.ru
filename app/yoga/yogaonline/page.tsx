@@ -1,9 +1,10 @@
 import YogaOnline from "@/components/YogaOnline"
+import Hero from '@/components/Hero'
 
 const page = () => {
   return (
     <div className='main-container'>
-      <h1 className="main-title">Йога онлайн</h1>
+      <Hero title={'Йога онлайн'} />
       <YogaOnline />
 
     </div>

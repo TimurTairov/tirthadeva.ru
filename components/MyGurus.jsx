@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import shiva from '@/public/SVG/shiva.svg'
+import shiva from '@/public/SVG/shiva-7.svg'
 import guru from '@/public/MuGurus/guru108-2.jpg'
 import vvz from '@/public/MuGurus/vvz108.jpg'
 import kozharinov from '@/public/MuGurus/kozharinov108.jpg'
@@ -16,7 +16,7 @@ const MyGurus = () => {
           <Image
             src={shiva}
             alt="Йог медитация"
-            className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600  dark:invert"
+            className="w-10 h-10 mr-2 p-0.5 rounded-full border border-gray-600 dark:invert"
           />
           <h5 className="titleMP text-center">Учителя</h5>
         </div>

@@ -9,14 +9,14 @@ import YogaDirections from '@/components/YogaDirections'
 import Experience from '@/components/Experience'
 import TeachingYoga from "@/components/TeachingYoga"
 import PngYogiMP from "@/components/PngYogiMP"
-import { FaArrowTurnUp } from "react-icons/fa6";
+import GoToTop from '@/components/GoToTop'
 
 export default function Home() {
 
   return (
     <main className="max-w-screen-xl xl:mx-auto mx-2 flex flex-col items-center justify-center">
       <Gradient />
-      <Hero />
+      <Hero title={'Йога и медитация'} />
       <Mission />
       <MyGurus />
       <YogaDirections />
@@ -25,7 +25,7 @@ export default function Home() {
       <YogaOnline />
       <Testimonial />
       <Price />
-      <a href="#header" className="mt-10 flex items-center subTitleMP border-2 p-3 rounded-full font-bold bg-slate-50 hover:bg-white hover:border-indigo-700 dark:hover:border-emerald-400">Наверх <FaArrowTurnUp className="ml-2" /></a>
+      <GoToTop />
       <PngYogiMP />
     </main >
   )
