@@ -195,7 +195,7 @@ a,
 }
 
 .image-gallery-content .image-gallery-slide .image-gallery-image {
-  max-height: 100vh;
+  max-height: 100%;
   border-radius: 1rem;
 }
 

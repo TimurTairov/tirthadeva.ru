@@ -291,11 +291,11 @@ export const imagesYoga = [
 
 export const myPhoto = [
   {
-    original: 'https://sun9-48.userapi.com/impg/UhpzEEiwfzJcCZ8x8JujaR7wBk8w8JFuakX_Fw/eKBAVjBsVSU.jpg?size=657x657&quality=95&sign=9feac9c605e28954f1a79a31f15c6b2f&type=album',
+    original: 'https://sun9-77.userapi.com/impg/hhDvwX1fQ79UEnm9H58Ak4E9zVseJIZTBmmvUQ/H6HrOjmEPOI.jpg?size=657x657&quality=95&sign=27e0674432a030a32922638f303a7009&type=album',
 
   },
   {
-    original: 'https://sun9-77.userapi.com/impg/hhDvwX1fQ79UEnm9H58Ak4E9zVseJIZTBmmvUQ/H6HrOjmEPOI.jpg?size=657x657&quality=95&sign=27e0674432a030a32922638f303a7009&type=album',
+    original: 'https://sun9-48.userapi.com/impg/UhpzEEiwfzJcCZ8x8JujaR7wBk8w8JFuakX_Fw/eKBAVjBsVSU.jpg?size=657x657&quality=95&sign=9feac9c605e28954f1a79a31f15c6b2f&type=album',
 
   },
   {

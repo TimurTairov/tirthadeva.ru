@@ -6,7 +6,7 @@ const MyPhoto = () => {
   const settings = {
     showThumbnails: false,
     showIndex: false,
-    slideDuration: 500,
+    slideDuration: 450,
     slideInterval: 3000,
     showFullscreenButton: true,
     lazyLoad: true,

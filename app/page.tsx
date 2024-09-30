@@ -10,6 +10,7 @@ import Experience from '@/components/Experience'
 import TeachingYoga from "@/components/TeachingYoga"
 import PngYogiMP from "@/components/PngYogiMP"
 import GoToTop from '@/components/GoToTop'
+import Contacts from "@/components/Contacts"
 
 export default function Home() {
 
@@ -25,6 +26,7 @@ export default function Home() {
       <YogaOnline />
       <Testimonial />
       <Price />
+      <Contacts />
       <GoToTop />
       <PngYogiMP />
     </main >
