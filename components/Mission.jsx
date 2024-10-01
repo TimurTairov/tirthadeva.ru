@@ -15,7 +15,7 @@ const Mission = () => {
         <h5 className="titleMP text-center">Миссия</h5>
       </div>
 
-      <div className="w-full flex xl:flex-row flex-col items-start justify-center gap-1 md:gap-3 lg:gap-5 mt-3">
+      <div className="w-full flex xl:flex-row flex-col items-start justify-center gap-4 md:gap-5 lg:gap-8  mt-5">
         <div className="subTitleMP w-full flex items-center  rounded-lg p-3 xl:p-6 dark:bg-slate-700">
           <Image
             src={omGif}

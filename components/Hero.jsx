@@ -9,10 +9,10 @@ import om96 from '@/public/om-96-2.png'
 import { MdImageSearch } from 'react-icons/md'
 import MyPhoto from '@/components/MyPhoto'
 
-const Hero = ({ title }) => {
+const Hero = ({ title, foto = myPhoto }) => {
   return (
     <div className="w-full flex lg:flex-row flex-col justify-around md:mt-5">
-      <div className="rounded-lg flex flex-col items-center justify-between mt-5 lg:mt-0">
+      <div className="flex flex-col items-center justify-between mt-5 lg:mt-0">
         <div className="flex flex-col justify-center">
           <h1 className="titleMP text-center">{title}</h1>
           <h2 className="text-xs md:text-base text-center">
@@ -68,7 +68,7 @@ const Hero = ({ title }) => {
         />
       </div>
 
-      <MyPhoto foto={myPhoto} />
+      <MyPhoto foto={foto} />
     </div>
   )
 }

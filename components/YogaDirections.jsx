@@ -11,7 +11,7 @@ const YogaDirections = () => {
   return (
     <div className="w-full mt-14 lg:mt-20 flex lg:flex-row flex-col justify-around ">
       <div className="flex flex-col items-center justify-between">
-        <div className="w-full flex items-start">
+        <div className="flex items-center justify-center">
           <Image
             src={meditationSVG}
             alt="Йог медитация"
@@ -21,8 +21,8 @@ const YogaDirections = () => {
           <h5 className="titleMP text-center">Направления йоги</h5>
         </div>
 
-        <div className="w-full flex flex-col gap-4 md:gap-6 mt-5 justify-center">
-          <div className="flex items-start border rounded-md w-full h-40 xl:w-96 bg-gray-50 dark:bg-slate-700">
+        <div className="flex flex-col gap-4 md:gap-6 mt-5 justify-center">
+          <div className="flex items-start border rounded-md w-full h-40 xl:w-[35rem] bg-gray-50 dark:bg-slate-700">
             <Image
               src={hatha}
               alt="Хатха йога онлайн"
@@ -36,7 +36,7 @@ const YogaDirections = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-start border rounded-md w-full h-40 xl:w-96 bg-gray-50 dark:bg-slate-700">
+          <div className="flex items-start border rounded-md w-full h-40 xl:w-[35rem] bg-gray-50 dark:bg-slate-700">
             <Image
               src={kundalini}
               alt="Кундалини йога онлайн"
@@ -56,7 +56,7 @@ const YogaDirections = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center border rounded-md xl:w-96 w-full h-40 bg-gray-50 dark:bg-slate-700">
+          <div className="flex items-center border rounded-md w-full h-40 xl:w-[35rem] bg-gray-50 dark:bg-slate-700">
             <Image
               src={meditation}
               alt="Медитация онлайн"
@@ -76,16 +76,7 @@ const YogaDirections = () => {
           </div>
         </div>
       </div>
-
       <MyPhoto foto={myPhoto} />
-      {/* <div>
-        <Image
-          src={myPhoto}
-          alt="my foto"
-          loading="lazy"
-          className="lg:mx-5 mt-10 lg:mt-0 xl:w-[40rem] rounded-3xl shadow-xl shadow-slate-400 dark:shadow-emerald-400"
-        />
-      </div> */}
     </div>
   )
 }
