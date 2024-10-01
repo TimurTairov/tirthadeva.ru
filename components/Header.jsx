@@ -16,6 +16,7 @@ const Header = () => {
               width={50}
               height={50}
               alt="logo"
+              loading="lazy"
               className="h-10 w-10 rounded-lg border"
             />
           </Link>

@@ -7,7 +7,8 @@ const Experience = () => {
       <div className="w-full flex items-center justify-center mt-5">
         <Image
           src={yogaasanaSVG}
-          alt="Йог медитация"
+          alt="Йог медитация онлайн"
+          loading="lazy"
           className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600 dark:invert"
         />
         <p className="titleMP text-center ">Мой опыт в йоге</p>

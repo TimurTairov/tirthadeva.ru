@@ -107,7 +107,7 @@ const page = () => {
 
       <SignUpForYogaOnline title={'Начать практику йоги'} />
 
-      <Image src={yogaClass} alt='yoga class' className="mt-10 rounded-md" />
+      <Image src={yogaClass} alt='yoga class' loading="lazy" className="mt-10 rounded-md" />
     </div>
   )
 }

@@ -15,7 +15,7 @@ const Footer = () => {
           <h5 className=""><Link href='/' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">На главную</Link></h5>
           <p className='footer-h5'>© All Rights Reserved 2024™</p>
           <p className='footer-h5'>Om Namah Shivaya</p>
-          <Image src={trishula} width={30} height={30} alt='trishula' className="mt-2" />
+          <Image src={trishula} width={30} height={30} alt='trishula' loading="lazy" className="mt-2" />
         </div>
 
         <div className="flex flex-col items-start justify-center my-4">

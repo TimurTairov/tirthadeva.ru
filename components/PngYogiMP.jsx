@@ -8,16 +8,17 @@ import yog6 from '@/public/yog6.png'
 const PngYogiMP = () => {
   return (
     <div className="mt-7 md:mt-10 lg:mt-20 flex items-end justify-around w-full">
-      <Image src={yog1} width={108} height={108} alt="yog 1" />
-      <Image src={yog5} width={95} height={95} alt="yog 2" />
+      <Image src={yog1} width={108} height={108} loading="lazy" alt="yog 1" />
+      <Image src={yog5} width={95} height={95} loading="lazy" alt="yog 2" />
       <Image
         src={nataraja}
         width={115}
         height={115}
+        loading="lazy"
         alt="Lord Shiva Nataraja"
       />
-      <Image src={yog6} width={95} height={95} alt="yog 3" />
-      <Image src={yog4} width={108} height={108} alt="yog 4" />
+      <Image src={yog6} width={95} height={95} loading="lazy" alt="yog 3" />
+      <Image src={yog4} width={108} height={108} loading="lazy" alt="yog 4" />
     </div>
   )
 }

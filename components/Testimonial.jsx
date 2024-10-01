@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import irina from '@/public/img/irina.jpg'
+import nataliya from '@/public/img/nataliya.jpg'
 import woman from '@/public/SVG/woman-doing-yoga-meditation.svg'
 import namaste from '@/public/SVG/namaste.svg'
 import NavigationButton from '@/components/NavigationButton'
@@ -10,7 +12,8 @@ const Testimonial = () => {
         <div className="w-full flex items-center justify-center mt-5">
           <Image
             src={namaste}
-            alt="Йог медитация"
+            alt="Намастэ"
+            loading="lazy"
             className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600  dark:invert"
           />
           <h5 className="titleMP text-center">Отзывы</h5>
@@ -20,15 +23,16 @@ const Testimonial = () => {
           <blockquote className="rounded-lg bg-gray-50 dark:bg-slate-700 p-6 shadow-sm sm:p-8">
             <div className="flex items-center gap-4">
               <Image
-                alt=""
-                src={woman}
+                alt="Nataliya"
+                src={nataliya}
                 width={20}
                 height={20}
+                loading="lazy"
                 className="size-14 p-1 border rounded-full object-cover"
               />
 
               <div>
-                <div className="flex justify-center gap-0.5 text-green-500">
+                <div className="flex justify-center gap-0.5 text-yellow-500">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="size-5"
@@ -96,15 +100,16 @@ const Testimonial = () => {
           <blockquote className="rounded-lg bg-gray-50 dark:bg-slate-700 p-6 shadow-sm sm:p-8">
             <div className="flex items-center gap-4">
               <Image
-                alt=""
+                alt="Woman"
                 width={20}
                 height={20}
                 src={woman}
+                loading="lazy"
                 className="size-14 p-1 border rounded-full object-cover"
               />
 
               <div>
-                <div className="flex justify-center gap-0.5 text-green-500">
+                <div className="flex justify-center gap-0.5 text-yellow-500">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="size-5"
@@ -154,32 +159,31 @@ const Testimonial = () => {
             </div>
 
             <p className="mt-4 text-gray-700 dark:text-gray-200">
-              Более 5 лет занимаюсь практикой йоги с Тимуром. В йогу я пришла от
-              отчаяния, постоянных болей в позвоночнике и нарушения подвижности
-              конечностей. Надо сказать, что я человек далекий от спорта,
-              физической культуры и никогда не верила в свои физические
-              возможности. Первое время было немного трудно. Но когда я ощутила
-              первый успех и сделала то, о чем даже представить не могла, моя
-              жизнь изменилась. Это чувство, что невозможное тебе доступно и ты
-              на многое способен. Сегодня мои возможности в йоге ещё более
-              широкие: это заметная невооруженным взглядом гибкость, физическая
-              стройность, духовное удовлетворение. Надеюсь буду и дальше
-              продолжать практику с Тимуром. Елена, 49 лет.
+              Несколько лет, помимо хатхи-йоги, занимаюсь с Тимуром кундалини
+              йогой и медитацией. В самом начале человек несведущий и не
+              посвященный не до конца понимает в чем смысл этих занятий. И я
+              тоже не до конца понимала. Просто доверилась. Но спустя время
+              (можно сказать годы😁) открывается вся полнота и глубина смыслов и
+              духовной удовлетворенности, наполненности от занятий. Трудно
+              описать словами, это расширение реальности, духовное обогащение. А
+              в практическом смысле снятие усталости, стресса, получение
+              физической и психической энергии и вдохновения.
             </p>
           </blockquote>
 
           <blockquote className="rounded-lg bg-gray-50 dark:bg-slate-700 p-6 shadow-sm sm:p-8">
             <div className="flex items-center gap-4">
               <Image
-                alt=""
+                alt="Irina"
                 width={20}
                 height={20}
-                src={woman}
+                src={irina}
+                loading="lazy"
                 className="size-14 p-1 border rounded-full object-cover"
               />
 
               <div>
-                <div className="flex justify-center gap-0.5 text-green-500">
+                <div className="flex justify-center gap-0.5 text-yellow-500">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="size-5"

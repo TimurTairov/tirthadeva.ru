@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import myPhoto from '@/public/myPhoto-2.jpg'
 import shiva from '@/public/SVG/shiva-7.svg'
 import guru from '@/public/MuGurus/guru108-2.jpg'
 import vvz from '@/public/MuGurus/vvz108.jpg'
@@ -10,25 +11,27 @@ import NavigationButton from '@/components/NavigationButton'
 
 const MyGurus = () => {
   return (
-    <section className="bg-white dark:bg-slate-800 mt-7 md:mt-10 lg:mt-20">
-      <div className="mx-auto max-w-screen-xl px-4">
+    <section className="bg-white dark:bg-slate-800 mt-7 md:mt-10 lg:mt-20 w-full">
+      <div className="px-4">
         <div className="w-full flex items-center justify-center mt-5">
           <Image
             src={shiva}
-            alt="Йог медитация"
+            alt="Shiva"
+            loading="lazy"
             className="w-10 h-10 mr-2 p-0.5 rounded-full border border-gray-600 dark:invert"
           />
           <h5 className="titleMP text-center">Учителя</h5>
         </div>
 
-        <div className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3 md:gap-8">
+        <div className="mt-5 grid grid-cols-1 xl:grid-cols-2 md:gap-8">
           <blockquote className="rounded-lg bg-gray-50 dark:bg-slate-700 p-6 shadow-sm sm:p-8">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-1 md:gap-3 lg:gap-5">
               <Image
-                alt=""
+                alt="Guru Svami Vishnudevananda Giri"
                 src={guru}
                 width={20}
                 height={20}
+                loading="lazy"
                 className="size-14 p-1 border rounded-full object-cover"
               />
 
@@ -45,12 +48,13 @@ const MyGurus = () => {
           </blockquote>
 
           <blockquote className="rounded-lg bg-gray-50 dark:bg-slate-700 p-6 shadow-sm sm:p-8">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-1 md:gap-3 lg:gap-5">
               <Image
-                alt=""
+                alt="Ramanatha Giri"
                 src={ramanatha}
                 width={20}
                 height={20}
+                loading="lazy"
                 className="size-14 p-1 border rounded-full object-cover"
               />
 
@@ -67,12 +71,13 @@ const MyGurus = () => {
           </blockquote>
 
           <blockquote className="rounded-lg bg-gray-50 dark:bg-slate-700 p-6 shadow-sm sm:p-8">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-1 md:gap-3 lg:gap-5">
               <Image
-                alt=""
+                alt="VVZ"
                 width={20}
                 height={20}
                 src={vvz}
+                loading="lazy"
                 className="size-14 p-1 border rounded-full object-cover"
               />
 
@@ -89,12 +94,13 @@ const MyGurus = () => {
           </blockquote>
 
           <blockquote className="rounded-lg bg-gray-50 dark:bg-slate-700 p-6 shadow-sm sm:p-8">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-1 md:gap-3 lg:gap-5">
               <Image
-                alt=""
+                alt="Victor"
                 width={20}
                 height={20}
                 src={kozharinov}
+                loading="lazy"
                 className="size-14 p-1 border rounded-full object-cover"
               />
 
@@ -112,12 +118,13 @@ const MyGurus = () => {
           </blockquote>
 
           <blockquote className="rounded-lg bg-gray-50 dark:bg-slate-700 p-6 shadow-sm sm:p-8">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-1 md:gap-3 lg:gap-5">
               <Image
-                alt=""
+                alt="Dubyansky"
                 width={20}
                 height={20}
                 src={dubyanskii}
+                loading="lazy"
                 className="size-14 p-1 border rounded-full object-cover"
               />
 
@@ -134,12 +141,13 @@ const MyGurus = () => {
           </blockquote>
 
           <blockquote className="rounded-lg bg-gray-50 dark:bg-slate-700 p-6 shadow-sm sm:p-8">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-1 md:gap-3 lg:gap-5">
               <Image
-                alt=""
+                alt="Lali Baba"
                 width={20}
                 height={20}
                 src={lalibaba}
+                loading="lazy"
                 className="size-14 p-1 border rounded-full object-cover"
               />
 

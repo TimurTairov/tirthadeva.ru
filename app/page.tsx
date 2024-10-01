@@ -27,7 +27,7 @@ export default function Home() {
       <Testimonial />
       <Price />
       <Contacts />
-      <GoToTop />
+      <GoToTop url={"/"} />
       <PngYogiMP />
     </main >
   )

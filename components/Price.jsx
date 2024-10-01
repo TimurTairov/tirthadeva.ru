@@ -9,6 +9,7 @@ const Price = () => {
         <Image
           src={rubleSVG}
           alt="Рубль"
+          loading="lazy"
           className="w-10 h-10 mr-2 rounded-full p-2 border border-gray-600  dark:invert"
         />
         <p className="titleMP text-center ">Цены</p>
