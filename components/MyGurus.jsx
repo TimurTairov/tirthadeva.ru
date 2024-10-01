@@ -11,9 +11,9 @@ import NavigationButton from '@/components/NavigationButton'
 
 const MyGurus = () => {
   return (
-    <section className="bg-white dark:bg-slate-800 mt-7 md:mt-10 lg:mt-20 w-full">
+    <section className="bg-white dark:bg-slate-800 mt-14 lg:mt-20 w-full">
       <div className="px-4">
-        <div className="w-full flex items-center justify-center mt-5">
+        <div className="w-full flex items-center justify-center">
           <Image
             src={shiva}
             alt="Shiva"
@@ -153,7 +153,7 @@ const MyGurus = () => {
 
               <div>
                 <p className="mt-0.5 text-lg font-medium text-gray-900 dark:text-gray-100">
-                  Satayanand Giri (Lali Baba).
+                  Satayanand Giri (Lali Baba)
                 </p>
               </div>
             </div>

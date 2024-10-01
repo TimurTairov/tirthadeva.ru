@@ -4,8 +4,8 @@ import rubleSVG from '@/public/SVG/ruble.svg'
 
 const Price = () => {
   return (
-    <div className="max-w-screen-xl mt-7 md:mt-10 lg:mt-20">
-      <div className="w-full flex items-center justify-center mt-5">
+    <div className="max-w-screen-xl mt-14 lg:mt-20">
+      <div className="w-full flex items-center justify-center">
         <Image
           src={rubleSVG}
           alt="Рубль"
@@ -16,7 +16,7 @@ const Price = () => {
       </div>
 
       <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch lg:grid-cols-3 lg:gap-8 ">
-        <div className="divide-y dark:divide-gray-200 divide-gray-400 mx-4 sm:mx-4 md:mx-2 lg:mx-0 rounded-2xl bg-gray-50 dark:bg-transparent border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600">
+        <div className="divide-y dark:divide-gray-200 divide-gray-400 rounded-2xl bg-gray-50 dark:bg-transparent border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600">
           <div className="p-5 md:p-3 lg:p-6 lg:px-8">
             <h2 className="subTitleMP text-gray-900 dark:text-gray-100">
               Начальный план
@@ -74,7 +74,7 @@ const Price = () => {
           </div>
         </div>
 
-        <div className="divide-y dark:divide-gray-200 divide-gray-400 mx-4 sm:mx-4 md:mx-2 lg:mx-0 rounded-2xl bg-gray-50 dark:bg-transparent border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600">
+        <div className="divide-y dark:divide-gray-200 divide-gray-400  rounded-2xl bg-gray-50 dark:bg-transparent border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600">
           <div className="p-5 md:p-3 lg:p-6 lg:px-8">
             <h2 className="subTitleMP text-gray-900 dark:text-gray-100">
               Базовый план
@@ -146,7 +146,7 @@ const Price = () => {
           </div>
         </div>
 
-        <div className="divide-y dark:divide-gray-200 divide-gray-400 mx-4 sm:mx-4 md:mx-2 lg:mx-0 rounded-2xl  bg-gray-50 dark:bg-transparent border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600">
+        <div className="divide-y dark:divide-gray-200 divide-gray-400  rounded-2xl  bg-gray-50 dark:bg-transparent border dark:border-slate-600 shadow-sm shadow-gray-400 dark:shadow-gray-600">
           <div className="p-5 md:p-3 lg:p-6 lg:px-8">
             <h2 className="subTitleMP text-gray-900 dark:text-gray-100">
               Персональный план

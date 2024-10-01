@@ -6,8 +6,8 @@ import NavigationButton from '@/components/NavigationButton'
 
 const YogaOnline = () => {
   return (
-    <div className="w-full mt-7 md:mt-10 lg:mt-20 p-3 lg:p-6 rounded-md">
-      <div className="w-full flex items-center justify-center mt-5">
+    <div className="w-full mt-14 lg:mt-20 rounded-md">
+      <div className="w-full flex items-center justify-center">
         <Image
           src={video2SVG}
           alt="video svg"

@@ -9,9 +9,9 @@ import MyPhoto from '@/components/MyPhoto'
 
 const YogaDirections = () => {
   return (
-    <div className="w-full mt-7 md:mt-10 lg:mt-20 p-3 lg:p-6 flex lg:flex-row flex-col justify-around ">
-      <div>
-        <div className="w-full flex items-center justify-center">
+    <div className="w-full mt-14 lg:mt-20 flex lg:flex-row flex-col justify-around ">
+      <div className="flex flex-col items-center justify-between">
+        <div className="w-full flex items-start">
           <Image
             src={meditationSVG}
             alt="Йог медитация"
@@ -22,7 +22,7 @@ const YogaDirections = () => {
         </div>
 
         <div className="w-full flex flex-col gap-4 md:gap-6 mt-5 justify-center">
-          <div className="flex items-start border rounded-md w-full h-44 xl:w-96 bg-gray-50 dark:bg-slate-700">
+          <div className="flex items-start border rounded-md w-full h-40 xl:w-96 bg-gray-50 dark:bg-slate-700">
             <Image
               src={hatha}
               alt="Хатха йога онлайн"
@@ -30,15 +30,13 @@ const YogaDirections = () => {
               className="h-full w-auto rounded-md"
             />
             <div className="w-full h-full flex flex-col items-center">
-              <p className="w-full text-center subTitleMP">
-                Хатха йога сиддхов
-              </p>
+              <p className="w-full text-center textMP">Хатха йога сиддхов</p>
               <div className="h-full flex flex-col justify-around">
                 <Steps step1={'Гибкость'} step2={'Сила'} step3={'Долголетие'} />
               </div>
             </div>
           </div>
-          <div className="flex items-start border rounded-md w-full h-44 xl:w-96 bg-gray-50 dark:bg-slate-700">
+          <div className="flex items-start border rounded-md w-full h-40 xl:w-96 bg-gray-50 dark:bg-slate-700">
             <Image
               src={kundalini}
               alt="Кундалини йога онлайн"
@@ -46,7 +44,7 @@ const YogaDirections = () => {
               className="h-full w-auto rounded-md"
             />
             <div className="w-full h-full flex flex-col items-center">
-              <p className="w-full text-center subTitleMP">
+              <p className="w-full text-center textMP">
                 Кундалини йога сиддхов
               </p>
               <div className="h-full flex flex-col justify-around">
@@ -58,7 +56,7 @@ const YogaDirections = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center border rounded-md xl:w-96 w-full h-44 bg-gray-50 dark:bg-slate-700">
+          <div className="flex items-center border rounded-md xl:w-96 w-full h-40 bg-gray-50 dark:bg-slate-700">
             <Image
               src={meditation}
               alt="Медитация онлайн"
@@ -66,7 +64,7 @@ const YogaDirections = () => {
               className="h-full w-auto rounded-md"
             />
             <div className="w-full h-full flex flex-col items-center">
-              <p className="w-full text-center subTitleMP">Медитация сиддхов</p>
+              <p className="w-full text-center textMP">Медитация сиддхов</p>
               <div className="h-full flex flex-col justify-around">
                 <Steps
                   step1={'Спокойствие'}
