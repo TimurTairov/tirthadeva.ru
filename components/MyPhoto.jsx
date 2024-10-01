@@ -6,7 +6,6 @@ const MyPhoto = ({ foto }) => {
       <Image
         src={foto}
         alt="my foto"
-        loading="lazy"
         className="lg:mx-5 mt-10 lg:mt-0 xl:w-[40rem] rounded-3xl shadow-xl dark:shadow-lg shadow-slate-300 dark:shadow-emerald-400"
       />
     </div>

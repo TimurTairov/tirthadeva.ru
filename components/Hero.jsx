@@ -41,7 +41,6 @@ const Hero = ({ title }) => {
             <Image
               src={guru96}
               alt="guru"
-              loading="lazy"
               className="h-full w-auto rounded-lg mr-2 border-2"
             />
             <p className="subTitleMP">Ученик просветленного мастера</p>
@@ -50,7 +49,6 @@ const Hero = ({ title }) => {
             <Image
               src={tirthadeva96}
               alt="guru"
-              loading="lazy"
               className="h-full w-auto rounded-lg mr-2 border-2"
             />
             <p className="subTitleMP">Преподаватель йоги и медитации</p>
@@ -59,7 +57,6 @@ const Hero = ({ title }) => {
             <Image
               src={om96}
               alt="guru"
-              loading="lazy"
               className="h-full w-auto rounded-lg  mr-2 border-2"
             />
             <p className="subTitleMP">Ваш наставник на пути йоги и дхармы</p>
