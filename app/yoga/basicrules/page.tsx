@@ -44,7 +44,7 @@ const page = () => {
         - регулярность занятий.
       </p>
 
-      <VideoPlayer src="https://giphy.com/embed/CpBLpHZn2d4MReAPNB" />
+      <VideoPlayer src="https://giphy.com/embed/CpBLpHZn2d4MReAPNB" sourse={'vk'} />
 
       <p className='mt-4'>
         Метод Энергии предполагает мягкость и расслабление в асанах.
@@ -99,7 +99,7 @@ const page = () => {
         Более 15-20 минут практикуют мастера йоги.
       </p>
 
-      <VideoPlayer src="https://giphy.com/embed/pqhICBmbiltrdWPjjr" />
+      <VideoPlayer src="https://giphy.com/embed/pqhICBmbiltrdWPjjr" sourse={'vk'} />
 
       <p className='mt-4'>
         Необходимо целенаправленно и постепенно увеличивать время нахождения в асанах.
