@@ -7,7 +7,7 @@ const page = () => {
     <div className='main-container'>
       <h1 className='main-title'>Пранаяма</h1>
 
-      <Suspense fallback={<p>Загрузка ...</p>}>
+      {/* <Suspense fallback={<p>Загрузка ...</p>}>
         <VideoPlayer src="https://rutube.ru/play/embed/a965eefb7b4236149e88acf39fbadb94" rt />
       </Suspense>
       <MyAccordion title='Нади-шодхана: 7 - 7 - 7' id='1'>
@@ -99,7 +99,7 @@ const page = () => {
         </p>
 
 
-      </MyAccordion>
+      </MyAccordion> */}
 
     </div>
   )
