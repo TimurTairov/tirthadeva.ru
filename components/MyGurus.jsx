@@ -23,7 +23,7 @@ const MyGurus = () => {
           <h5 className="titleMP text-center">Учителя</h5>
         </div>
 
-        <div className="mt-5 grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-5 lg:gap-8">
+        <div className="mt-5 grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-5 lg:gap-8">
           <blockquote className="rounded-lg bg-gray-50 dark:bg-slate-700 p-3 shadow-sm sm:p-8">
             <div className="flex items-center gap-1 md:gap-3 lg:gap-5">
               <Image

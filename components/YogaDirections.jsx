@@ -30,7 +30,9 @@ const YogaDirections = () => {
               className="h-full w-auto rounded-md"
             />
             <div className="w-full h-full flex flex-col items-center">
-              <p className="w-full text-center textMP">Хатха йога сиддхов</p>
+              <p className="w-full text-center font-semibold px-2">
+                Хатха йога сиддхов
+              </p>
               <div className="h-full flex flex-col justify-around">
                 <Steps step1={'Гибкость'} step2={'Сила'} step3={'Долголетие'} />
               </div>
@@ -44,7 +46,7 @@ const YogaDirections = () => {
               className="h-full w-auto rounded-md"
             />
             <div className="w-full h-full flex flex-col items-center">
-              <p className="w-full text-center textMP">
+              <p className="w-full text-center font-semibold px-2">
                 Кундалини йога сиддхов
               </p>
               <div className="h-full flex flex-col justify-around">
@@ -64,7 +66,9 @@ const YogaDirections = () => {
               className="h-full w-auto rounded-md"
             />
             <div className="w-full h-full flex flex-col items-center">
-              <p className="w-full text-center textMP">Медитация сиддхов</p>
+              <p className="w-full text-center font-semibold px-2">
+                Медитация сиддхов
+              </p>
               <div className="h-full flex flex-col justify-around">
                 <Steps
                   step1={'Спокойствие'}

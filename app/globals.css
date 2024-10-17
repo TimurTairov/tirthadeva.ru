@@ -26,7 +26,7 @@ a,
 }
 
 .main-title {
-  @apply text-2xl md:text-3xl lg:text-3xl font-normal text-center w-full mb-10;
+  @apply text-2xl md:text-3xl lg:text-3xl font-normal text-center w-full mt-5 mb-10;
 }
 
 .titleMP {
@@ -52,7 +52,7 @@ a,
 .desktop-nav .dropdown {
   position: absolute;
   right: auto;
-  top: 45px;
+  top: 41px;
   left: 0;
   box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
     0 4px 6px -2px rgba(71, 63, 79, 0.16);
@@ -143,6 +143,7 @@ a,
 
   .mobile-nav .dropdown {
     margin-left: 1.2em;
+    margin-right: 1.2em;
     font-size: 1rem;
     /* padding: 0.5rem 0; */
     list-style: none;

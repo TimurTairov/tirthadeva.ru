@@ -100,24 +100,30 @@ export const menuItemsData = [
     // url: '',
     submenu: [
       {
-        title: 'Хатха йога',
-        url: '/video/hatha',
-      },
-      {
-        title: 'Пранаяма',
-        url: '/video/pranayama',
-      },
-      {
-        title: 'Кундалини',
-        url: '/video/kundalini',
-      },
-      {
-        title: 'Медитация',
-        url: '/video/meditation',
-      },
-      {
-        title: 'Нидра йога',
-        url: '/video/nidra',
+        title: 'Мои видео',
+        url: '/video/myvideo',
+        // submenu: [
+        //   {
+        //     title: 'Хатха йога',
+        //     url: '/video/myvideo/hatha',
+        //   },
+        //   {
+        //     title: 'Пранаяма',
+        //     url: '/video/myvideo/pranayama',
+        //   },
+        //   {
+        //     title: 'Кундалини',
+        //     url: '/video/myvideo/kundalini',
+        //   },
+        //   {
+        //     title: 'Медитация',
+        //     url: '/video/myvideo/meditation',
+        //   },
+        //   {
+        //     title: 'Нидра йога',
+        //     url: '/video/myvideo/nidra',
+        //   },
+        // ]
       },
       {
         title: 'Видео с Гуру',

@@ -94,7 +94,9 @@ const page = () => {
       <p className='mt-4 mb-10'>
         Отрывок из лекции Гуру Свами Вишнудевананда Гири
       </p>
-      <ImageGallery items={pribezhishe} {...settings} />
+      <div className="mx-auto max-w-2xl flex flex-col items-center justify-center">
+        <ImageGallery items={pribezhishe} {...settings} />
+      </div>
     </div>
   )
 }

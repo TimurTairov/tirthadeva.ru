@@ -52,10 +52,7 @@ const Footer = () => {
         <div className="flex flex-col items-start justify-center my-4">
           <h5>Видео</h5>
           <div className="flex flex-col items-start justify-center ">
-            <Link href='/video/hatha' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Хатха йога</Link>
-            <Link href='/video/pranayama' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Пранаяма</Link>
-            <Link href='/video/kundalini' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Кундалини</Link>
-            <Link href='/video/nidra' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Йога нидра</Link>
+            <Link href='/video/myvideo' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Мои видео</Link>
             <Link href='/videosguru' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Видео с Гуру</Link>
             <Link href='/videosmonahami' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Видео с монахами</Link>
 

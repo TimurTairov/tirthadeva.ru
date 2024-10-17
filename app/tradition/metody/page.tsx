@@ -1,5 +1,5 @@
 import Image from "next/image"
-import metody from '@/public/metody.jpg'
+import metody from '@/public/metody-2.jpg'
 
 
 const page = () => {
@@ -120,7 +120,7 @@ const page = () => {
         очень серьезно ушли. Наша изначальная природа Сахаджья, Всевышний Источник, Бог, Брахман, Абсолют – это идентичные
         понятия. Все, что нам необходимо, это учиться возвращаться к этой природе.<br /><br />
       </p>
-      <div className="flex justify-center items-center mt-10">
+      <div className="w-full flex justify-center items-center mt-10">
         <div>
           <Image src={metody} width={400} height={600} alt="metody" />
         </div>

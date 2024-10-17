@@ -11,9 +11,8 @@ import TeachingYoga from "@/components/TeachingYoga"
 import PngYogiMP from "@/components/PngYogiMP"
 import GoToTop from '@/components/GoToTop'
 import Contacts from "@/components/Contacts"
-import ReactVideo from '@/components/ReactVideo'
-import myPhoto from '@/public/hatha-3.jpg'
-import MyPhoto from '@/components/MyPhoto'
+
+
 
 export default function Home() {
 

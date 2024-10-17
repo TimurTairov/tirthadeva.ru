@@ -1,17 +1,16 @@
 import Image from 'next/image'
 import { FaOm } from 'react-icons/fa6'
 import { LiaPrayingHandsSolid } from 'react-icons/lia'
-import myPhoto from '@/public/myPhoto-1.jpg'
+import myPhoto from '@/public/myPhoto-1.webp'
 import NavigationButton from '@/components/NavigationButton'
 import guru96 from '@/public/guru-96.png'
 import tirthadeva96 from '@/public/tirthadeva-96.png'
 import om96 from '@/public/om-96-2.png'
-import { MdImageSearch } from 'react-icons/md'
 import MyPhoto from '@/components/MyPhoto'
 
 const Hero = ({ title, foto = myPhoto }) => {
   return (
-    <div className="w-full flex lg:flex-row flex-col justify-around md:mt-5">
+    <div className="w-full flex lg:flex-row flex-col justify-around md:mt-5 lg:mt-10 xl:mt-20">
       <div className="flex flex-col items-center justify-between mt-5 lg:mt-0">
         <div className="flex flex-col justify-center">
           <h1 className="titleMP text-center">{title}</h1>

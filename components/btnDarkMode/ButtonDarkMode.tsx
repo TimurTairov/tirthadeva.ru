@@ -24,7 +24,7 @@ const ButtonDarkMode = () => {
   return (
     <button
       onClick={() => currentTheme == "dark" ? setTheme('light') : setTheme("dark")}>
-      <Image width={23} height={23} src={image} alt="darkModeBtn" className="dark:bg-slate-700 h-10 w-10 border p-2 border-gray-50 rounded-lg" />
+      <Image width={23} height={23} src={image} alt="darkModeBtn" className="dark:bg-gray-800 h-10 w-10 border p-2 border-gray-50 rounded-lg" />
     </button>
   )
 }

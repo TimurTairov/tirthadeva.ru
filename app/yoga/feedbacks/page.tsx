@@ -2,7 +2,7 @@
 import { feedbacks } from '@/helpers/foto'
 import ImageGallery from "react-image-gallery"
 import MyAccordion from '@/components/MyAccordion'
-import SignUpForYogaOnline from '@/components/SignUpForYogaOnline'
+import NavigationButton from '@/components/NavigationButton'
 
 const page = () => {
   const settings = {
@@ -70,11 +70,16 @@ const page = () => {
         </p>
       </MyAccordion>
 
-      <h5 className="mt-10 w-full text-center">Отзывы на йогу онлайн</h5>
-      <ImageGallery items={feedbacks} {...settings} />
+      <div className="mx-auto max-w-2xl flex flex-col items-center justify-center max-h-fit">
+        <h5 className="mt-10 w-full text-center">Отзывы на йогу онлайн</h5>
+        <ImageGallery items={feedbacks} {...settings} />
+      </div>
 
-      <div className="mt-10 w-full text-center">
-        <SignUpForYogaOnline title={'Начать практику йоги'} />
+      <div className="my-10 w-full text-center">
+        <NavigationButton
+          title={'Начать практику йоги'}
+          link="whatsapp://send?phone=79672067710"
+        />
       </div>
     </div>
   )

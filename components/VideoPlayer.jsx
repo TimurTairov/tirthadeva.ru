@@ -1,14 +1,18 @@
-const VideoPlayer = ({ src, vk = false, rt = false }) => {
-  const vkontakte =
+const VideoPlayer = ({ src, sourse }) => {
+  let allow =
     'autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;'
-  const rutube = 'clipboard-write; autoplay'
+
+  if (sourse === 'tutube') {
+    allow = 'clipboard-write; autoplay'
+  } else {
+    allow =
+      'autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;'
+  }
+  // const vkontakte =
+  //   'autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;'
+  // const rt = 'clipboard-write; autoplay'
   return (
-    <iframe
-      src={src}
-      allow={vk === 'true' ? vkontakte : rt === 'true' ? rutube : vkontakte}
-      allowFullScreen
-      className="video"
-    ></iframe>
+    <iframe src={src} allow={allow} allowFullScreen className="video"></iframe>
   )
 }
 
