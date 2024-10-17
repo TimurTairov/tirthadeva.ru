@@ -80,7 +80,7 @@ const page = () => {
         <Link href="/yoga/schedule" className="my-1">Расписание</Link>
       </div>
 
-      <VideoPlayer src="https://rutube.ru/play/embed/86eba7e82a61e3865a3cdfc3b387a3f9" rt />
+      <VideoPlayer src="https://rutube.ru/play/embed/86eba7e82a61e3865a3cdfc3b387a3f9" sourse={'rutube'} />
       <p className='mt-1 mb-1 text-2xl'>Эффекты пранаяма йоги</p>
 
     </div>
