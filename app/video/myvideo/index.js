@@ -6,6 +6,13 @@ import img4 from '@/public/for video/4.jpg'
 import img5 from '@/public/for video/5.jpg'
 import img6 from '@/public/for video/6.jpg'
 import img7 from '@/public/for video/7.jpg'
+import img8 from '@/public/for video/8.jpg'
+import img9 from '@/public/for video/9.jpg'
+import img10 from '@/public/for video/10.jpg'
+import img11 from '@/public/for video/11.jpg'
+import img12 from '@/public/for video/12.jpg'
+import img13 from '@/public/for video/13.jpg'
+import img14 from '@/public/for video/14.jpg'
 
 export const myVideos = [
   {
@@ -62,7 +69,7 @@ export const myVideos = [
     category: "Хатха йога",
     url: "https://rutube.ru/play/embed/68f26e54b514e86331792097c7ea4c5a",
     sourse: "rutube",
-    img: img0,
+    img: img8,
   },
   {
     id: 2001,
@@ -94,7 +101,7 @@ export const myVideos = [
     category: "Прнаяма йога",
     url: "https://rutube.ru/play/embed/a965eefb7b4236149e88acf39fbadb94",
     sourse: "rutube",
-    img: img0,
+    img: img13,
   },
   {
     id: 4002,
@@ -102,7 +109,7 @@ export const myVideos = [
     category: "Прнаяма йога",
     url: "https://rutube.ru/play/embed/52cd7f8c3dfe97a692f9636ddc72ef27",
     sourse: "rutube",
-    img: img0,
+    img: img14,
   },
   {
     id: 4003,
@@ -110,7 +117,7 @@ export const myVideos = [
     category: "Прнаяма йога",
     url: "https://rutube.ru/play/embed/d1b0ff78f38f97377eb564e10d76d238",
     sourse: "rutube",
-    img: img0,
+    img: img9,
   },
   {
     id: 4004,
@@ -118,7 +125,7 @@ export const myVideos = [
     category: "Прнаяма йога",
     url: "https://rutube.ru/play/embed/08e96228aa3b2c78f184d0807348e406",
     sourse: "rutube",
-    img: img0,
+    img: img10,
   },
   {
     id: 4005,
@@ -126,7 +133,7 @@ export const myVideos = [
     category: "Прнаяма йога",
     url: "https://rutube.ru/play/embed/2ee6de07763a28773852b6d2639c4dae",
     sourse: "rutube",
-    img: img0,
+    img: img11,
   },
   {
     id: 4006,
@@ -134,7 +141,7 @@ export const myVideos = [
     category: "Прнаяма йога",
     url: "https://rutube.ru/play/embed/d140d1742d4936ee1de3f7d934dd3259",
     sourse: "rutube",
-    img: img0,
+    img: img12,
   },
 ]
 
