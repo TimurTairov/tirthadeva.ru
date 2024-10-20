@@ -8,9 +8,9 @@ const page = () => {
 
       <div className='w-full flex justify-center'>
         <ul className='grid grid-cols-1 gap-3 lg:gap-5'>
-          {videoSanyasi.map((item, index) => (
-            <li key={item.id} className='w-full  flex flex-col'>
-              <Link href={`/video/guru/${item.id}`} className='text-sm lg:text-base'>
+          {videoSanyasi.map((item) => (
+            <li key={item.id} className='w-full flex flex-col'>
+              <Link href={`/video/guru/${item.id}`} className='text-sm lg:text-base dark:text-gray-300'>
                 {item.title}
               </Link>
             </li>
