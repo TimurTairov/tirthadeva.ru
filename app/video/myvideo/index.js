@@ -13,6 +13,9 @@ import img11 from '@/public/for video/11.jpg'
 import img12 from '@/public/for video/12.jpg'
 import img13 from '@/public/for video/13.jpg'
 import img14 from '@/public/for video/14.jpg'
+import img15 from '@/public/for video/15.jpg'
+import img16 from '@/public/for video/16.jpg'
+import img17 from '@/public/for video/17.jpg'
 
 export const myVideos = [
   {
@@ -72,6 +75,14 @@ export const myVideos = [
     img: img8,
   },
   {
+    id: 1008,
+    title: 'Хатха йога | Скрутки лежа | 2 часа',
+    category: "Хатха йога",
+    url: "https://rutube.ru/play/embed/56efa40c8406c81e188c81e35cbe63a1",
+    sourse: "rutube",
+    img: img15,
+  },
+  {
     id: 2001,
     title: 'Практика релаксации. 30 минут.',
     category: "Нидра йога",
@@ -98,7 +109,7 @@ export const myVideos = [
   {
     id: 4001,
     title: 'Пранаяма Нади Шодхана 7-7-7',
-    category: "Прнаяма йога",
+    category: "Пранаяма йога",
     url: "https://rutube.ru/play/embed/a965eefb7b4236149e88acf39fbadb94",
     sourse: "rutube",
     img: img13,
@@ -106,7 +117,7 @@ export const myVideos = [
   {
     id: 4002,
     title: 'Пранаяма Нади Шодхана 7-14-7',
-    category: "Прнаяма йога",
+    category: "Пранаяма йога",
     url: "https://rutube.ru/play/embed/52cd7f8c3dfe97a692f9636ddc72ef27",
     sourse: "rutube",
     img: img14,
@@ -114,7 +125,7 @@ export const myVideos = [
   {
     id: 4003,
     title: 'Пранаяма и медитация',
-    category: "Прнаяма йога",
+    category: "Пранаяма йога",
     url: "https://rutube.ru/play/embed/d1b0ff78f38f97377eb564e10d76d238",
     sourse: "rutube",
     img: img9,
@@ -122,7 +133,7 @@ export const myVideos = [
   {
     id: 4004,
     title: 'Самавритти пранаяма 5-5-5-5',
-    category: "Прнаяма йога",
+    category: "Пранаяма йога",
     url: "https://rutube.ru/play/embed/08e96228aa3b2c78f184d0807348e406",
     sourse: "rutube",
     img: img10,
@@ -130,7 +141,7 @@ export const myVideos = [
   {
     id: 4005,
     title: 'Самавритти пранаяма 6-6-6-6',
-    category: "Прнаяма йога",
+    category: "Пранаяма йога",
     url: "https://rutube.ru/play/embed/2ee6de07763a28773852b6d2639c4dae",
     sourse: "rutube",
     img: img11,
@@ -138,11 +149,25 @@ export const myVideos = [
   {
     id: 4006,
     title: 'Самавритти пранаяма 7-7-7-7',
-    category: "Прнаяма йога",
+    category: "Пранаяма йога",
     url: "https://rutube.ru/play/embed/d140d1742d4936ee1de3f7d934dd3259",
     sourse: "rutube",
     img: img12,
   },
+  {
+    id: 5001,
+    title: 'Медитация Чандали',
+    category: "Медитация",
+    url: "https://rutube.ru/play/embed/91f3ade5c932dca529ec8e20bc9fa2cc",
+    sourse: "rutube",
+    img: img16,
+  },
+  {
+    id: 5002,
+    title: 'Медитация великого покоя',
+    category: "Медитация",
+    url: "https://rutube.ru/play/embed/1468129bf1ad080f60247e9e59f14c1c",
+    sourse: "rutube",
+    img: img17,
+  },
 ]
-
-// https://rutube.ru/video/32237aae268e8cc623815f544f2d6189/
