@@ -58,18 +58,18 @@ export const menuItemsData = [
         title: 'Отзывы',
         url: '/yoga/feedbacks',
       },
-      {
-        title: 'Хатха йога',
-        url: '/yoga/basicrules',
-      },
-      {
-        title: 'Пранаяма',
-        url: '/yoga/pranayama',
-      },
-      {
-        title: 'Наули крийя',
-        url: '/yoga/nauli',
-      },
+      // {
+      //   title: 'Хатха йога',
+      //   url: '/yoga/basicrules',
+      // },
+      // {
+      //   title: 'Пранаяма',
+      //   url: '/yoga/pranayama',
+      // },
+      // {
+      //   title: 'Наули крийя',
+      //   url: '/yoga/nauli',
+      // },
 
     ],
   },
@@ -135,5 +135,9 @@ export const menuItemsData = [
       },
 
     ],
+  },
+  {
+    title: 'Блог',
+    url: '/blog',
   },
 ];

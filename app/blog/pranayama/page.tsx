@@ -1,6 +1,5 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { FaGripLinesVertical } from "react-icons/fa";
 import VideoPlayer from '@/components/VideoPlayer'
 
 export const metadata: Metadata = {

@@ -9,11 +9,15 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: "*sun9-49.userapi.com",
+        hostname: "sun9-49.userapi.com",
       },
       {
         protocol: 'https',
         hostname: "sun9-73.userapi.com",
+      },
+      {
+        protocol: 'https',
+        hostname: "sun9-13.userapi.com",
       },
       {
         protocol: 'https',

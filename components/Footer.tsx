@@ -12,14 +12,15 @@ const Footer = () => {
       <div className="flex flex-wrap items-start justify-between md:mx-1 text-xs xl:text-lg xl:mx-40 text-gray-300">
 
         <div className="flex flex-col items-start justify-center my-4">
-          <h5 className=""><Link href='/' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">На главную</Link></h5>
+          <p className=""><Link href='/' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">На главную</Link></p>
+          <p className=""><Link href='/blog' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Блог</Link></p>
           <p className='footer-h5'>© All Rights Reserved 2024™</p>
           <p className='footer-h5'>Om Namah Shivaya</p>
           <Image src={trishula} width={30} height={30} alt='trishula' loading="lazy" className="mt-2" />
         </div>
 
         <div className="flex flex-col items-start justify-center my-4">
-          <h5>О себе</h5>
+          <h5 className="text-gray-400">О себе</h5>
           <div className="flex flex-col items-start justify-center">
             <Link href='/osebe/education' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Образование</Link>
             <Link href='/osebe/certificates' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Сертификаты</Link>
@@ -29,7 +30,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col items-start justify-center my-4">
-          <h5>Йога</h5>
+          <h5 className="text-gray-400">Йога</h5>
           <div className="flex flex-col items-start justify-center">
             <Link href='/yoga/schedule' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Расписание</Link>
             <Link href='/yoga/feedbacks' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Отзывы</Link>
@@ -40,7 +41,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col items-start justify-center my-4">
-          <h5>Традиция</h5>
+          <h5 className="text-gray-400">Традиция</h5>
           <div className="flex flex-col items-start justify-center">
             <Link href='/tradition/master' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Мастер</Link>
             <Link href='/tradition/pribezhishche' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Древо прибежища</Link>
@@ -50,7 +51,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col items-start justify-center my-4">
-          <h5>Видео</h5>
+          <h5 className="text-gray-400">Видео</h5>
           <div className="flex flex-col items-start justify-center ">
             <Link href='/video/myvideo' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Мои видео</Link>
             <Link href='/videosguru' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Видео с Гуру</Link>
@@ -60,7 +61,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col items-start justify-center my-4">
-          <h5>Соц. сети</h5>
+          <h5 className="text-gray-400">Соц. сети</h5>
           <div className="flex flex-col items-start justify-center">
             <a href='https://vk.com/tirthadeva' target='_blank' rel='noreferrer' className="flex items-center text-gray-300 hover:text-gray-50 dark:text-gray-200">
               <SlSocialVkontakte className='me-2 dark:text-gray-200' />Vkontakte
