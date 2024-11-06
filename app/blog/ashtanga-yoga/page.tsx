@@ -208,8 +208,8 @@ const page = () => {
       <p className="mt-5"><b>Пранаяма</b> есть процесс управления праной (жизненной силой), посредством дыхательных упражнений и задержек дыхания.</p>
 
       <div className="flex items-center gap-2 mt-5">
-        <div className="shrink-0 h-16 w-2 bg-indigo-600 dark:bg-emerald-400 rounded-sm"></div>
-        <div className="h-16">
+        <div className="shrink-0 h-20 w-1 lg:w-2 bg-indigo-600 dark:bg-emerald-400 rounded-sm"></div>
+        <div className="h-20 w-full flex flex-col justify-between">
           <i>
             &quot;Пранаяма есть прекращение движения вдыхаемого и выдыхаемого воздуха&quot;.
           </i>
@@ -454,8 +454,8 @@ const page = () => {
       </div>
 
       <div className="flex items-center mt-5 gap-2">
-        <div className="shrink-0 h-32 w-2 bg-indigo-600 dark:bg-emerald-400 rounded-sm"> </div>
-        <div className="h-32">
+        <div className="shrink-0 h-60 md:h-40 lg:h-32 w-1 lg:w-2 bg-indigo-600 dark:bg-emerald-400 rounded-sm"> </div>
+        <div className="h-60 md:h-40 lg:h-32 flex flex-col justify-between">
           <i>
             &quot;Гхеранда сказал: Самадхи – великая Йога и ею овладевают благодаря очень удачной судьбе. Она достигается с помощью доброты и милости Учителя и преданности ему.
             Кто верит в учение, в своего учителя и в собственное Я, чьё мышление пробуждается изо дня в день, тот йогин достигает прекрасного Самадхи.
