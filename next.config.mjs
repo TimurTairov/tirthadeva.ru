@@ -21,6 +21,10 @@ const nextConfig = {
       },
       {
         protocol: 'https',
+        hostname: "sun9-5.userapi.com",
+      },
+      {
+        protocol: 'https',
         hostname: "media.giphy.com",
       },
       {

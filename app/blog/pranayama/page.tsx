@@ -4,7 +4,7 @@ import VideoPlayer from '@/components/VideoPlayer'
 
 export const metadata: Metadata = {
   title: "Пранаяма",
-  description: "Пранаяма йога — дыхательная гимнастика йогв.",
+  description: "Пранаяма йога — дыхательная гимнастика йогов.",
 };
 
 const page = () => {

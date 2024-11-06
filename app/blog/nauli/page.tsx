@@ -3,7 +3,7 @@ import VideoPlayer from '@/components/VideoPlayer'
 
 export const metadata: Metadata = {
   title: "Наули",
-  description: "Наули, шаткарма, крийя, детокс, похудение",
+  description: "Наули крийя - это главная очистительная практика йоги (шаткарма)и предназначена для похудения и детоксикации организма. ",
 };
 
 const page = () => {

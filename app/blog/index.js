@@ -17,5 +17,11 @@ export const blogList = [
     img: 'https://sun9-77.userapi.com/impg/hhDvwX1fQ79UEnm9H58Ak4E9zVseJIZTBmmvUQ/H6HrOjmEPOI.jpg?size=657x657&quality=95&sign=27e0674432a030a32922638f303a7009&type=album',
     url: 'blog/pranayama',
   },
+  {
+    id: 1004,
+    title: 'Аштанга йога',
+    img: 'https://sun9-47.userapi.com/impg/c7Tw498oPAZdwArRKHEr1C2jfIPi_9qwjlUZxA/qdgnR49Xwuc.jpg?size=657x657&quality=95&sign=a7b71ee77041e5dfb0d6497cc34f4b58&type=album',
+    url: 'blog/ashtanga-yoga',
+  },
 
 ]
