@@ -78,10 +78,10 @@ const page = () => {
             </a>
             (медитация)
           </li>
-          <li className="flex items-center gap-2">
-            <Bs8CircleFill className="text-indigo-500 dark:text-emerald-400" />
+          <li className="inline">
+            <Bs8CircleFill className="text-indigo-500 dark:text-emerald-400 shrink-0 inline mr-2 mb-1" />
             <a href="#samadhi">
-              <b className="font-normal">Самадхи</b>
+              <b className="font-normal inline mr-2">Самадхи</b>
             </a>
             (наивысшее состояние в медитации)
           </li>
