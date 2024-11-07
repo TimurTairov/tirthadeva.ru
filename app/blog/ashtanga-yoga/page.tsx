@@ -1,6 +1,6 @@
 import Image from "next/image"
 import type { Metadata } from "next";
-import ashtangaYoga from '@/public/ashtanga-yoga.jpg'
+import ashtangaYoga from '@/public/BlogImages/ashtanga-yoga.jpg'
 import { Bs1CircleFill } from "react-icons/bs";
 import { Bs2CircleFill } from "react-icons/bs";
 import { Bs3CircleFill } from "react-icons/bs";
@@ -13,6 +13,7 @@ import { AiOutlineCheck } from 'react-icons/ai'
 import asana from '@/public/SVG/yoga-asana2.svg'
 import meditation from "@/public/SVG/meditation.svg"
 import { BsXLg } from "react-icons/bs";
+import GoToTop from '@/components/GoToTop'
 
 export const metadata: Metadata = {
   title: "Аштанга йога. Восьмеричный Путь йоги.",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <div className='main-container font-light'>
+    <div id="ashtanga-yoga-top" className='main-container font-light'>
       <h1 className='main-title'>АШТАНГА ЙОГА или восьмеричный Путь риши Патанджали</h1>
       <p className='mt-10'>
         Согласно риши Патанджали, Йога есть &quot;<b>Читта Вритти Ниродха</b>&quot;, или прекращение образования мыслеформ на поверхности разума и сводится к следованию по восьмеричной лестнице:
@@ -30,42 +31,58 @@ const page = () => {
         <ul className="py-5">
           <li className="flex items-center gap-2">
             <Bs1CircleFill className="text-indigo-500 dark:text-emerald-400" />
-            <b className="font-normal">Яма</b>
+            <a href="#yama">
+              <b className="font-normal">Яма</b>
+            </a>
             (самоограничения)
           </li>
           <li className="flex items-center gap-2">
             <Bs2CircleFill className="text-indigo-500 dark:text-emerald-400" />
-            <b className="font-normal">Нияма</b>
+            <a href="#niyama">
+              <b className="font-normal">Нияма</b>
+            </a>
             (предписания)
           </li>
           <li className="flex items-center gap-2">
             <Bs3CircleFill className="text-indigo-500 dark:text-emerald-400" />
-            <b className="font-normal">Асана</b>
+            <a href="#asana">
+              <b className="font-normal">Асана</b>
+            </a>
             (позы йоги)
           </li>
           <li className="flex items-center gap-2">
             <Bs4CircleFill className="text-indigo-500 dark:text-emerald-400" />
-            <b className="font-normal">Пранаяма</b>
+            <a href="#pranayama">
+              <b className="font-normal">Пранаяма</b>
+            </a>
             (управление праной)
           </li>
           <li className="flex items-center gap-2">
             <Bs5CircleFill className="text-indigo-500 dark:text-emerald-400" />
-            <b className="font-normal">Пратьяхара</b>
+            <a href="#pratiyahara">
+              <b className="font-normal">Пратьяхара</b>
+            </a>
             (отрешённость)
           </li>
           <li className="flex items-center gap-2">
             <Bs6CircleFill className="text-indigo-500 dark:text-emerald-400" />
-            <b className="font-normal">Дхарана</b>
+            <a href="#dharana">
+              <b className="font-normal">Дхарана</b>
+            </a>
             (концентрация)
           </li>
           <li className="flex items-center gap-2">
             <Bs7CircleFill className="text-indigo-500 dark:text-emerald-400" />
-            <b className="font-normal">Дхьяна</b>
+            <a href="#dhiyana">
+              <b className="font-normal">Дхьяна</b>
+            </a>
             (медитация)
           </li>
           <li className="flex items-center gap-2">
             <Bs8CircleFill className="text-indigo-500 dark:text-emerald-400" />
-            <b className="font-normal">Самадхи</b>
+            <a href="#samadhi">
+              <b className="font-normal">Самадхи</b>
+            </a>
             (наивысшее состояние в медитации)
           </li>
         </ul>
@@ -75,7 +92,7 @@ const page = () => {
 
       <p className='mt-5 w-full text-center'>Далее, мы рассмотрим каждую ступень более подробно.</p>
 
-      <div className='mt-10 lg:mt-20 sub-title inline'>
+      <div id="yama" className='mt-10 lg:mt-20 sub-title inline'>
         <Bs1CircleFill className="text-indigo-500 dark:text-emerald-400 inline mr-2 mb-1" />
         <span>
           Первая ступень: ЯМА
@@ -121,7 +138,7 @@ const page = () => {
         Апариграха устраняет беспокойство за накопленное, страх утраты, горе от потерь, ненависть, гнев, лживость, воровство, привязанность, разочарование, беспокойство ума, неугомонность, заботы и волнения. Она дает покой, умиротворение и удовлетворенность.
       </p>
 
-      <div className='mt-10 lg:mt-20 sub-title inline-flexflex items-center gap-2 justify-center'>
+      <div id="niyama" className='mt-10 lg:mt-20 sub-title inline-flexflex items-center gap-2 justify-center'>
         <Bs2CircleFill className="text-indigo-500 dark:text-emerald-400 inline mr-2 mb-1" />
         Вторая ступень: НИЯМА
       </div>
@@ -163,7 +180,7 @@ const page = () => {
       </p>
 
 
-      <div className='mt-10 lg:mt-20 sub-title inline-flexflex items-center gap-2 justify-center'>
+      <div id="asana" className='mt-10 lg:mt-20 sub-title inline-flexflex items-center gap-2 justify-center'>
         <Bs3CircleFill className="text-indigo-500 dark:text-emerald-400 inline mr-2 mb-1" />
         Третья ступень: АСАНА
       </div>
@@ -201,14 +218,14 @@ const page = () => {
       </ul>
 
 
-      <div className='mt-10 lg:mt-20 sub-title inline-flexflex items-center gap-2 justify-center'>
+      <div id="pranayama" className='mt-10 lg:mt-20 sub-title inline-flexflex items-center gap-2 justify-center'>
         <Bs4CircleFill className="text-indigo-500 dark:text-emerald-400 inline mr-2 mb-1" />
         Четвертая ступень: ПРАНАЯМА
       </div>
       <p className="mt-5"><b>Пранаяма</b> есть процесс управления праной (жизненной силой), посредством дыхательных упражнений и задержек дыхания.</p>
 
       <div className="flex items-center gap-2 mt-5">
-        <div className="shrink-0 h-20 w-1 lg:w-2 bg-indigo-600 dark:bg-emerald-400 rounded-sm"></div>
+        <div className="shrink-0 h-20 w-1 lg:w-2 bg-indigo-600 dark:bg-emerald-400 rounded-md"></div>
         <div className="h-20 w-full flex flex-col justify-between">
           <i>
             &quot;Пранаяма есть прекращение движения вдыхаемого и выдыхаемого воздуха&quot;.
@@ -224,15 +241,15 @@ const page = () => {
       <ul>
         <li>
           <Image src={meditation} alt="meditation" className="size-5 dark:invert inline mr-2 mb-1" />
-          Пурака - вдох
+          <b>Пурака</b> - вдох
         </li>
         <li>
           <Image src={meditation} alt="meditation" className="size-5 dark:invert inline mr-2 mb-1" />
-          Речака - выдох
+          <b>Речака</b> - выдох
         </li>
         <li>
           <Image src={meditation} alt="meditation" className="size-5 dark:invert inline mr-2 mb-1" />
-          Кумбхака - задержка (внешняя и внутренняя)
+          <b>Кумбхака</b> - задержка (внешняя и внутренняя)
         </li>
       </ul>
       <p>Есть также четвертый тип дыхания, который находится за пределами внутреннего и внешнего дыхания.
@@ -264,7 +281,7 @@ const page = () => {
       <p className="mt-5">Если Праны мало, человек склонен к болезням и депрессиям, т.е. испытывает проблемы на физическом и тонком уровнях.</p>
 
 
-      <div className='mt-10 lg:mt-20 sub-title inline-flexflex items-center gap-2 justify-center'>
+      <div id="pratiyahara" className='mt-10 lg:mt-20 sub-title inline-flexflex items-center gap-2 justify-center'>
         <Bs5CircleFill className="text-indigo-500 dark:text-emerald-400 inline mr-2 mb-1" />
         Пятая ступень: ПРАТЬЯХАРА
       </div>
@@ -275,7 +292,6 @@ const page = () => {
       </p>
       <p className="mt-5">Пратьяхара легко достигается после успешного овладения пранаямой. Вивека и вайрагья также способствуют обретению состояния отрешенности.
       </p>
-
       <p className="mt-5">Какие садханы способствуют пратьяхаре:</p>
       <ul>
         <li>
@@ -311,7 +327,6 @@ const page = () => {
           бхаджан мандала
         </li>
       </ul>
-
       <p className="mt-5">Что еще может быть помощником на пути к пратьяхаре:</p>
       <ul>
         <li>
@@ -351,7 +366,6 @@ const page = () => {
           уединение
         </li>
       </ul>
-
       <p className="mt-5">Препятствия в пратьяхаре:</p>
       <ul>
         <li>
@@ -375,6 +389,7 @@ const page = () => {
           избыточное любопытство
         </li>
         <li>
+          <BsXLg className="size-5 text-red-400 inline mr-2" />
           нестабильность в асанах
         </li>
         <li>
@@ -389,7 +404,7 @@ const page = () => {
 
 
 
-      <div className='mt-10 lg:mt-20 sub-title inline-flexflex items-center gap-2 justify-center'>
+      <div id="dharana" className='mt-10 lg:mt-20 sub-title inline-flexflex items-center gap-2 justify-center'>
         <Bs6CircleFill className="text-indigo-500 dark:text-emerald-400 inline mr-2 mb-1" />
         Шестая ступень: ДХАРАНА
       </div>
@@ -405,7 +420,8 @@ const page = () => {
       <p className="mt-5">Развивать концентрацию внимания полезно не только для практики йоги.
       </p>
 
-      <div className='mt-10 lg:mt-20 sub-title inline-flexflex items-center gap-2 justify-center'>
+
+      <div id="dhiyana" className='mt-10 lg:mt-20 sub-title inline-flexflex items-center gap-2 justify-center'>
         <Bs7CircleFill className="text-indigo-500 dark:text-emerald-400 inline mr-2 mb-1" />
         Седьмая ступень: ДХЬЯНА
       </div>
@@ -422,39 +438,39 @@ const page = () => {
       <ul>
         <li>
           <Image src={meditation} alt="meditation" className="size-5 dark:invert inline mr-2 mb-1" />
-          Медитация 4БСБ - медитация четырех бесконечных состоний Брахмы (любовь, сострадание, радость, равностность)
+          <b>Медитация 4БСБ</b> - медитация четырех бесконечных состоний Брахмы (любовь, сострадание, радость, равностность)
         </li>
         <li>
           <Image src={meditation} alt="meditation" className="size-5 dark:invert inline mr-2 mb-1" />
-          Медитация Махашанти - медитация великого покоя
+          <b>Медитация Махашанти</b> - медитация великого покоя
         </li>
         <li>
           <Image src={meditation} alt="meditation" className="size-5 dark:invert inline mr-2 mb-1" />
-          Медитация Чандали - медитация замыкания внутренней энергии
+          <b>Медитация Чандали</b> - медитация замыкания внутренней энергии
         </li>
         <li>
           <Image src={meditation} alt="meditation" className="size-5 dark:invert inline mr-2 mb-1" />
-          Медитация Анапанасати - медитация наблюдения за дыханием
+          <b>Медитация Анапанасати</b> - медитация наблюдения за дыханием
         </li>
         <li>
           <Image src={meditation} alt="meditation" className="size-5 dark:invert inline mr-2 mb-1" />
-          Медитация Атмавичара - медитация на Атман (Высшее Я)
+          <b>Медитация Атмавичара</b> - медитация на Атман (Высшее Я)
         </li>
         <li>
           <Image src={meditation} alt="meditation" className="size-5 dark:invert inline mr-2 mb-1" />
-          Медитация Брахмавичара - медитация на Брахман (Абсолют)
+          <b>Медитация Брахмавичара</b> - медитация на Брахман (Абсолют, Бог)
         </li>
       </ul>
 
 
 
-      <div className='mt-10 lg:mt-20 sub-title inline-flexflex items-center gap-2 justify-center'>
+      <div id="samadhi" className='mt-10 lg:mt-20 sub-title inline-flexflex items-center gap-2 justify-center'>
         <Bs8CircleFill className="text-indigo-500 dark:text-emerald-400 inline mr-2 mb-1" />
         Восьмая ступень: САМАДХИ
       </div>
 
       <div className="flex items-center mt-5 gap-2">
-        <div className="shrink-0 h-60 md:h-40 lg:h-32 w-1 lg:w-2 bg-indigo-600 dark:bg-emerald-400 rounded-sm"> </div>
+        <div className="shrink-0 h-60 md:h-40 lg:h-32 w-1 lg:w-2 bg-indigo-600 dark:bg-emerald-400 rounded-md"> </div>
         <div className="h-60 md:h-40 lg:h-32 flex flex-col justify-between">
           <i>
             &quot;Гхеранда сказал: Самадхи – великая Йога и ею овладевают благодаря очень удачной судьбе. Она достигается с помощью доброты и милости Учителя и преданности ему.
@@ -486,6 +502,7 @@ const page = () => {
         Таков, восьмеричный путь йоги сознания, от норм поведения и морали до сверхэкстатических состояний.
       </div>
 
+      <GoToTop url="#ashtanga-yoga-top" />
     </div>
   )
 }

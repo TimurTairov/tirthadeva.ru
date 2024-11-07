@@ -1,7 +1,8 @@
 import Link from "next/link"
+import Image from "next/image"
 import { blogList } from "./index"
 
-const page = () => {
+const Blog = () => {
   return (
     <div className='main-container'>
       <h1 className='main-title'>Блог</h1>
@@ -23,4 +24,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Blog 

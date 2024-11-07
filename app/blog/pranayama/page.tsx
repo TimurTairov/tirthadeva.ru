@@ -11,9 +11,9 @@ const page = () => {
   return (
     <div className='main-container font-light'>
       <h1 className="main-title">Пранаяма — дыхательная гимнастика йогов</h1>
-      <div className="flex items-center">
-        <div className="h-full text-6xl text-indigo-600 dark:text-emerald-400">|</div>
-        <div>
+      <div className="flex items-center gap-2 mt-5">
+        <div className="shrink-0 h-20 w-2 text-6xl bg-indigo-600 dark:bg-emerald-400 rounded-md"></div>
+        <div className="h-20 w-full flex flex-col justify-between">
           <i >
             &quot;Пранаяма есть прекращение движения вдыхаемого и выдыхаемого воздуха&quot;.
           </i>

@@ -4,7 +4,7 @@ import meditationSVG from '@/public/SVG/meditation.svg'
 import hatha from '@/public/hatha.jpg'
 import kundalini from '@/public/kundalini.jpg'
 import meditation from '@/public/meditation.jpg'
-import myPhoto from '@/public/01.jpg'
+import myPhoto from '@/public/BlogImages/01.jpg'
 import MyPhoto from '@/components/MyPhoto'
 
 const YogaDirections = () => {

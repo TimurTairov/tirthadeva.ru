@@ -11,7 +11,7 @@ const page = () => {
           {myVideos.map(item => (
             <li key={item.id} className='w-full lg:w-60 flex flex-col'>
               <Link href={`/video/myvideo/${item.id}`} className='text-sm'>
-                <Image src={item.img} width={384} height={216} alt={item.title} className='w-full h-auto rounded-md' />
+                <Image src={item.img} width={384} height={216} alt={item.title} className='w-full h-auto border rounded-md' />
               </Link>
               <Link href={`/video/myvideo/${item.id}`} className='text-xs lg:text-sm h-10 mt-2 dark:text-gray-300'>
                 {item.title}

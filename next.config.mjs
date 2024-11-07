@@ -10,6 +10,14 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: "sun9-49.userapi.com",
+        port: '',
+        pathname: '/impg/**',
+      },
+      {
+        protocol: 'https',
+        hostname: "sun9-48.userapi.com",
+        port: '',
+        pathname: '/impg/UhpzEEiwfzJcCZ8x8JujaR7wBk8w8JFuakX_Fw/**',
       },
       {
         protocol: 'https',
