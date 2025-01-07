@@ -15,7 +15,7 @@ export default function MyAccordion({
   const [accordionOpen, setAccordionOpen] = useState<boolean>(false)
   useEffect(() => {
     setAccordionOpen(active)
-  }, [])
+  }, [active])
 
   return (
     <div className="py-2">
