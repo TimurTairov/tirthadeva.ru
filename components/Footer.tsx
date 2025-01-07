@@ -33,10 +33,9 @@ const Footer = () => {
           <h5 className="text-gray-400">Йога</h5>
           <div className="flex flex-col items-start justify-center">
             <Link href='/yoga/schedule' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Расписание</Link>
+            <Link href='/yoga/yogaonline' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Йога онлайн</Link>
             <Link href='/yoga/feedbacks' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Отзывы</Link>
-            <Link href='/yoga/basicrules' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Хатха йога</Link>
-            <Link href='/yoga/pranayama' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Пранаяма</Link>
-            <Link href='/yoga/nauli' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Наули</Link>
+
           </div>
         </div>
 

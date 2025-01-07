@@ -6,9 +6,7 @@ import { SlSocialVkontakte } from "react-icons/sl";
 import { FaInstagram } from "react-icons/fa";
 import { FaSquareWhatsapp } from "react-icons/fa6";
 import { TfiEmail } from "react-icons/tfi";
-import { FaSkype } from "react-icons/fa";
 import rutube from '@/public/SVG/rutube__.svg'
-import trishula from '@/public/trishula.gif'
 import BottomImg from "@/components/BottomImg";
 
 const page = () => {
@@ -18,7 +16,7 @@ const page = () => {
 
       <ul className='mt-10 flex flex-row flex-wrap items-center justify-between lg:mx-40 xl:mx-70'>
 
-        <li className='flex flex-col border p-2 m-2 rounded-lg w-full lg:w-1/3'>
+        <li className='flex flex-col border p-5 m-2 rounded-lg w-full lg:w-1/3'>
           <div className='flex items-center gap-2'>
             <IoLocationSharp className="h-7 w-7" />
             <h3 className='font-semibold text-2xl mt-2'> Локация</h3>
@@ -26,8 +24,8 @@ const page = () => {
           <p className="a">РФ, Москва. М. Новокосино.</p>
         </li>
 
-        <li className='flex flex-col border p-2 m-2 rounded-lg w-full lg:w-1/3'>
-          <div className='flex items-center gap-2'>
+        <li className='flex flex-col border p-5 m-2 rounded-lg w-full lg:w-1/3'>
+          <div className='flex items-center gap-5'>
             <FaSquareWhatsapp className="h-7 w-7" />
             <h3 className='font-semibold text-2xl'> WhatsApp</h3>
           </div>
@@ -37,7 +35,7 @@ const page = () => {
           </p>
         </li>
 
-        <li className='flex flex-col border p-2 m-2 rounded-lg w-full lg:w-1/3'>
+        <li className='flex flex-col border p-5 m-2 rounded-lg w-full lg:w-1/3'>
           <div className='flex items-center gap-2'>
             <FaTelegram className="h-7 w-7" />
             <h3 className='font-semibold text-2xl'> Telegram</h3>
@@ -53,7 +51,7 @@ const page = () => {
           </p>
         </li>
 
-        <li className='flex flex-col border p-2 m-2 rounded-lg w-full lg:w-1/3'>
+        <li className='flex flex-col border p-5 m-2 rounded-lg w-full lg:w-1/3'>
           <div className='flex items-center gap-2'>
             <SlSocialVkontakte className="h-7 w-7" />
             <h3 className='font-semibold text-2xl'> VK</h3>
@@ -69,7 +67,7 @@ const page = () => {
           </p>
         </li>
 
-        <li className='flex flex-col border p-2 m-2  rounded-lg w-full lg:w-1/3'>
+        <li className='flex flex-col border p-5 m-2  rounded-lg w-full lg:w-1/3'>
           <div className='flex items-center gap-2'>
             <TfiEmail className="h-7 w-7" />
             <h3 className='font-semibold text-2xl'> Email</h3>
@@ -83,7 +81,7 @@ const page = () => {
           </p>
         </li>
 
-        <li className='flex flex-col border p-2 m-2  rounded-lg w-full lg:w-1/3'>
+        <li className='flex flex-col border p-5 m-2  rounded-lg w-full lg:w-1/3'>
           <div className='flex items-center gap-2'>
             <Image src={rutube} width={20} height={20} alt="rutube" className="h-7 w-7" />
             <h3 className='font-semibold text-2xl'> Rutube</h3>
@@ -99,7 +97,7 @@ const page = () => {
           </p>
         </li>
 
-        <li className='flex flex-col border p-2 m-2  rounded-lg w-full lg:w-1/3'>
+        <li className='flex flex-col border p-5 m-2  rounded-lg w-full lg:w-1/3'>
           <div className='flex items-center gap-2'>
             <FaYoutube className="h-7 w-7" />
             <h3 className='font-semibold text-2xl'> YouTube</h3>
@@ -115,7 +113,7 @@ const page = () => {
           </p>
         </li>
 
-        <li className='flex flex-col border p-2 m-2 rounded-lg w-full lg:w-1/3'>
+        <li className='flex flex-col border p-5 m-2 rounded-lg w-full lg:w-1/3'>
           <div className='flex items-center gap-2'>
             <FaInstagram className="h-7 w-7" />
             <h3 className='font-semibold text-2xl'> Instagram</h3>

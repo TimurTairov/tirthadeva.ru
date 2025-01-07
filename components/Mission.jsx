@@ -23,6 +23,7 @@ const Mission = () => {
             height={30}
             alt="om"
             loading="lazy"
+            unoptimized
             className="xl:w-20 xl:h-20 rounded-full border-2 border-yellow-500 mr-3 md:mr-5"
           />
           <p>Cлужение Высшим идеалам йоги (Гуру, Дхарме и Cангхе)</p>
@@ -34,6 +35,7 @@ const Mission = () => {
             height={30}
             alt="om"
             loading="lazy"
+            unoptimized
             className="xl:w-20 xl:h-20 rounded-full border-2 border-yellow-500 mr-3 md:mr-5"
           />
           <p>Помощь всем живым существам в преодолении неведения</p>
@@ -45,6 +47,7 @@ const Mission = () => {
             height={30}
             alt="om"
             loading="lazy"
+            unoptimized
             className="xl:w-20 xl:h-20 rounded-full border-2 border-yellow-500 mr-3 md:mr-5"
           />
           <p>Распространение традиционных знаний йоги</p>
