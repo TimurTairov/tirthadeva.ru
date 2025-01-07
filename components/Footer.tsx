@@ -14,8 +14,8 @@ const Footer = () => {
         <div className="flex flex-col items-start justify-center my-4">
           <p className=""><Link href='/' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">На главную</Link></p>
           <p className=""><Link href='/blog' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Блог</Link></p>
-          <p className='footer-h5'>© All Rights Reserved 2024™</p>
-          <p className='footer-h5'>Om Namah Shivaya</p>
+          <p className='text-[0.5rem] md:text-xs mt-1 lg:mt-2'>© All Rights Reserved 2024™</p>
+          <p className='text-[0.5rem] md:text-xs'>Om Namah Shivaya</p>
           <Image src={trishula} width={30} height={30} alt='trishula' loading="lazy" className="mt-2" />
         </div>
 
