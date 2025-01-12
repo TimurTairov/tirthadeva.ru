@@ -1,21 +1,22 @@
-import img0 from '@/public/for video/0.jpg'
-import img1 from '@/public/for video/1.jpg'
-import img2 from '@/public/for video/2.jpg'
-import img3 from '@/public/for video/3.jpg'
-import img4 from '@/public/for video/4.jpg'
-import img5 from '@/public/for video/5.jpg'
-import img6 from '@/public/for video/6.jpg'
-import img7 from '@/public/for video/7.jpg'
-import img8 from '@/public/for video/8.jpg'
-import img9 from '@/public/for video/9.jpg'
-import img10 from '@/public/for video/10.jpg'
-import img11 from '@/public/for video/11.jpg'
-import img12 from '@/public/for video/12.jpg'
-import img13 from '@/public/for video/13.jpg'
-import img14 from '@/public/for video/14.jpg'
-import img15 from '@/public/for video/15.jpg'
-import img16 from '@/public/for video/16.jpg'
-import img17 from '@/public/for video/17.jpg'
+import img0 from '@/public/for video/0.webp'
+import img1 from '@/public/for video/hatha1.webp'
+import img2 from '@/public/for video/hatha2.webp'
+import img3 from '@/public/for video/hatha3.webp'
+import img4 from '@/public/for video/hatha4.webp'
+import img5 from '@/public/for video/hatha5.webp'
+import img6 from '@/public/for video/hatha6.webp'
+import img7 from '@/public/for video/kriya7.webp'
+import img8 from '@/public/for video/kriya8.webp'
+import img9 from '@/public/for video/pranayama9.webp'
+import img10 from '@/public/for video/pranayama10.webp'
+import img11 from '@/public/for video/pranayama11.webp'
+import img12 from '@/public/for video/pranayama12.webp'
+import img13 from '@/public/for video/pranayama13.webp'
+import img14 from '@/public/for video/pranayama14.webp'
+import img15 from '@/public/for video/hatha15.webp'
+import img16 from '@/public/for video/meditation16.webp'
+import img17 from '@/public/for video/meditation17.webp'
+import img18 from '@/public/for video/nidra18.webp'
 
 export const myVideos = [
   {
@@ -88,7 +89,7 @@ export const myVideos = [
     category: "Нидра йога",
     url: "https://rutube.ru/play/embed/4c76668954dd837187c9e0e92fe2c538",
     sourse: "rutube",
-    img: img0,
+    img: img18,
   },
   {
     id: 2002,
@@ -96,7 +97,7 @@ export const myVideos = [
     category: "Нидра йога",
     url: "https://rutube.ru/play/embed/32237aae268e8cc623815f544f2d6189",
     sourse: "rutube",
-    img: img0,
+    img: img18,
   },
   {
     id: 3001,
