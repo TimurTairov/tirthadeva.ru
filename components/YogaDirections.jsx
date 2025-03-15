@@ -9,7 +9,7 @@ import MyPhoto from '@/components/MyPhoto'
 
 const YogaDirections = () => {
   return (
-    <div className="w-full mt-14 lg:mt-20 flex lg:flex-row flex-col justify-around ">
+    <div className="w-full mt-20 lg:mt-40 flex lg:flex-row flex-col justify-around ">
       <div className="flex flex-col items-center justify-between">
         <div className="flex items-center justify-center">
           <Image

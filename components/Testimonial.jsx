@@ -7,7 +7,7 @@ import NavigationButton from '@/components/NavigationButton'
 
 const Testimonial = () => {
   return (
-    <section className="bg-white dark:bg-slate-800 mt-14 lg:mt-20">
+    <section className="bg-white dark:bg-slate-800 mt-20 lg:mt-40">
       <div className="mx-auto max-w-screen-xl">
         <div className="w-full flex items-center justify-center mt-5">
           <Image

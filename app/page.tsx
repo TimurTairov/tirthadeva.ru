@@ -27,7 +27,6 @@ export default function Home() {
       <TeachingYoga />
       <YogaOnline />
       <Testimonial />
-      <Price />
       <Contacts />
       <GoToTop url={"/"} />
       <PngYogiMP />

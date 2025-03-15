@@ -11,7 +11,7 @@ import NavigationButton from '@/components/NavigationButton'
 
 const MyGurus = () => {
   return (
-    <section className="bg-white dark:bg-slate-800 mt-14 lg:mt-20 w-full">
+    <section className="bg-white dark:bg-slate-800 mt-20 lg:mt-40 w-full">
       <div className="px-4">
         <div className="w-full flex items-center justify-center">
           <Image
@@ -42,7 +42,7 @@ const MyGurus = () => {
               </div>
             </div>
 
-            <p className="mt-4 text-gray-700 dark:text-gray-200">
+            <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200">
               Коренной Учитель в традиции Пратьякша Адвайта сиддхов.
             </p>
           </blockquote>
@@ -65,7 +65,7 @@ const MyGurus = () => {
               </div>
             </div>
 
-            <p className="mt-4 text-gray-700 dark:text-gray-200">
+            <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200">
               Наставник в традиции Пратьякша Адвайта сиддхов.
             </p>
           </blockquote>
@@ -83,12 +83,12 @@ const MyGurus = () => {
 
               <div>
                 <p className="mt-0.5 text-lg font-medium text-gray-900 dark:text-gray-100">
-                  Вадим Запорожцев
+                  Вадим Openyoga Запорожцев
                 </p>
               </div>
             </div>
 
-            <p className="mt-4 text-gray-700 dark:text-gray-200">
+            <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200">
               Первый Учитель. Школа открытой йоги.
             </p>
           </blockquote>
@@ -111,7 +111,7 @@ const MyGurus = () => {
               </div>
             </div>
 
-            <p className="mt-4 text-gray-700 dark:text-gray-200">
+            <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200">
               Бихарская школа йоги (Индия). Обучение в поездках по Индии и
               Непалу.
             </p>
@@ -135,7 +135,7 @@ const MyGurus = () => {
               </div>
             </div>
 
-            <p className="mt-4 text-gray-700 dark:text-gray-200">
+            <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200">
               Традиция крия йоги Рамаяхи.
             </p>
           </blockquote>
@@ -158,7 +158,7 @@ const MyGurus = () => {
               </div>
             </div>
 
-            <p className="mt-4 text-gray-700 dark:text-gray-200">
+            <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200">
               Учитель йоги из Варанаси (Индия). Традиция Тантры.
             </p>
           </blockquote>

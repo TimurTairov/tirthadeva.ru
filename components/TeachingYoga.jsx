@@ -4,7 +4,7 @@ import NavigationButton from '@/components/NavigationButton'
 
 const TeachingYoga = () => {
   return (
-    <div className="w-full mt-14 lg:mt-20 rounded-md">
+    <div className="w-full mt-20 lg:mt-40 rounded-md">
       <div className="w-full flex items-center justify-center">
         <Image
           src={yogaasana2SVG}

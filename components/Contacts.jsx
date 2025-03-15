@@ -5,7 +5,7 @@ import { FaTelegram } from 'react-icons/fa'
 
 const Contacts = () => {
   return (
-    <div className="mt-14 lg:mt-20">
+    <div className="mt-20 lg:mt-40">
       <div className="w-full flex items-center justify-center">
         <BsPhoneVibrate className="w-10 h-10 mr-2 rounded-full p-1 border border-black  dark:text-white dark:border-white" />
         <h5 className="titleMP text-center">Связаться со мной</h5>

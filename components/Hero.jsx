@@ -35,7 +35,7 @@ const Hero = ({ title, foto = myPhoto }) => {
           </div>
         </div>
 
-        <div className="mt-5 lg:mt-5 xl:mt-0 flex flex-col items-start justify-center gap-1 lg:gap-2 p-6 lg:p-3 xl:p-6 xl:gap-5 ">
+        <div className="mt-0 md:mt-5 lg:mt-5 xl:mt-0 flex flex-col items-start justify-center gap-1 lg:gap-2 p-6 lg:p-3 xl:p-6 xl:gap-5 ">
           <div className="w-full flex items-center rounded-lg p-1 dark:bg-slate-700">
             <Image
               src={guru96}

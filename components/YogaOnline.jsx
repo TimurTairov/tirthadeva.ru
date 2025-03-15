@@ -6,7 +6,7 @@ import NavigationButton from '@/components/NavigationButton'
 
 const YogaOnline = () => {
   return (
-    <div className="w-full mt-14 lg:mt-20 rounded-md">
+    <div className="w-full mt-20 lg:mt-40 rounded-md">
       <div className="w-full flex items-center justify-center">
         <Image
           src={video2SVG}
@@ -24,33 +24,36 @@ const YogaOnline = () => {
       </p>
 
       <div className="grid grid-cols-2 grid-rows-2 mt-5 ">
-        <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
+        <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center gap-3">
           <BiLogoZoom className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP" />
           <p className=" textMP">
             трансляции через <b>Zoom</b>
           </p>
         </div>
-        <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6rounded-md m-1 items-start justify-center">
-          <GrSchedule className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP" />
+        <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center gap-3">
+          <GrSchedule className="mr-2 text-indigo-600 dark:text-emerald-400 titleMP" />
           <p className=" textMP">удобное расписание</p>
         </div>
-        <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
+        <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center gap-3">
           <p className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP">
             4 года{' '}
           </p>
           <p className=" textMP">преподавания йоги онлайн</p>
         </div>
-        <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center">
+        <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center gap-3">
           <p className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP">
             3 занятия{' '}
           </p>
-          <p className=" textMP">БЕСПЛАТНО*</p>
+          <div>
+            <p className="textMP">БЕСПЛАТНО</p>
+            <p className="text-xs">для новых участников </p>
+          </div>
         </div>
       </div>
 
-      <p className="mt-5 text-xs ml-2">* - только для новых учеников </p>
+      {/* <p className="mt-1 text-xs ml-2">* - только для новых учеников </p> */}
 
-      <div className="mt-6">
+      <div className="mt-5">
         <NavigationButton
           title={'Практиковать йогу онлайн бесплатно'}
           link="whatsapp://send?phone=79672067710"

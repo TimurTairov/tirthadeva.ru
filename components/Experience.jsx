@@ -3,7 +3,7 @@ import yogaasanaSVG from '@/public/SVG/yoga-asana.svg'
 
 const Experience = () => {
   return (
-    <div className="w-full mt-14 lg:mt-20 flex flex-col lg:flex-row-reverse justify-around ">
+    <div className="w-full mt-20 lg:mt-40 flex flex-col lg:flex-row-reverse justify-around ">
       <div className="xl:mx-5 w-full flex flex-col justify-between">
         <div className="flex items-center justify-center">
           <Image
