@@ -18,19 +18,19 @@ const Experience = () => {
         <div className="grid grid-cols-2 xl:grid-cols-2 mt-5 gap-3">
           <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-5 rounded-md">
             <p className="text-indigo-600 dark:text-emerald-400 titleMP">
-              14 лет
+              15 лет
             </p>
             <p className=" textMP">личной практики йоги</p>
           </div>
           <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-5 rounded-md">
             <p className="text-indigo-600 dark:text-emerald-400 titleMP">
-              9 лет
+              10 лет
             </p>
             <p className=" textMP">ежедневных медитаций</p>
           </div>
           <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-5 rounded-md">
             <p className="text-indigo-600 dark:text-emerald-400 titleMP">
-              8 лет
+              10 лет
             </p>
             <p className=" textMP">преподавания йоги</p>
           </div>
