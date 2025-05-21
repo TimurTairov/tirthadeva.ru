@@ -36,9 +36,9 @@ const YogaOnline = () => {
         </div>
         <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center gap-3">
           <p className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP">
-            4 года{' '}
+            более 5 лет{' '}
           </p>
-          <p className=" textMP">преподавания йоги онлайн</p>
+          <p className=" textMP">опыт преподавания занятий онлайн</p>
         </div>
         <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-6 rounded-md m-1 items-start justify-center gap-3">
           <p className="mr-2 text-indigo-600 dark:text-emerald-400  titleMP">
