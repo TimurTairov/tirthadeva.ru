@@ -4,7 +4,7 @@ import { FaYoutube } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { SlSocialVkontakte } from "react-icons/sl";
 import { FaInstagram } from "react-icons/fa";
-import trishula from '@/public/trishula.png'
+import trishula from '@/public/trishula.webp'
 
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
           <p className=""><Link href='/blog' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Блог</Link></p>
           <p className='text-[0.5rem] md:text-xs mt-1 lg:mt-2'>© All Rights Reserved 2024™</p>
           <p className='text-[0.5rem] md:text-xs'>Om Namah Shivaya</p>
-          <Image src={trishula} width={30} height={30} alt='trishula' loading="lazy" className="mt-2" />
+          <Image src={trishula} width={30} height={30} alt='trishula' loading="lazy" className="mt-2 md:mt-4 rounded-md" />
         </div>
 
         <div className="flex flex-col items-start justify-center my-4">

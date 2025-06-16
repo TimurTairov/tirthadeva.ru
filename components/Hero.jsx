@@ -3,9 +3,9 @@ import { FaOm } from 'react-icons/fa6'
 import { LiaPrayingHandsSolid } from 'react-icons/lia'
 import myPhoto from '@/public/myPhoto-1.webp'
 import NavigationButton from '@/components/NavigationButton'
-import guru96 from '@/public/guru-96.png'
-import tirthadeva96 from '@/public/tirthadeva-96.png'
-import om96 from '@/public/om-96-2.png'
+import guru96 from '@/public/guru-96.webp'
+import tirthadeva96 from '@/public/tirthadeva-96.webp'
+import om96 from '@/public/om-96-2.webp'
 import MyPhoto from '@/components/MyPhoto'
 
 const Hero = ({ title, foto = myPhoto }) => {

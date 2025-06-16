@@ -1,5 +1,5 @@
 import Image from "next/image"
-import metody from '@/public/metody-2.jpg'
+import metody from '@/public/metody-2.webp'
 
 
 const page = () => {
@@ -122,7 +122,7 @@ const page = () => {
       </p>
       <div className="w-full flex justify-center items-center mt-10">
         <div>
-          <Image src={metody} width={400} height={600} alt="metody" />
+          <Image src={metody} width={400} height={600} alt="metody" className=" rounded-xl" />
         </div>
       </div>
 

@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import Steps from '@/components/Steps'
 import meditationSVG from '@/public/SVG/meditation.svg'
-import hatha from '@/public/hatha.jpg'
-import kundalini from '@/public/kundalini.jpg'
-import meditation from '@/public/meditation.jpg'
-import myPhoto from '@/public/BlogImages/01.jpg'
+import hatha from '@/public/hatha.webp'
+import kundalini from '@/public/kundalini.webp'
+import meditation from '@/public/meditation.webp'
+import myPhoto from '@/public/BlogImages/01.webp'
 import MyPhoto from '@/components/MyPhoto'
 
 const YogaDirections = () => {

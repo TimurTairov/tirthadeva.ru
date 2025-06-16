@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import nataraja from '@/public/nataraja.png'
-import yog1 from '@/public/yog1.png'
-import yog4 from '@/public/yog4.png'
-import yog5 from '@/public/yog5.png'
-import yog6 from '@/public/yog6.png'
+import nataraja from '@/public/nataraja.webp'
+import yog1 from '@/public/yog1.webp'
+import yog4 from '@/public/yog4.webp'
+import yog5 from '@/public/yog5.webp'
+import yog6 from '@/public/yog6.webp'
 
 const PngYogiMP = () => {
   return (

@@ -1,5 +1,4 @@
-import Image from "next/image"
-import bgGradient from '@/public/SVG/Rainbow-squares.svg'
+
 const Gradient = () => {
   return (
     <div className='gradient absolute top-0 h-full w-2/3 lg:w-1/2 opacity-25 dark:opacity-15 md:opacity-20 blur-3xl' >

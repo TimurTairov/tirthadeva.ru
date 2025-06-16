@@ -1,12 +1,11 @@
 import Image from 'next/image'
-import myPhoto from '@/public/myPhoto-2.jpg'
 import shiva from '@/public/SVG/shiva-7.svg'
-import guru from '@/public/MuGurus/guru108-2.jpg'
-import vvz from '@/public/MuGurus/vvz108.jpg'
-import kozharinov from '@/public/MuGurus/kozharinov108.jpg'
-import dubyanskii from '@/public/MuGurus/dubyanskii108.jpg'
-import lalibaba from '@/public/MuGurus/lalibaba108.jpg'
-import ramanatha from '@/public/MuGurus/ramanatha108.jpg'
+import guru from '@/public/MuGurus/guru108-2.webp'
+import vvz from '@/public/MuGurus/vvz108.webp'
+import kozharinov from '@/public/MuGurus/kozharinov108.webp'
+import dubyanskii from '@/public/MuGurus/dubyanskii108.webp'
+import lalibaba from '@/public/MuGurus/lalibaba108.webp'
+import ramanatha from '@/public/MuGurus/ramanatha108.webp'
 import NavigationButton from '@/components/NavigationButton'
 
 const MyGurus = () => {

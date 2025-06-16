@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import Link from 'next/link'
 import Image from 'next/image'
 import ButtonDarkMode from './btnDarkMode/ButtonDarkMode'
-import logo from '@/public/tirthadeva-96.png'
+import logo from '@/public/tirthadeva-96.webp'
 
 const Header = () => {
   return (

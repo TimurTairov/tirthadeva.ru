@@ -1,5 +1,5 @@
 import Image from "next/image"
-import bottomImg from '@/public/108.png'
+import bottomImg from '@/public/108.webp'
 
 const BottomImg = () => {
   return (
