@@ -1,6 +1,6 @@
 import Image from "next/image"
 import type { Metadata } from "next";
-import ashtangaYoga from '@/public/BlogImages/ashtanga-yoga.jpg'
+import ashtangaYoga from '@/public/BlogImages/ashtanga-yoga.webp'
 import { Bs1CircleFill } from "react-icons/bs";
 import { Bs2CircleFill } from "react-icons/bs";
 import { Bs3CircleFill } from "react-icons/bs";
