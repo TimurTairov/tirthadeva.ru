@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Image from "next/image"
-import SignUpForYogaOnline from '@/components/SignUpForYogaOnline'
+// import SignUpForYogaOnline from '@/components/SignUpForYogaOnline'
 import NavigationButton from '@/components/NavigationButton'
 import { FaSun } from "react-icons/fa"
-import { FaWhatsapp } from "react-icons/fa"
+// import { FaWhatsapp } from "react-icons/fa"
 import yogaClass from '@/public/yogaclass1.webp'
+import { GoDotFill } from "react-icons/go";
 
 export const metadata: Metadata = {
   title: "Расписание занятий",
@@ -17,92 +18,47 @@ const page = () => {
       <h1 className="main-title">Расписание занятий</h1>
 
       <h5 className='mt-5 mb-1'>
-        1.
-        <a href='https://fitness-cccp.ru/clubs/mihajlovskij/' target='_blank' rel='noreferrer' className="subTitleMP"> Фитнес клуб СССР Волгоградский проспект </a>
+        <a href='https://ivanovskoe.mangofitness.ru/' target='_blank' rel='noreferrer' className="subTitleMP">1. Фитнес клуб Манго</a>
       </h5>
       <p className="flex items-center">
-        <FaSun className='me-2' color='orange' />
-        Понедельник 8:30 Хатха йога (90 минут)
-      </p>
-      <p className="flex items-center">
-        <FaSun className='me-2' color='orange' />
-        Среда 8:30 Кундалини йога (90 минут)
-      </p>
-      <p className="flex items-center">
-        <FaSun className='me-2' color='orange' />
-        Суббота 9:00 Хатха йога (90 минут)
-      </p>
-      <p className="flex items-center">
-        <FaSun className='me-2' color='orange' />
-        Суббота 10:30 Йога в гамаках (55 минут)
-      </p>
-
-      <h5 className='mt-5 mb-1'>
-        2.
-        <a href='https://ivanovskoe.mangofitness.ru/' target='_blank' rel='noreferrer' className="subTitleMP"> Фитнес клуб Манго</a>
-      </h5>
-      <p className="flex items-center">
-        <FaSun className='me-2' color='orange' />
+        <GoDotFill className='me-2' color='orange' />
         Понедельник 21:00 Хатха йога (90 минут)
       </p>
 
       <h5 className='mt-5 mb-1'>
-        3.
-        <a href='https://fitnessavenue.ru/' target='_blank' rel='noreferrer' className="subTitleMP"> Фитнес Авеню</a>
+        <a href='https://fitnessavenue.ru/' target='_blank' rel='noreferrer' className="subTitleMP">2. Фитнес Авеню</a>
       </h5>
       <p className="flex items-center">
-        <FaSun className='me-2' color='orange' />
+        <GoDotFill className='me-2' color='orange' />
         Вторник 9:00 Хатха Йога (60 минут)
       </p>
       <p className="flex items-center">
-        <FaSun className='me-2' color='orange' />
+        <GoDotFill className='me-2' color='orange' />
         Пятница 9:00 Хатха Йога (60 минут)
       </p>
 
-      <h5 className='mt-5 mb-1'>
-        4.
-        <a href='http://prostozvezda.ru/' target='_blank' rel='noreferrer' className="subTitleMP"> Детский центр &quot;Звезда&quot;</a>
-      </h5>
-      <p className="flex items-center">
-        <FaSun className='me-2' color='orange' />
-        Вторник 17:00 Хатха йога (взрослые) (60 минут)
-      </p>
-      <p className="flex items-center">
-        <FaSun className='me-2' color='orange' />
-        Вторник 18:00 здоровая спина (дети) (60 минут)
-      </p>
-      <p className="flex items-center">
-        <FaSun className='me-2' color='orange' />
-        Четверг 17:00 Хатха йога (взрослые) (60 минут)
-      </p>
-      <p className="flex items-center">
-        <FaSun className='me-2' color='orange' />
-        Четверг 18:00 здоровая спина (дети) (60 минут)
-      </p>
 
       <h5 className='mt-5 mb-1'>
-        5.
-        <a href='https://ddsport.fitness/' target='_blank' rel='noreferrer' className="subTitleMP"> Фитнес клуб DD Sport</a>
+        <a href='https://ddsport.fitness/' target='_blank' rel='noreferrer' className="subTitleMP">3. Фитнес клуб DD Sport</a>
       </h5>
       <p className="flex items-center">
-        <FaSun className='me-2' color='orange' />
-        Среда 20:00 Хатха йога (90 минут)
+        <GoDotFill className='me-2' color='orange' />
+        Четверг 19:00 Хатха йога (90 минут)
       </p>
 
       <h5 className='flex items-center mt-5 mb-1'>
-        6.
-        <a href="whatsapp://send?phone=79672067710" className="ml-1 subTitleMP"> Йога онлайн </a>
+        <a href="whatsapp://send?phone=79672067710" className="ml-1 subTitleMP">4. Йога онлайн </a>
       </h5>
       <p className="flex items-center">
-        <FaSun className='me-2' color='orange' />
+        <GoDotFill className='me-2' color='orange' />
         Вторник 20:30 Медитация (60 минут)
       </p>
       <p className="flex items-center">
-        <FaSun className='me-2' color='orange' />
+        <GoDotFill className='me-2' color='orange' />
         Пятница 19:00 Хатха йога (90 минут)
       </p>
       <p className="flex items-center">
-        <FaSun className='me-2' color='orange' />
+        <GoDotFill className='me-2' color='orange' />
         Воскресение 10:00 Кундалини йога (90 минут)
       </p>
 
