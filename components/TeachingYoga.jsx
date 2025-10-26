@@ -51,7 +51,7 @@ const TeachingYoga = () => {
         </div>
       </div>
       <div className="mt-5">
-        <NavigationButton title={'Подробнее ...'} link={'yoga/basicrules'} />
+        <NavigationButton title={'Подробнее ...'} link={'/blog/hatha'} />
       </div>
     </div>
   )

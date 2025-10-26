@@ -53,11 +53,15 @@ const YogaOnline = () => {
 
       {/* <p className="mt-1 text-xs ml-2">* - только для новых учеников </p> */}
 
-      <div className="mt-5">
-        <NavigationButton
-          title={'Практиковать йогу онлайн бесплатно'}
-          link="whatsapp://send?phone=79672067710"
-        />
+      <div className="mt-5 w-full flex justify-center">
+        <a
+          href="https://chat.whatsapp.com/KEhgTrh2bJu3PP6jgiY2T5"
+          target="_blank"
+          rel="noreferrer"
+          className="flare-button text-white dark:text-white dark:hover:text-indigo-700 bg-amber-400 "
+        >
+          Практиковать йогу онлайн
+        </a>
       </div>
     </div>
   )

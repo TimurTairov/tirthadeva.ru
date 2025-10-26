@@ -53,8 +53,8 @@ const Footer = () => {
           <h5 className="text-gray-400">Видео</h5>
           <div className="flex flex-col items-start justify-center ">
             <Link href='/video/myvideo' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Мои видео</Link>
-            <Link href='/videosguru' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Видео с Гуру</Link>
-            <Link href='/videosmonahami' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Видео с монахами</Link>
+            <Link href='/video/guru' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Видео с Гуру</Link>
+            <Link href='/video/sanyasi' className="text-gray-300 hover:text-gray-50 dark:text-gray-200">Видео с монахами</Link>
 
           </div>
         </div>

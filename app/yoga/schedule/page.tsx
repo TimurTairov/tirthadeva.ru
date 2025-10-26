@@ -18,7 +18,36 @@ const page = () => {
       <h1 className="main-title">Расписание занятий</h1>
 
       <h5 className='mt-5 mb-1'>
-        <a href='https://ivanovskoe.mangofitness.ru/' target='_blank' rel='noreferrer' className="subTitleMP">1. Фитнес клуб Манго</a>
+        <a href='https://ivanovskoe.mangofitness.ru/' target='_blank' rel='noreferrer' className="subTitleMP">1. Дхарма центр ШактиМА</a>
+      </h5>
+      <p className="flex items-center">
+        <GoDotFill className='me-2' color='orange' />
+        Понедельник 8:00 Хатха йога (90 минут)
+      </p>
+      <p className="flex items-center">
+        <GoDotFill className='me-2' color='orange' />
+        Понедельник 10:00 Кундалини йога (90 минут)
+      </p>
+      <p className="flex items-center">
+        <GoDotFill className='me-2' color='orange' />
+        Среда 8:00 Хатха йога (90 минут)
+      </p>
+      <p className="flex items-center">
+        <GoDotFill className='me-2' color='orange' />
+        Среда 10:00 Кундалини йога (90 минут)
+      </p>
+      <p className="flex items-center">
+        <GoDotFill className='me-2' color='orange' />
+        Среда 17:00 Хатха йога (90 минут)
+      </p>
+      <p className="flex items-center">
+        <GoDotFill className='me-2' color='orange' />
+        Среда 19:00 Пуджа Вишну.
+      </p>
+      <p className="text-xs">На пуджу с собой саттвичный прасад, белую одежду, цветы (по желанию) и хорошее настроение.</p>
+
+      <h5 className='mt-5 mb-1'>
+        <a href='https://ivanovskoe.mangofitness.ru/' target='_blank' rel='noreferrer' className="subTitleMP">2. Фитнес клуб Манго</a>
       </h5>
       <p className="flex items-center">
         <GoDotFill className='me-2' color='orange' />
@@ -26,21 +55,26 @@ const page = () => {
       </p>
 
       <h5 className='mt-5 mb-1'>
-        <a href='https://fitnessavenue.ru/' target='_blank' rel='noreferrer' className="subTitleMP">2. Фитнес Авеню</a>
+        <a href='https://fitnessavenue.ru/' target='_blank' rel='noreferrer' className="subTitleMP">3. ФК ФитнесАвеню</a>
       </h5>
       <p className="flex items-center">
         <GoDotFill className='me-2' color='orange' />
-        Вторник 9:00 Хатха Йога (60 минут)
+        Четверг 9:00 Хатха Йога (55 минут)
       </p>
       <p className="flex items-center">
         <GoDotFill className='me-2' color='orange' />
-        Пятница 9:00 Хатха Йога (60 минут)
+        Пятница 9:00 Хатха Йога (55 минут)
       </p>
 
 
       <h5 className='mt-5 mb-1'>
-        <a href='https://ddsport.fitness/' target='_blank' rel='noreferrer' className="subTitleMP">3. Фитнес клуб DD Sport</a>
+        <a href='https://ddsport.fitness/' target='_blank' rel='noreferrer' className="subTitleMP">4. ФК NEF</a>
       </h5>
+      <p className="flex items-center">
+        <GoDotFill className='me-2' color='orange' />
+        Вторник 9:30 Хатха йога (90 минут)
+      </p>
+
       <p className="flex items-center">
         <GoDotFill className='me-2' color='orange' />
         Четверг 19:00 Хатха йога (90 минут)
@@ -51,15 +85,11 @@ const page = () => {
       </h5>
       <p className="flex items-center">
         <GoDotFill className='me-2' color='orange' />
-        Вторник 20:30 Медитация (60 минут)
+        Пятница 20:00 Хатха йога (90 минут)
       </p>
       <p className="flex items-center">
         <GoDotFill className='me-2' color='orange' />
-        Пятница 19:00 Хатха йога (90 минут)
-      </p>
-      <p className="flex items-center">
-        <GoDotFill className='me-2' color='orange' />
-        Воскресение 10:00 Кундалини йога (90 минут)
+        Воскресение 9:00 Кундалини йога (90 минут)
       </p>
 
       <div className="mt-10 w-full">
