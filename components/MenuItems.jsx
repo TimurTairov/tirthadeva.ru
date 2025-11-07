@@ -82,7 +82,7 @@ const MenuItems = ({ items, depthLevel }) => {
           <div>
             <Link
               href={items.url}
-              className="w-full px-3 py-4  transition-all duration-500 ease-in-out"
+              className="w-full px-3 py-4 transition-all duration-500 ease-in-out"
             >
               {items.title}
             </Link>

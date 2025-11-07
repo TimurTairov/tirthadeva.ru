@@ -81,7 +81,7 @@ const page = () => {
       </p>
 
       <h5 className='flex items-center mt-5 mb-1'>
-        <a href="whatsapp://send?phone=79672067710" className="ml-1 subTitleMP">4. Йога онлайн </a>
+        <a href="whatsapp://send?phone=79672067710" className="ml-1 subTitleMP">5. Йога онлайн </a>
       </h5>
       <p className="flex items-center">
         <GoDotFill className='me-2' color='orange' />
