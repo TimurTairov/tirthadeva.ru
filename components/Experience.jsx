@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import yogaasanaSVG from '@/public/SVG/yoga-asana.svg'
+import NavigationButton from '@/components/NavigationButton'
 
 const Experience = () => {
   return (
-    <div className="w-full mt-20 lg:mt-40 flex flex-col lg:flex-row-reverse justify-around ">
+    <div className="w-full mt-20 lg:mt-40 ">
       <div className="xl:mx-5 w-full flex flex-col justify-between">
         <div className="flex items-center justify-center">
           <Image
@@ -49,6 +50,9 @@ const Experience = () => {
             <p className=" textMP">пройденных ретритов</p>
           </div>
         </div>
+      </div>
+      <div className="mt-5">
+        <NavigationButton title={'Подробнее ...'} link={'/osebe/education'} />
       </div>
     </div>
   )

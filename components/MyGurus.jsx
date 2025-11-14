@@ -163,12 +163,12 @@ const MyGurus = () => {
           </blockquote>
         </div>
       </div>
-      <div className="mt-5">
+      {/* <div className="mt-5">
         <NavigationButton
           title={'Образование в йоге'}
           link={'/osebe/education'}
         />
-      </div>
+      </div> */}
     </section>
   )
 }

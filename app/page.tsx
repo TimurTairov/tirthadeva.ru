@@ -1,6 +1,6 @@
 import Gradient from "@/components/Gradient"
 import Hero from '@/components/Hero'
-import Price from '@/components/Price'
+import MyPhoto from "@/components/MyPhoto"
 import Testimonial from '@/components/Testimonial'
 import YogaOnline from "@/components/YogaOnline"
 import MyGurus from "@/components/MyGurus"
@@ -11,7 +11,7 @@ import TeachingYoga from "@/components/TeachingYoga"
 import PngYogiMP from "@/components/PngYogiMP"
 import GoToTop from '@/components/GoToTop'
 import Contacts from "@/components/Contacts"
-
+import tirthadeva from "@/public/myPhoto-2.webp"
 
 
 
@@ -28,6 +28,8 @@ export default function Home() {
       <TeachingYoga />
       <YogaOnline />
       <Testimonial />
+      <div className="w-full mt-20 lg:mt-40" />
+      <MyPhoto foto={tirthadeva} />
       <Contacts />
       <GoToTop url={"/"} />
       <PngYogiMP />
