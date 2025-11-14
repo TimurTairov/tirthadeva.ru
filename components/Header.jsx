@@ -7,7 +7,7 @@ import logo from '@/public/tirthadeva-96.webp'
 
 const Header = () => {
   return (
-    <header>
+    <header className="duration-300  ease-in">
       <div className="nav-area flex items-center justify-between mx-0 my-auto py-3 w-full px-3 xl:px-20 shadow-sm shadow-slate-300 bg-indigo-500 dark:bg-gray-800 text-gray-200 dark:text-gray-800">
         <div className="flex items-center">
           <Link href="/" className="logo">
