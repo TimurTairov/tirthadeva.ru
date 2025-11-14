@@ -21,7 +21,7 @@ export default function MyAccordion({
     <div className="py-2">
       <h2>
         <button
-          className="flex items-center justify-between w-full text-left font-semibold py-2"
+          className="flex items-center justify-between w-full text-left font-medium py-2"
           onClick={(e) => { e.preventDefault(); setAccordionOpen(!accordionOpen); }}
           aria-expanded={accordionOpen}
           aria-controls={`accordion-text-${id}`}
