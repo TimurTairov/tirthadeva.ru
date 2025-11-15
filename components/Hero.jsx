@@ -29,7 +29,7 @@ const Hero = ({ title, foto = myPhoto }) => {
           <div className="textMP w-full text-center">
             Меня зовут
             <b className="text-indigo-500 dark:text-gray-200 mx-2">
-              Тиртхадэва
+              Тиртхадева
             </b>
             (<span>Тимур Таиров</span>)
           </div>
