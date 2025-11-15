@@ -52,7 +52,10 @@ const Experience = () => {
         </div>
       </div>
       <div className="mt-5">
-        <NavigationButton title={'Подробнее ...'} link={'/osebe/education'} />
+        <NavigationButton
+          title={'Подробнее ...'}
+          link={'/osebe/education#qualification'}
+        />
       </div>
     </div>
   )

@@ -1,6 +1,8 @@
 'use client'
 import Link from "next/link";
 import { FcApproval } from "react-icons/fc";
+import { FaUserGraduate } from "react-icons/fa";
+import { FcGraduationCap } from "react-icons/fc";
 import MyAccordion from "@/components/MyAccordion";
 
 const page = () => {
@@ -9,8 +11,8 @@ const page = () => {
 
       <h1 className="main-title">Образование</h1>
 
-      <h5 className='mt-5 mb-1 font-semibold text-lg md:text-2xl flex items-center'>
-        <FcApproval className='me-2' color='orange' /> Образование в миру
+      <h5 className='mt-5 mb-1 font-semibold text-lg md:text-2xl flex items-center gap-1'>
+        <FcGraduationCap /> Образование в миру
       </h5>
       <p className="text-base">
         1. ВВИА им. проф. Н.Е.Жуковского, АСУ (2003-2008 гг).
@@ -19,8 +21,8 @@ const page = () => {
         2. МИРБИС, финансы и кредит (2008-2011 гг).
       </p>
 
-      <h5 className='mt-5 mb-1 font-semibold text-lg md:text-2xl flex items-center'>
-        <FcApproval className='me-2' color='orange' /> Образование в йоге
+      <h5 className='mt-5 mb-1 font-semibold text-lg md:text-2xl flex items-center gap-1'>
+        <FcGraduationCap /> Образование в йоге
       </h5>
       <p>
         1. 2013-2017 гг. - <a href='https://openyoga.ru/' target='_blank' rel="noreferrer">(МОЙУ)</a> Международный открытый йога университет. Обучение по направлениям - хатха йога, крийя, мантра, пранаяма, а также прохождение более 50 семинаров и ритритов, в том числе в Индии и Непале.
@@ -38,8 +40,8 @@ const page = () => {
       <p>• Ритритная практика</p>
 
 
-      <h5 className='mt-5 mb-1 font-semibold text-lg md:text-2xl flex items-center'>
-        <FcApproval className='me-2' color='orange' />
+      <h5 className='mt-5 mb-1 font-semibold text-lg md:text-2xl flex items-center gap-1'>
+        <FcGraduationCap />
         Неформальное обучение
       </h5>
       <p>• 2015 г. - обучение йоги у <a href='http://yogagu.ru/' target='_blank' rel="noreferrer">Виктора Кожаринова </a> (ученик Сатьянанда Сарасвати, Бихарская школа йоги). Неформально в поездках по Индии и в Москве.
@@ -53,8 +55,8 @@ const page = () => {
         <br /> <br />
       </p>
 
-      <h5 className='mt-5 mb-1 font-semibold text-lg md:text-2xl flex items-center'>
-        <FcApproval className='me-2' color='orange' />
+      <h5 id="qualification" className='mt-5 mb-1 font-semibold text-lg md:text-2xl flex items-center gap-1'>
+        <FcGraduationCap />
         ПОВЫШЕНИЕ КВАЛИФИКАЦИИ
       </h5>
       <div>
@@ -157,11 +159,12 @@ const page = () => {
           <p>• №3 Участие в качестве инструктора в ежегодных двухнедельных онлайн марафонах, начиная с 2021 года: В новый год с чистыми каналами, Тапас Шиве, марафон Наваратри.</p>
           <p>• №4 Однодневный ретрит по хатха и кундалини йоге. ДЦ ШактиМа 08.01.2022. </p>
           <p>• №5 Однодневный семинар по хатха йоге. ДЦ ШактиМа 08.01.2023. </p>
-          <p>• №6 Двухдневный ретрит - садху выходные под Алексадровом, Владимирская область, март 2025. </p>
-          <p>• №7 Тредневный практический семинар по хатха, кундалини и раджа йоге. Семей, Казахстан. Июнь-июль 2025. </p>
-          <p>• №8 Семидневный йога тур. Алтайский ашрам Садху Тапован (июль 2025).</p>
-          <p>• №9 Семидневный ретрит «4БСБ». Алтайский ашрам Садху Тапаван (июль-август 2025).</p>
-          <p>• №10 Однодневный практический семинар по хатха йоге. ДЦ ШактиМа 02.11.2025. </p>
+          <p>• №6 Участие в качестве инструктора йоги и медитации на фестивале День Индии в Москве. (август 2024 и 2025).</p>
+          <p>• №7 Двухдневный ретрит - садху выходные под Алексадровом, Владимирская область, март 2025. </p>
+          <p>• №8 Тредневный практический семинар по хатха, кундалини и раджа йоге. Семей, Казахстан. Июнь-июль 2025. </p>
+          <p>• №9 Семидневный йога тур. Алтайский ашрам Садху Тапован (июль 2025).</p>
+          <p>• №10 Семидневный ретрит «4БСБ». Алтайский ашрам Садху Тапаван (июль-август 2025).</p>
+          <p>• №11 Однодневный практический семинар по хатха йоге. ДЦ ШактиМа 02.11.2025. </p>
         </MyAccordion>
 
       </div>
