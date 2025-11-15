@@ -85,7 +85,7 @@ a,
   display: none;
 }
 
-/* menu on mobile */
+/*! menu on mobile */
 @media screen and (max-width: 960px) {
   .nav-area {
     justify-content: space-between;
@@ -159,7 +159,7 @@ a,
   }
 }
 
-/* IMAGE GALLARY */
+/*! IMAGE GALLARY */
 
 @media (hover: hover) and (pointer: fine) {
   .image-gallery-icon:hover {
@@ -203,7 +203,7 @@ a,
   border-radius: 1rem;
 }
 
-/* FOOTER */
+/*! FOOTER */
 
 footer h5 {
   color: #ccc;
@@ -219,7 +219,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* GRADIENT */
+/*! GRADIENT */
 
 .gradient {
   z-index: -33;
@@ -247,8 +247,8 @@ footer a:hover {
   top: 0;
 }
 
-/* CALL ANIMATION */
-.call-animation {
+/*! CALL ANIMATION */
+/* .call-animation {
   animation: call 2s ease 0s infinite normal forwards;
 }
 
@@ -278,9 +278,9 @@ footer a:hover {
   75% {
     transform: translateX(-3px) rotate(-1.2deg);
   }
-}
+} */
 
-/* БЛИКИ НА КНОПКЕ */
+/*! БЛИКИ НА КНОПКЕ */
 
 .flare-button {
   width: 100%;
