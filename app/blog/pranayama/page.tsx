@@ -12,14 +12,14 @@ const page = () => {
     <div className='main-container font-light'>
       <h1 className="main-title">Пранаяма — дыхательная гимнастика йогов</h1>
       <div className="w-full flex items-center gap-2 mt-5 bg-slate-100 dark:bg-slate-700 rounded-xl">
-        <div className="shrink-0 h-20 w-2 text-6xl bg-indigo-600 dark:bg-emerald-400 rounded-md"></div>
-        <div className="h-20 p-2 w-full flex flex-col italic justify-between">
+        <div className="shrink-0 h-20  w-2 text-6xl bg-indigo-600 dark:bg-emerald-400 rounded-md"></div>
+        <div className="h-20 p-2 w-full flex flex-col italic text-xs md:text-base lg:text-lg justify-between">
           <i >
             «Пранаяма есть прекращение движения вдыхаемого и выдыхаемого воздуха».
           </i>
           <p className="text-right w-full">
             <i >
-              Йога сутра Патанджали (2-49)
+              Йога сутра Патанджали (2.49)
             </i>
           </p>
         </div>
