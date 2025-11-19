@@ -72,6 +72,11 @@ const page = () => {
 
       <VideoPlayer src="https://rutube.ru/play/embed/c6620a3378087acae1354ce282acdadd?skinColor=e53935" sourse={'rutube'} />
 
+      <h5 className="w-full text-center mt-10 md:mt-20 text-base md:text-xl font-medium">Видео урок. Полное поэтапное освоение наули. Подробно.</h5>
+
+      <VideoPlayer src="https://rutube.ru/play/embed/c4fbaab2e810d85dfffa5e4aefedfa1b?skinColor=e53935" sourse={'rutube'} />
+
+
       <a href="https://youtu.be/ublFZ3JeFkQ?si=IgEwwvssBOPayW-K" target='_blank' rel='noreferrer' className="mt-10 md:mt-12 lg:mt-14 mb-1">Подробное освоение наули. Видео урок. YouTube.</a>
     </div>
   )

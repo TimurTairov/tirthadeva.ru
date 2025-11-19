@@ -11,11 +11,11 @@ const page = () => {
   return (
     <div className='main-container font-light'>
       <h1 className="main-title">Пранаяма — дыхательная гимнастика йогов</h1>
-      <div className="flex items-center gap-2 mt-5">
+      <div className="w-full flex items-center gap-2 mt-5 bg-slate-100 dark:bg-slate-700 rounded-xl">
         <div className="shrink-0 h-20 w-2 text-6xl bg-indigo-600 dark:bg-emerald-400 rounded-md"></div>
-        <div className="h-20 w-full flex flex-col justify-between">
+        <div className="h-20 p-2 w-full flex flex-col italic justify-between">
           <i >
-            &quot;Пранаяма есть прекращение движения вдыхаемого и выдыхаемого воздуха&quot;.
+            «Пранаяма есть прекращение движения вдыхаемого и выдыхаемого воздуха».
           </i>
           <p className="text-right w-full">
             <i >
@@ -75,12 +75,11 @@ const page = () => {
       </p>
 
       <div className="flex flex-wrap justify-between gap-5 mt-5">
-        <Link href="/video/pranayama" className="my-1">Видео по Пранаяма йоге</Link>
+        <Link href="/video/myvideo" className="my-1">Видео по йоге</Link>
         <Link href="/yoga/schedule" className="my-1">Расписание</Link>
       </div>
 
-      <VideoPlayer src="https://rutube.ru/play/embed/86eba7e82a61e3865a3cdfc3b387a3f9" sourse={'rutube'} />
-      <p className='mt-1 mb-1 text-2xl'>Эффекты пранаяма йоги</p>
+      <VideoPlayer src="https://rutube.ru/play/embed/86eba7e82a61e3865a3cdfc3b387a3f9?skinColor=e53935" sourse={'rutube'} />
 
     </div>
   )

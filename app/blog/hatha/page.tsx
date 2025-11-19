@@ -153,7 +153,7 @@ const page = () => {
       <p className='mt-4'>© Тиртхадэва</p>
 
       <div className="flex flex-wrap justify-between gap-5 mt-5">
-        <Link href="/video/hatha" className="my-1">Видео по Хатха йоге</Link>
+        <Link href="/video/myvideo" className="my-1">Видео по Хатха йоге</Link>
         <Link href="/yoga/schedule" className="my-1">Расписание</Link>
       </div>
 
