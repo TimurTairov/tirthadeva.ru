@@ -1,5 +1,5 @@
 export const settings = {
-  showThumbnails: true,
+  showThumbnails: false,
   showIndex: false,
   slideDuration: 1000,
   slideInterval: 3000,

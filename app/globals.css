@@ -7,8 +7,7 @@
   }
 }
 
-:root {
-  /* Your default theme */
+/* :root {
   --background: white;
   --foreground: black;
 }
@@ -16,7 +15,8 @@
 [data-theme='dark'] {
   --background: black;
   --foreground: white;
-}
+} */
+
 /* a,
 .a {
   @apply dark:text-emerald-400 text-indigo-600 hover:text-indigo-500 dark:hover:text-emerald-400 duration-300 ease-in;
@@ -172,7 +172,7 @@
 
 /*! IMAGE GALLARY */
 
-@media (hover: hover) and (pointer: fine) {
+/* @media (hover: hover) and (pointer: fine) {
   .image-gallery-icon:hover {
     @apply text-indigo-500 dark:text-emerald-400;
   }
@@ -186,34 +186,40 @@
   .image-gallery-thumbnail:hover {
     border: 2px solid cyan;
   }
-}
+} */
 
-.image-gallery-bullet:hover {
+/* .image-gallery-bullet:hover {
   background: cyan;
   border: 1px solid cyan;
-}
+} */
 
-.image-gallery-thumbnail.active,
+/* .image-gallery-thumbnail.active,
 .image-gallery-thumbnail:focus {
   border: 3px solid #ccc;
-}
+} */
 
-.image-gallery-thumbnail-image {
+/* .image-gallery-thumbnail-image {
   height: 0px;
   width: 100%;
   overflow: hidden;
   object-fit: cover;
+} */
+
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: 100vh;
+  /* width: auto; */
+  border-radius: 0.5rem;
 }
 
 /* .image-gallery {
   width: 100%;
 } */
 
-.image-gallery-content .image-gallery-slide .image-gallery-image {
-  /* height: 100%; */
-  width: 100%;
+/* .image-gallery-content .image-gallery-slide .image-gallery-image {
+  height: 100%;
+  width: auto;
   border-radius: 1rem;
-}
+} */
 
 /*! FOOTER */
 
