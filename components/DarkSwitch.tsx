@@ -4,6 +4,7 @@ import { useTheme } from "next-themes";
 import { MdDarkMode } from "react-icons/md";
 import { MdLightMode } from "react-icons/md";
 
+
 const ThemeChanger = () => {
   const { theme, setTheme } = useTheme();
 
@@ -15,9 +16,10 @@ const ThemeChanger = () => {
             setTheme("light")
             // iframeLight()
           }}
-          className="text-gray-500 rounded-full outline-none focus:outline-none">
+          className="rounded-full outline-none">
           <span className="sr-only">Light Mode</span>
-          <MdLightMode />
+          <MdDarkMode className="text-gray-200" />
+
           {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-5 h-5"
@@ -32,9 +34,10 @@ const ThemeChanger = () => {
             setTheme("dark")
             // iframeDark()
           }}
-          className="text-gray-500 dark:bg-gray-600 rounded-full outline-none focus:outline-none focus-visible:ring focus-visible:ring-gray-100 focus:ring-opacity-20">
+          className="rounded-full outline-none ">
           <span className="sr-only">Dark Mode</span>
-          <MdDarkMode />
+          <MdLightMode className="text-neutral-700" />
+
           {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-5 h-5"

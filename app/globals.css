@@ -132,13 +132,13 @@
   .mobile-nav .menu-items > a,
   .mobile-nav .menu-items button {
     text-align: left;
-    padding: 0.7rem 1rem;
+    padding: 0.5rem 1rem;
   }
 
   .mobile-nav .arrow::after {
     content: '';
     display: inline-block;
-    margin-left: 1.2em;
+    margin-left: 0.3em;
     vertical-align: 0.09em;
     border-top: 0.42em solid;
     border-right: 0.32em solid transparent;
@@ -148,7 +148,7 @@
   .mobile-nav .arrow-close::after {
     content: '';
     display: inline-block;
-    margin-left: 1.2em;
+    margin-left: 0.3em;
     vertical-align: 0.09em;
     border-bottom: 0.42em solid;
     border-right: 0.32em solid transparent;
@@ -158,11 +158,10 @@
   .mobile-nav .dropdown {
     margin-left: 1.2em;
     margin-right: 1.2em;
-    font-size: 1rem;
+    font-size: 0.9rem;
     /* padding: 0.5rem 0; */
     list-style: none;
     display: none;
-    /* background-color: var(--mobile-nav-dropdawn-bg); */
   }
 
   .mobile-nav .dropdown.show {
@@ -264,39 +263,6 @@ footer a:hover {
   position: fixed;
   top: 0;
 }
-
-/*! CALL ANIMATION */
-/* .call-animation {
-  animation: call 2s ease 0s infinite normal forwards;
-}
-
-@keyframes call {
-  0%,
-  100% {
-    transform: translateX(0%);
-    transform-origin: 50% 50%;
-  }
-
-  15% {
-    transform: translateX(-5px) rotate(-6deg);
-  }
-
-  30% {
-    transform: translateX(5px) rotate(6deg);
-  }
-
-  45% {
-    transform: translateX(-4px) rotate(-3.6deg);
-  }
-
-  60% {
-    transform: translateX(4px) rotate(2.4deg);
-  }
-
-  75% {
-    transform: translateX(-3px) rotate(-1.2deg);
-  }
-} */
 
 /*! БЛИКИ НА КНОПКЕ */
 

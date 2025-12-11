@@ -6,7 +6,7 @@ const MobileDropdown = ({ submenus, dropdown, depthLevel }) => {
 
   return (
     <ul
-      className={`dropdown bg-neutral-200 rounded-md dark:bg-gray-700 ${dropdownClass} ${
+      className={`dropdown bg-gray-50 rounded-md text-xs dark:bg-gray-700 ${dropdownClass} ${
         dropdown ? 'show' : ''
       }`}
     >

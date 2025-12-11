@@ -3,6 +3,7 @@ import Link from "next/link";
 import ImageGallery from "react-image-gallery";
 import { svd } from '@/helpers/foto'
 import { settings } from "@/helpers/FotoSettengs";
+import "react-image-gallery/styles/css/image-gallery.css";
 
 const page = () => {
   return (

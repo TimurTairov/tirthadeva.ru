@@ -2,6 +2,7 @@
 import ImageGallery from "react-image-gallery";
 import { pribezhishe } from "@/helpers/foto";
 import { settings } from "@/helpers/FotoSettengs";
+import "react-image-gallery/styles/css/image-gallery.css";
 
 const page = () => {
   return (
