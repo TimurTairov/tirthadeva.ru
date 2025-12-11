@@ -16,7 +16,7 @@ const Mission = () => {
       </div>
 
       <div className="w-full flex xl:flex-row flex-col items-start justify-center gap-4 md:gap-5 lg:gap-8  mt-5">
-        <div className="herotitle w-full flex items-center  rounded-lg p-3 xl:p-6 dark:bg-slate-700">
+        <div className="text-sm md:text-base lg:text-lg font-light w-full flex items-center  rounded-lg p-3 xl:p-6 dark:bg-slate-700">
           <Image
             src={omGif}
             width={30}
@@ -28,7 +28,7 @@ const Mission = () => {
           />
           <p>Cлужение Высшим идеалам йоги (Гуру, Дхарме и Cангхе)</p>
         </div>
-        <div className="herotitle w-full flex items-center rounded-lg p-3 xl:p-6 dark:bg-slate-700">
+        <div className="text-sm md:text-base lg:text-lg font-light w-full flex items-center rounded-lg p-3 xl:p-6 dark:bg-slate-700">
           <Image
             src={omGif}
             width={30}
@@ -40,7 +40,7 @@ const Mission = () => {
           />
           <p>Помощь всем живым существам в преодолении неведения</p>
         </div>
-        <div className="herotitle w-full flex items-center rounded-lg p-3 xl:p-6 dark:bg-slate-700">
+        <div className="text-sm md:text-base lg:text-lg font-light w-full flex items-center rounded-lg p-3 xl:p-6 dark:bg-slate-700">
           <Image
             src={omGif}
             width={30}

@@ -36,29 +36,35 @@ const Hero = ({ title, foto = myPhoto }) => {
         </div>
 
         <div className="mt-0 md:mt-5 lg:mt-5 xl:mt-0 flex flex-col items-start justify-center gap-1 lg:gap-2 p-6 lg:p-3 xl:p-6 xl:gap-5 ">
-          <div className="w-full flex items-center rounded-lg p-1 dark:bg-slate-700">
+          <div className="w-full flex items-center rounded-lg p-1 border border-gray-200 dark:border-slate-600">
             <Image
               src={guru96}
               alt="guru"
-              className="h-full w-auto rounded-lg mr-2 border-2"
+              className="h-full w-auto rounded-lg mr-2 border border-gray-200 dark:border-slate-600"
             />
-            <p className="herotitle">Ученик просветленного мастера</p>
+            <p className="text-sm md:text-base lg:text-lg font-light">
+              Ученик просветленного мастера
+            </p>
           </div>
-          <div className="w-full flex items-center rounded-lg p-1 dark:bg-slate-700">
+          <div className="w-full flex items-center rounded-lg p-1 border border-gray-200 dark:border-slate-600">
             <Image
               src={tirthadeva96}
               alt="guru"
-              className="h-full w-auto rounded-lg mr-2 border-2"
+              className="h-full w-auto rounded-lg mr-2 border border-gray-200 dark:border-slate-600"
             />
-            <p className="herotitle">Преподаватель йоги и медитации</p>
+            <p className="text-sm md:text-base lg:text-lg font-light">
+              Преподаватель йоги и медитации
+            </p>
           </div>
-          <div className="w-full flex items-center  rounded-lg p-1 dark:bg-slate-700">
+          <div className="w-full flex items-center rounded-lg p-1 border border-gray-200 dark:border-slate-600">
             <Image
               src={om96}
               alt="guru"
-              className="h-full w-auto rounded-lg  mr-2 border-2"
+              className="h-full w-auto rounded-lg  mr-2 border border-gray-200"
             />
-            <p className="herotitle">Ваш наставник на пути йоги и дхармы</p>
+            <p className="text-sm md:text-base lg:text-lg font-light">
+              Ваш наставник на пути йоги и дхармы
+            </p>
           </div>
         </div>
         <NavigationButton
