@@ -12,6 +12,7 @@ import PngYogiMP from "@/components/PngYogiMP"
 import GoToTop from '@/components/GoToTop'
 import Contacts from "@/components/Contacts"
 import tirthadeva from "@/public/myPhoto-2.webp"
+import Price from "@/components/Price"
 
 
 
@@ -30,6 +31,7 @@ export default function Home() {
       <Testimonial />
       <div className="w-full mt-20 lg:mt-40" />
       <MyPhoto foto={tirthadeva} />
+      <Price />
       <Contacts />
       <GoToTop url={"/"} />
       <PngYogiMP />

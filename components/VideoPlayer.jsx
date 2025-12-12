@@ -6,7 +6,7 @@ const VideoPlayer = ({ src, sourse }) => {
     allow = 'clipboard-write; autoplay'
   } else {
     allow =
-      'autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;'
+      'autoplay; encrypted-media; fullscreen; accelerometer; gyroscope; picture-in-picture; screen-wake-lock;'
   }
   // const vkontakte =
   //   'autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;'

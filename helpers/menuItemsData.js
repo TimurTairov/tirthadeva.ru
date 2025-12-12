@@ -130,6 +130,10 @@ export const menuItemsData = [
         url: '/video/guru',
       },
       {
+        title: 'Видео Раманатхи',
+        url: '/video/ramanatha',
+      },
+      {
         title: 'Видео с монахами',
         url: '/video/sanyasi',
       },
