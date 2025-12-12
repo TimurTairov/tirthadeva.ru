@@ -6,9 +6,10 @@ const getVideo = (id: number) => {
   return video
 }
 
-export default async function VideoSanyasi({ params }: { params: Promise<{ id: number }> }) {
+export default async function VideoR({ params }: { params: Promise<{ id: number }> }) {
   const id = (await params).id
   const myVideo = getVideo(id)
+  // console.log(myVideo)
   return (
     <div className='main-container'>
       <h1 className='main-title'>{myVideo?.title}</h1>

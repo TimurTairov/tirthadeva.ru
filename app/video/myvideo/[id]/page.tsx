@@ -10,6 +10,7 @@ const getVideo = (id: number) => {
 export default async function MyVideo({ params }: { params: Promise<{ id: number }> }) {
   const id = (await params).id
   const myVideo = getVideo(id)
+  // console.log(myVideo)
   return (
     <div className='main-container'>
       <h1 className='main-title'>{myVideo?.title}</h1>
