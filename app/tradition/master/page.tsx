@@ -3,12 +3,17 @@ import Link from "next/link";
 import ImageGallery from "react-image-gallery";
 import { svd } from '@/helpers/foto'
 import { settings } from "@/helpers/FotoSettengs";
+import Image from "next/image";
+import guru from "@/public/MuGurus/guru.webp"
 import "react-image-gallery/styles/css/image-gallery.css";
 
 const page = () => {
   return (
     <div className='main-container textMP'>
       <h1 className="main-title">Шри Гуру Свами Вишнудевананда Гири</h1>
+      <div className="w-full flex justify-center py-2">
+        <Image src={guru} alt="Гуру Свами Вишнудевананда Гири" className="rounded-md w-full md:max-w-xl lg:max-w-2xl xl:max-w-3xl 2xl:max-w-4xl" />
+      </div>
       <p className='mt-4'>
         <b>Свами Вишнудевананда Гири</b> (до 2010 г. — Сатгуру Свами Вишну Дэв) — русскоязычный духовный учитель (гуру, имеющий полномочия инициировать в санньясу),
         садху, реализованный мастер-джняни в традиции Адвайта-веданты и йоги; философ, теолог, писатель, паломник-путешественник, имеющий учеников по всему миру.

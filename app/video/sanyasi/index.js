@@ -34,11 +34,4 @@ export const videoSanyasi = [
     url: "https://vk.com/video_ext.php?oid=40782986&id=456241056&hd=2",
     sourse: "vk",
   },
-  {
-    id: 100,
-    title: '',
-    category: "",
-    url: "",
-    sourse: "vk",
-  },
 ]

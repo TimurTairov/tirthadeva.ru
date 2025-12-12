@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import shiva from '@/public/SVG/shiva-7.svg'
-import guru from '@/public/MuGurus/guru108-2.webp'
+import guru from '@/public/MuGurus/guru-108.webp'
 import vvz from '@/public/MuGurus/vvz108.webp'
 import kozharinov from '@/public/MuGurus/kozharinov108.webp'
 import dubyanskii from '@/public/MuGurus/dubyanskii108.webp'

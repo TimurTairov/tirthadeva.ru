@@ -1,18 +1,14 @@
 import VideoPlayer from '@/components/VideoPlayer'
 import { myVideos } from '../index'
 
-type Props = {
-  params: {
-    id: number;
-  }
-}
 
 const getVideo = (id: number) => {
   const video = myVideos.find(item => item.id == id)
   return video
 }
 
-const MyVideo = ({ params: { id } }: Props) => {
+export default async function MyVideo({ params }: { params: Promise<{ id: number }> }) {
+  const id = (await params).id
   const myVideo = getVideo(id)
   return (
     <div className='main-container'>
@@ -21,5 +17,3 @@ const MyVideo = ({ params: { id } }: Props) => {
     </div>
   )
 }
-
-export default MyVideo
