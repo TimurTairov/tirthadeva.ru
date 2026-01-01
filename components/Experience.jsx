@@ -18,27 +18,19 @@ const Experience = () => {
 
         <div className="grid grid-cols-2 xl:grid-cols-2 mt-5 gap-3 md:gap-5">
           <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-5 rounded-md shadow-md">
-            <p className="text-indigo-600 dark:text-emerald-400 titleMP">
-              15 лет
-            </p>
+            <p className="text-indigo-600 dark:text-emerald-400 titleMP">15 лет</p>
             <p className=" textMP">личной практики йоги</p>
           </div>
           <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-5 rounded-md shadow-md">
-            <p className="text-indigo-600 dark:text-emerald-400 titleMP">
-              10 лет
-            </p>
+            <p className="text-indigo-600 dark:text-emerald-400 titleMP">10 лет</p>
             <p className=" textMP">ежедневных медитаций</p>
           </div>
           <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-5 rounded-md shadow-md">
-            <p className="text-indigo-600 dark:text-emerald-400 titleMP">
-              10 лет
-            </p>
+            <p className="text-indigo-600 dark:text-emerald-400 titleMP">10 лет</p>
             <p className=" textMP">преподавания йоги</p>
           </div>
           <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-5 rounded-md shadow-md">
-            <p className="text-indigo-600 dark:text-emerald-400 titleMP">
-              2 000+
-            </p>
+            <p className="text-indigo-600 dark:text-emerald-400 titleMP">3 300+</p>
             <p className=" textMP">проведённых занятий по йоге</p>
           </div>
           <div className="flex flex-col bg-gray-50 dark:bg-slate-700 p-3 lg:p-5 rounded-md shadow-md">
@@ -52,10 +44,7 @@ const Experience = () => {
         </div>
       </div>
       <div className="mt-5">
-        <NavigationButton
-          title={'Подробнее ...'}
-          link={'/osebe/education#qualification'}
-        />
+        <NavigationButton title={'Подробнее ...'} link={'/osebe/education#qualification'} />
       </div>
     </div>
   )
