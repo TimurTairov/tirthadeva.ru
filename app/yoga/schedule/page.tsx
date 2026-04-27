@@ -66,7 +66,7 @@ const page = () => {
 
       <p className="flex items-center">
         <GoDotFill className='me-2' color='orange' />
-        Суббота 13:00 Хатха йога (90 минут)
+        Суббота 13:00 Хатха йога (85 минут)
       </p>
 
       <h5 className='flex items-center mt-5 mb-1'>
