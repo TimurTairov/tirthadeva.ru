@@ -23,18 +23,18 @@ const page = () => {
         <GoDotFill className='me-2' color='orange' />
         Понедельник 8:00 Хатха йога (90 минут)
       </p>
-      <p className="flex items-center">
+      {/* <p className="flex items-center">
         <GoDotFill className='me-2' color='orange' />
         Понедельник 10:00 Кундалини йога (90 минут)
-      </p>
+      </p> */}
       <p className="flex items-center">
         <GoDotFill className='me-2' color='orange' />
         Среда 8:00 Хатха йога (90 минут)
       </p>
-      <p className="flex items-center">
+      {/* <p className="flex items-center">
         <GoDotFill className='me-2' color='orange' />
         Среда 10:00 Кундалини йога (90 минут)
-      </p>
+      </p> */}
 
       <h5 className='mt-5 mb-1'>
         <a href='https://ivanovskoe.mangofitness.ru/' target='_blank' rel='noreferrer' className="subTitleMP">2. Фитнес клуб Манго</a>
