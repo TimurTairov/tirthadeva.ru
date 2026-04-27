@@ -17,7 +17,7 @@ const page = () => {
       <h1 className="main-title">Расписание занятий</h1>
 
       <h5 className='mt-5 mb-1'>
-        <a href='https://ivanovskoe.mangofitness.ru/' target='_blank' rel='noreferrer' className="subTitleMP">1. Дхарма центр ШактиМа</a>
+        <a href='https://shaktima.vercel.app/' target='_blank' rel='noreferrer' className="subTitleMP">1. Дхарма центр ШактиМа</a>
       </h5>
       <p className="flex items-center">
         <GoDotFill className='me-2' color='orange' />
