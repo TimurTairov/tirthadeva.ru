@@ -19,22 +19,16 @@ const page = () => {
       <h5 className='mt-5 mb-1'>
         <a href='https://shaktima.vercel.app/' target='_blank' rel='noreferrer' className="subTitleMP">1. Дхарма центр ШактиМа</a>
       </h5>
-      <p className="flex items-center">
+      <div className="flex items-center gap-1 ">
         <GoDotFill className='me-2' color='orange' />
-        Понедельник 8:00 Хатха йога (90 минут)
-      </p>
-      {/* <p className="flex items-center">
-        <GoDotFill className='me-2' color='orange' />
-        Понедельник 10:00 Кундалини йога (90 минут)
-      </p> */}
-      <p className="flex items-center">
-        <GoDotFill className='me-2' color='orange' />
-        Среда 8:00 Хатха йога (90 минут)
-      </p>
-      {/* <p className="flex items-center">
-        <GoDotFill className='me-2' color='orange' />
-        Среда 10:00 Кундалини йога (90 минут)
-      </p> */}
+        Воскресение 9:30
+        <a href="https://shaktima.vercel.app/mdc-events/dhiyana" target="_blank"
+          rel="noreferrer"
+          className='text-indigo-700 dark:text-indigo-400'>
+          Медитативный ретрит
+        </a>
+        (8 часов)
+      </div>
 
       <h5 className='mt-5 mb-1'>
         <a href='https://ivanovskoe.mangofitness.ru/' target='_blank' rel='noreferrer' className="subTitleMP">2. Фитнес клуб Манго</a>
@@ -56,21 +50,9 @@ const page = () => {
         Пятница 9:00 Хатха Йога (55 минут)
       </p>
 
-      <h5 className='mt-5 mb-1'>
-        <a href='https://wpark.ru/' target='_blank' rel='noreferrer' className="subTitleMP">4. ФК Велнес парк</a>
-      </h5>
-      {/* <p className="flex items-center">
-        <GoDotFill className='me-2' color='orange' />
-        Вторник 9:30 Хатха йога (90 минут)
-      </p> */}
-
-      <p className="flex items-center">
-        <GoDotFill className='me-2' color='orange' />
-        Суббота 13:00 Хатха йога (85 минут)
-      </p>
 
       <h5 className='flex items-center mt-5 mb-1'>
-        <a href="whatsapp://send?phone=79672067710" className="ml-1 subTitleMP">5. Йога онлайн </a>
+        <a href="whatsapp://send?phone=79672067710" className="ml-1 subTitleMP">4. Йога онлайн </a>
       </h5>
       <p className="flex items-center">
         <GoDotFill className='me-2' color='orange' />

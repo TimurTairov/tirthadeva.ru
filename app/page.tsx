@@ -13,7 +13,7 @@ import GoToTop from '@/components/GoToTop'
 import Contacts from "@/components/Contacts"
 import tirthadeva from "@/public/myPhoto-2.webp"
 import Price from "@/components/Price"
-
+import BannerRetrit from "@/components/BannerRetrit"
 
 
 export default function Home() {
@@ -24,6 +24,7 @@ export default function Home() {
       <Hero title={'Йога и медитация'} />
       <Mission />
       <MyGurus />
+      <BannerRetrit />
       <YogaDirections />
       <Experience />
       <TeachingYoga />
