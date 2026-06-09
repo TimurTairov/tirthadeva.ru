@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <div className='main-container textMP'>
+    <div className='main-container textMP bg-yellow-50'>
       <h1 className="main-title">Пранаяма — дыхательная гимнастика йогов</h1>
       <div className="w-full flex items-center gap-2 mt-5 bg-slate-100 dark:bg-slate-700 rounded-xl">
         <div className="shrink-0 h-20  w-2 text-6xl bg-indigo-600 dark:bg-emerald-400 rounded-md"></div>

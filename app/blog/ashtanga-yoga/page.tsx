@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <div id="ashtanga-yoga-top" className='main-container font-light'>
+    <div id="ashtanga-yoga-top" className='main-container font-light bg-yellow-50'>
       <h1 className='main-title'>АШТАНГА ЙОГА или восьмеричный Путь риши Патанджали</h1>
       <p className='mt-10 textMP'>
         Согласно риши Патанджали, Йога есть &quot;<b>Читта Вритти Ниродха</b>&quot;, или прекращение образования мыслеформ на поверхности разума и сводится к следованию по восьмеричной лестнице:
@@ -88,7 +88,7 @@ const page = () => {
         </ul>
       </div>
 
-      <Image src={ashtangaYoga} alt="ashtanga yoga" width={300} height={200} className="my-5 lg:mx-20 w-full h-auto rounded-lg" />
+      <Image src={ashtangaYoga} alt="ashtanga yoga" width={300} height={200} className="my-5 w-full h-auto rounded-lg" />
 
       <p className='mt-5 w-full text-center textMP'>Далее, мы рассмотрим каждую ступень более подробно.</p>
 

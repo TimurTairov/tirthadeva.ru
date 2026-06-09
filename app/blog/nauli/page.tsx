@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <div className='main-container textMP'>
+    <div className='main-container textMP bg-yellow-50'>
       <h1 className="main-title">Наули крийя</h1>
 
       <p className='mt-4'>
