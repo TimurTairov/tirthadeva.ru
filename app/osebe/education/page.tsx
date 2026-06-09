@@ -141,8 +141,9 @@ const page = () => {
             </MyAccordion>
 
             <MyAccordion title="Список семинаров с Учителями других традиций" id="otherTraditions" className="bg-gray-50 dark:bg-slate-700 shadow-md p-2 rounded-md">
-              <p className="textMP">• №1 3-х дневный семинар по крия йоге со Святославом Дубянским. Традиция крия йоги Рамаяхи;</p>
-              <p className="textMP">• №2 3-х дневный семинар по кундалини йоге с Учителем из Варанаси Лали Бабой (Satayanand Giri).</p>
+              <p className="textMP">• №1 3-х дневный семинар по крия йоге со Святославом Дубянским. Традиция крия йоги Рамаяхи, Москва, 2018 г.;</p>
+              <p className="textMP">• №2 3-х дневный семинар по кундалини йоге с Учителем из Варанаси Лали Бабой (Satayanand Giri), Москва, 2019 г. .</p>
+              <p className="textMP">• №3 Cеминар c гуру Матсиендранатхом (натха сампрадайя), Москва, 2026 г.</p>
             </MyAccordion>
 
             <MyAccordion title="Список ретритов и семинаров в традиции Пратьякша Адвайта сиддхов" id="advaytaSiddhov" className="bg-gray-50 dark:bg-slate-700 shadow-md p-2 rounded-md">
