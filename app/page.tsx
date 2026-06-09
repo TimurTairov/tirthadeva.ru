@@ -12,6 +12,7 @@ import PngYogiMP from "@/components/PngYogiMP"
 import GoToTop from '@/components/GoToTop'
 import Contacts from "@/components/Contacts"
 import tirthadeva from "@/public/myPhoto-2.webp"
+import tirthadeva2 from "@/public/myPhoto-108.webp"
 import Price from "@/components/Price"
 import BannerRetrit from "@/components/BannerRetrit"
 
@@ -34,6 +35,8 @@ export default function Home() {
       <MyPhoto foto={tirthadeva} />
       <Price />
       <Contacts />
+      <div className="w-full mt-20 lg:mt-40" />
+      <MyPhoto foto={tirthadeva2} />
       <GoToTop url={"/"} />
       <PngYogiMP />
     </main >
