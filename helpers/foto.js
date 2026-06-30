@@ -656,6 +656,18 @@ export const imagesIndia = [
 
 export const feedbacks = [
   {
+    original: 'https://sun9-76.userapi.com/s/v1/ig2/zE-B9IlSCinoTF55dF6p2Vl4qTQzj2umgcSVa0VwTFdLQggWJ-GQbHC5_1vCtNCWN2aOYMncpjN9zCMJasRM_JI_.jpg?quality=95&as=32x57,48x85,72x128,108x192,160x285,240x427,360x641,480x855,540x961,640x1139,719x1280&from=bu&u=WqJflPa9IlGtonf2jZe8tyLhEpUrSpRyZtqpZ4C-_Bg&cs=719x0',
+    thumbnail: 'https://sun9-76.userapi.com/s/v1/ig2/zE-B9IlSCinoTF55dF6p2Vl4qTQzj2umgcSVa0VwTFdLQggWJ-GQbHC5_1vCtNCWN2aOYMncpjN9zCMJasRM_JI_.jpg?quality=95&as=32x57,48x85,72x128,108x192,160x285,240x427,360x641,480x855,540x961,640x1139,719x1280&from=bu&u=WqJflPa9IlGtonf2jZe8tyLhEpUrSpRyZtqpZ4C-_Bg&cs=719x0',
+  },
+  {
+    original: 'https://sun9-65.userapi.com/s/v1/ig2/INJINuskwLhkwH7aCch5Ot9LCqfQTcsPdsE7RtA9jtQhyZkLqdMESjGVfp8nHZGpmi04n8T51zm5fX8WIphLq_9A.jpg?quality=95&as=32x48,48x72,72x108,108x162,160x240,240x360,360x540,480x720,540x810,640x960,720x1080,853x1280&from=bu&cs=853x0',
+    thumbnail: 'https://sun9-65.userapi.com/s/v1/ig2/INJINuskwLhkwH7aCch5Ot9LCqfQTcsPdsE7RtA9jtQhyZkLqdMESjGVfp8nHZGpmi04n8T51zm5fX8WIphLq_9A.jpg?quality=95&as=32x48,48x72,72x108,108x162,160x240,240x360,360x540,480x720,540x810,640x960,720x1080,853x1280&from=bu&cs=853x0',
+  },
+  {
+    original: 'https://sun9-12.userapi.com/s/v1/ig2/rI2CPJg5fCVRNPL9hHu-tXP8bGEH5JQ-88HLh50lAPtWFRu92yJPgSjF9XFY3_Su0c0tuylDDhto-1NSYNugZLew.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080&from=bu&cs=1080x0',
+    thumbnail: 'https://sun9-12.userapi.com/s/v1/ig2/rI2CPJg5fCVRNPL9hHu-tXP8bGEH5JQ-88HLh50lAPtWFRu92yJPgSjF9XFY3_Su0c0tuylDDhto-1NSYNugZLew.jpg?quality=95&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360,480x480,540x540,640x640,720x720,1080x1080&from=bu&cs=1080x0',
+  },
+  {
     original: 'https://sun9-43.userapi.com/impg/bPvB78yyvu8C5wuN07C4ZaoKlqk8HE8OQt3nIA/2QjtEkSbdJs.jpg?size=1024x1024&quality=96&sign=f04dd576549ad2d9990ac8b84d78f1d6&type=album',
     thumbnail: 'https://sun9-43.userapi.com/impg/bPvB78yyvu8C5wuN07C4ZaoKlqk8HE8OQt3nIA/2QjtEkSbdJs.jpg?size=1024x1024&quality=96&sign=f04dd576549ad2d9990ac8b84d78f1d6&type=album',
   },
