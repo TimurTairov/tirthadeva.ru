@@ -25,7 +25,7 @@ export default function Home() {
       <Hero title={'Йога и медитация'} />
       <Mission />
       <MyGurus />
-      <BannerRetrit />
+      {/* <BannerRetrit /> */}
       <YogaDirections />
       <Experience />
       <TeachingYoga />

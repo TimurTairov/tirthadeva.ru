@@ -3,7 +3,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { FaYoutube } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { SlSocialVkontakte } from "react-icons/sl";
-import { FaInstagram } from "react-icons/fa";
+// import { FaInstagram } from "react-icons/fa";
 import { FaSquareWhatsapp } from "react-icons/fa6";
 import { TfiEmail } from "react-icons/tfi";
 import rutube from '@/public/SVG/rutube__.svg'
