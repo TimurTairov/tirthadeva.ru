@@ -11,14 +11,9 @@ import ramanatha from '@/public/MuGurus/ramanatha108.webp'
 const MyGurus = () => {
   return (
     <section className="bg-white dark:bg-slate-800 mt-20 lg:mt-40 w-full">
-      <div className="px-4">
+      <div className="">
         <div className="w-full flex items-center justify-center">
-          <Image
-            src={shiva}
-            alt="Shiva"
-            loading="lazy"
-            className="w-10 h-10 mr-2 p-0.5 rounded-full border border-gray-600 dark:invert hoverIcon"
-          />
+          <Image src={shiva} alt="Shiva" loading="lazy" className="w-10 h-10 mr-2 p-0.5 rounded-full border border-gray-600 dark:invert hoverIcon" />
           <h5 className="titleMP text-center">Учителя</h5>
         </div>
 
@@ -35,15 +30,11 @@ const MyGurus = () => {
               />
 
               <div>
-                <p className="mt-0.5 text-lg font-medium text-gray-900 dark:text-gray-100">
-                  Свами Вишнудевананда Гири
-                </p>
+                <p className="mt-0.5 text-lg font-medium text-gray-900 dark:text-gray-100">Свами Вишнудевананда Гири</p>
               </div>
             </div>
 
-            <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200 font-light">
-              Коренной Учитель в традиции Пратьякша Адвайта сиддхов.
-            </p>
+            <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200 font-light">Коренной Учитель в традиции Пратьякша Адвайта сиддхов.</p>
           </blockquote>
 
           <blockquote className="rounded-lg bg-gray-50 dark:bg-slate-700 p-3 shadow-md sm:p-8">
@@ -58,61 +49,36 @@ const MyGurus = () => {
               />
 
               <div>
-                <p className="mt-0.5 text-lg font-medium text-gray-900 dark:text-gray-100">
-                  Раманатха Гири
-                </p>
+                <p className="mt-0.5 text-lg font-medium text-gray-900 dark:text-gray-100">Раманатха Гири</p>
               </div>
             </div>
 
-            <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200 font-light">
-              Наставник в традиции Пратьякша Адвайта сиддхов.
-            </p>
+            <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200 font-light">Наставник в традиции Пратьякша Адвайта сиддхов.</p>
           </blockquote>
 
           <blockquote className="rounded-lg bg-gray-50 dark:bg-slate-700 p-3 shadow-md sm:p-8">
             <div className="flex items-center gap-1 md:gap-3 lg:gap-5">
-              <Image
-                alt="VVZ"
-                width={20}
-                height={20}
-                src={vvz}
-                loading="lazy"
-                className="size-14 p-1 border rounded-full object-cover"
-              />
+              <Image alt="VVZ" width={20} height={20} src={vvz} loading="lazy" className="size-14 p-1 border rounded-full object-cover" />
 
               <div>
-                <p className="mt-0.5 text-lg font-medium text-gray-900 dark:text-gray-100">
-                  Вадим Openyoga Запорожцев
-                </p>
+                <p className="mt-0.5 text-lg font-medium text-gray-900 dark:text-gray-100">Вадим Openyoga Запорожцев</p>
               </div>
             </div>
 
-            <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200 font-light">
-              Первый Учитель. Школа открытой йоги.
-            </p>
+            <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200 font-light">Первый Учитель. Школа открытой йоги.</p>
           </blockquote>
 
           <blockquote className="rounded-lg bg-gray-50 dark:bg-slate-700 p-3 shadow-md sm:p-8">
             <div className="flex items-center gap-1 md:gap-3 lg:gap-5">
-              <Image
-                alt="Victor"
-                width={20}
-                height={20}
-                src={kozharinov}
-                loading="lazy"
-                className="size-14 p-1 border rounded-full object-cover"
-              />
+              <Image alt="Victor" width={20} height={20} src={kozharinov} loading="lazy" className="size-14 p-1 border rounded-full object-cover" />
 
               <div>
-                <p className="mt-0.5 text-lg font-medium text-gray-900 dark:text-gray-100">
-                  Виктор Кожаринов
-                </p>
+                <p className="mt-0.5 text-lg font-medium text-gray-900 dark:text-gray-100">Виктор Кожаринов</p>
               </div>
             </div>
 
             <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200 font-light">
-              Бихарская школа йоги (Индия). Обучение в поездках по Индии и
-              Непалу.
+              Бихарская школа йоги (Индия). Обучение в поездках по Индии и Непалу.
             </p>
           </blockquote>
 
@@ -128,38 +94,23 @@ const MyGurus = () => {
               />
 
               <div>
-                <p className="mt-0.5 text-lg font-medium text-gray-900 dark:text-gray-100">
-                  Святослав Дубянский
-                </p>
+                <p className="mt-0.5 text-lg font-medium text-gray-900 dark:text-gray-100">Святослав Дубянский</p>
               </div>
             </div>
 
-            <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200 font-light">
-              Традиция крия йоги Рамаяхи.
-            </p>
+            <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200 font-light">Традиция крия йоги Рамаяхи.</p>
           </blockquote>
 
           <blockquote className="rounded-lg bg-gray-50 dark:bg-slate-700 p-3 shadow-md sm:p-8">
             <div className="flex items-center gap-1 md:gap-3 lg:gap-5">
-              <Image
-                alt="Lali Baba"
-                width={20}
-                height={20}
-                src={lalibaba}
-                loading="lazy"
-                className="size-14 p-1 border rounded-full object-cover"
-              />
+              <Image alt="Lali Baba" width={20} height={20} src={lalibaba} loading="lazy" className="size-14 p-1 border rounded-full object-cover" />
 
               <div>
-                <p className="mt-0.5 text-lg font-medium text-gray-900 dark:text-gray-100">
-                  Satayanand Giri (Lali Baba)
-                </p>
+                <p className="mt-0.5 text-lg font-medium text-gray-900 dark:text-gray-100">Satayanand Giri (Lali Baba)</p>
               </div>
             </div>
 
-            <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200 font-light">
-              Учитель йоги из Варанаси (Индия). Традиция Тантры.
-            </p>
+            <p className="mt-1 lg:mt-5 text-gray-700 dark:text-gray-200 font-light">Учитель йоги из Варанаси (Индия). Традиция Тантры.</p>
           </blockquote>
         </div>
       </div>

@@ -11,12 +11,12 @@ import MyPhoto from '@/components/MyPhoto'
 const Hero = ({ title, foto = myPhoto }) => {
   return (
     <div className="w-full flex lg:flex-row flex-col justify-around md:mt-5 lg:mt-10 xl:mt-20">
-      <div className="flex flex-col items-center justify-between mt-5 lg:mt-0">
-        <div className="flex flex-col justify-center">
-          <h1 className="titleMP text-center">{title}</h1>
-          <h2 className="text-xs md:text-base text-center">
-            с опытным преподавателем
-          </h2>
+      <div className="w-full flex flex-col items-center justify-between mt-5 lg:mt-0">
+        <div className="flex flex-col justify-center gap-1">
+          <h1 className="titleMP text-center shadow-md p-3 rounded-4xl dark:bg-slate-700 underline underline-offset-3 lg:underline-offset-4">
+            {title}
+          </h1>
+          <h2 className="text-xs md:text-base text-center shadow-md p-2 rounded-4xl dark:bg-slate-700">с опытным преподавателем</h2>
         </div>
 
         <div>
@@ -28,49 +28,25 @@ const Hero = ({ title, foto = myPhoto }) => {
 
           <div className="textMP w-full text-center">
             Меня зовут
-            <b className="text-indigo-500 dark:text-gray-200 mx-2">
-              Тиртхадева
-            </b>
-            (<span>Тимур Таиров</span>)
+            <b className="text-indigo-500 dark:text-gray-200 mx-2">Тиртхадева</b>(<span>Тимур Таиров</span>)
           </div>
         </div>
 
-        <div className="mt-0 md:mt-5 lg:mt-5 xl:mt-0 flex flex-col items-start justify-center gap-1 lg:gap-2 p-6 lg:p-3 xl:p-6 xl:gap-5 ">
-          <div className="w-full flex items-center rounded-lg p-1 border border-gray-200 dark:border-slate-600">
-            <Image
-              src={guru96}
-              alt="guru"
-              className="h-full w-auto rounded-lg mr-2 border border-gray-200 dark:border-slate-600"
-            />
-            <p className="text-sm md:text-base lg:text-lg font-light">
-              Ученик просветленного мастера
-            </p>
+        <div className="w-full mt-0 md:mt-5 lg:mt-5 xl:mt-0 flex flex-col items-start justify-center gap-1 lg:gap-2 p-6 lg:p-3 xl:p-6 xl:gap-5 ">
+          <div className="w-full flex items-center rounded-lg p-1 border border-gray-200 dark:border-slate-600 shadow-md dark:bg-slate-700">
+            <Image src={guru96} alt="guru" className="h-full w-auto rounded-lg mr-2 border border-gray-200 dark:border-slate-600" />
+            <p className="w-full text-sm md:text-base lg:text-lg font-light">Ученик просветленного мастера</p>
           </div>
-          <div className="w-full flex items-center rounded-lg p-1 border border-gray-200 dark:border-slate-600">
-            <Image
-              src={tirthadeva96}
-              alt="guru"
-              className="h-full w-auto rounded-lg mr-2 border border-gray-200 dark:border-slate-600"
-            />
-            <p className="text-sm md:text-base lg:text-lg font-light">
-              Преподаватель йоги и медитации
-            </p>
+          <div className="w-full flex items-center rounded-lg p-1 border border-gray-200 dark:border-slate-600 shadow-md dark:bg-slate-700">
+            <Image src={tirthadeva96} alt="guru" className="h-full w-auto rounded-lg mr-2 border border-gray-200 dark:border-slate-600" />
+            <p className="text-sm md:text-base lg:text-lg font-light">Преподаватель йоги и медитации</p>
           </div>
-          <div className="w-full flex items-center rounded-lg p-1 border border-gray-200 dark:border-slate-600">
-            <Image
-              src={om96}
-              alt="guru"
-              className="h-full w-auto rounded-lg  mr-2 border border-gray-200"
-            />
-            <p className="text-sm md:text-base lg:text-lg font-light">
-              Ваш наставник на пути йоги и дхармы
-            </p>
+          <div className="w-full flex items-center rounded-lg p-1 border border-gray-200 dark:border-slate-600 shadow-md dark:bg-slate-700">
+            <Image src={om96} alt="guru" className="h-full w-auto rounded-lg  mr-2 border border-gray-200" />
+            <p className="text-sm md:text-base lg:text-lg font-light">Ваш наставник на пути йоги и дхармы</p>
           </div>
         </div>
-        <NavigationButton
-          title={'Начать практику йоги'}
-          link={'/yoga/yogaonline'}
-        />
+        <NavigationButton title={'Начать практику йоги'} link={'/yoga/yogaonline'} />
       </div>
 
       <MyPhoto foto={foto} />
