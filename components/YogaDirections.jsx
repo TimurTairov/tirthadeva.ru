@@ -11,12 +11,12 @@ const YogaDirections = () => {
   return (
     <div className="w-full mt-20 lg:mt-40 flex lg:flex-row flex-col justify-around ">
       <div className="w-full flex flex-col items-center justify-between">
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center gap-2">
           <Image
             src={meditationSVG}
             alt="Йог медитация"
             loading="lazy"
-            className="w-10 h-10 mr-2 rounded-full p-1 border border-gray-600 dark:invert hoverIcon"
+            className="w-10 h-10 rounded-full p-1 border border-gray-600 dark:invert hoverIcon"
           />
           <h5 className="titleMP text-center">Направления йоги</h5>
         </div>

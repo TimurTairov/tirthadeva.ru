@@ -13,9 +13,7 @@ const Hero = ({ title, foto = myPhoto }) => {
     <div className="w-full flex lg:flex-row flex-col justify-around md:mt-5 lg:mt-10 xl:mt-20">
       <div className="w-full flex flex-col items-center justify-between mt-5 lg:mt-0">
         <div className="flex flex-col justify-center gap-1">
-          <h1 className="titleMP text-center shadow-md p-3 rounded-4xl dark:bg-slate-700 underline underline-offset-3 lg:underline-offset-4">
-            {title}
-          </h1>
+          <h1 className="titleMP text-center shadow-md p-3 rounded-4xl text-indigo-500 dark:text-gray-200 dark:bg-slate-700">{title}</h1>
           <h2 className="text-xs md:text-base text-center shadow-md p-2 rounded-4xl dark:bg-slate-700">с опытным преподавателем</h2>
         </div>
 

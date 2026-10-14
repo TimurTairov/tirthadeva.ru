@@ -1,7 +1,7 @@
 import ashtanga from "@/public/Blog/qdgnR49Xwuc.webp"
 import pranayama from "@/public/Blog/H6HrOjmEPOI.webp"
-import nauli from "@/public/Blog/eKBAVjBsVSU.webp"
-import hatha from "@/public/Blog/WqJqAFLqEgs.webp"
+import hatha from "@/public/Blog/eKBAVjBsVSU.webp"
+import nauli from "@/public/Blog/WqJqAFLqEgs.webp"
 
 export const blogList = [
   {

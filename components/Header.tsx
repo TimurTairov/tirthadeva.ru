@@ -19,7 +19,7 @@ const Header = () => {
             priority
             className="h-10 w-10 rounded-lg border border-gray-50"
           />
-          <p className="hidden md:block text-neutral-600 dark:text-neutral-50">
+          <p className="hidden md:block text-indigo-500 dark:text-gray-200">
             Тиртхадева
           </p>
         </Link>
